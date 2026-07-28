@@ -1,0 +1,60 @@
+import DOMPurify from "isomorphic-dompurify";
+
+const ALLOWED_CONFIG = {
+	ALLOWED_TAGS: [
+		"h1",
+		"h2",
+		"h3",
+		"h4",
+		"h5",
+		"h6",
+		"p",
+		"br",
+		"hr",
+		"ul",
+		"ol",
+		"li",
+		"blockquote",
+		"pre",
+		"code",
+		"em",
+		"strong",
+		"sub",
+		"sup",
+		"a",
+		"img",
+		"figure",
+		"figcaption",
+		"table",
+		"thead",
+		"tbody",
+		"tr",
+		"th",
+		"td",
+		"div",
+		"span",
+		"iframe",
+	],
+	ALLOWED_ATTR: [
+		"href",
+		"target",
+		"rel",
+		"src",
+		"alt",
+		"title",
+		"width",
+		"height",
+		"class",
+		"id",
+		"loading",
+		"allow",
+		"allowfullscreen",
+		"frameborder",
+	],
+	ALLOW_DATA_ATTR: false,
+};
+
+export function sanitizeHtml(html) {
+	if (!html || typeof html !== "string") return "";
+	return DOMPurify.sanitize(html, ALLOWED_CONFIG);
+}

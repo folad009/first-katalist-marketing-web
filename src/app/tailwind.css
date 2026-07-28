@@ -1,0 +1,177 @@
+/*
+ * Tailwind CSS v4 entry — primary styling layer alongside legacy theme SCSS.
+ *
+ * Design tokens are extracted from src/app/assets/sass/utilities/
+ * (_colors.scss, _typography.scss) and components/_theme.scss.
+ */
+@layer theme, base, components, utilities;
+
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+/*
+ * `important` is required while legacy SCSS is unlayered (it styles bare
+ * elements such as `a`, `button`, `h1-h6`, `input`), and unlayered CSS always
+ * beats layered utilities.
+ *
+ * CAUTION: !important utilities also beat inline styles. Never put a Tailwind
+ * utility for a property that GSAP/WOW animates (opacity, transform, ...) on
+ * the same element that a JS animation targets.
+ */
+@import "tailwindcss/utilities.css" layer(utilities) important;
+@plugin "@tailwindcss/typography";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+	/*
+	 * Breakpoints matched to the template SCSS grid.
+	 * Template ranges: $xs <576 | $sm 576+ | $md 768+ | $lg 992+ |
+	 * $xl 1200+ | $xxl 1400+.
+	 */
+	--breakpoint-sm: 576px;
+	--breakpoint-md: 768px;
+	--breakpoint-lg: 992px;
+	--breakpoint-xl: 1200px;
+	--breakpoint-2xl: 1400px;
+}
+
+/* Site container — Bootstrap `.container` replacement for migrated markup. */
+@utility tj-container {
+	width: 100%;
+	margin-inline: auto;
+	padding-inline: 12px;
+	@media (min-width: 576px) {
+		max-width: 540px;
+	}
+	@media (min-width: 768px) {
+		max-width: 720px;
+	}
+	@media (min-width: 992px) {
+		max-width: 960px;
+	}
+	@media (min-width: 1200px) {
+		max-width: 1140px;
+	}
+	@media (min-width: 1400px) {
+		max-width: 1320px;
+	}
+}
+
+@layer base {
+	/* shadcn defaults: components use `border`/`outline` utilities and rely on
+	   these element-level defaults for color. */
+	*,
+	::before,
+	::after {
+		border-color: var(--color-border);
+		outline-color: color-mix(in oklab, var(--color-ring) 50%, transparent);
+	}
+}
+
+:root {
+	--radius: 0.625rem;
+
+	/* shadcn semantic tokens mapped to the brand palette (_colors.scss) */
+	--background: #ffffff; /* common/white */
+	--foreground: #364e52; /* text/body */
+	--card: #ffffff;
+	--card-foreground: #364e52;
+	--popover: #ffffff;
+	--popover-foreground: #364e52;
+	--primary: #1e8a8a; /* theme/primary */
+	--primary-foreground: #ffffff;
+	--secondary: #d8e5e5; /* theme/bg */
+	--secondary-foreground: #0c1e21; /* heading/primary */
+	--muted: #ecf0f0; /* grey/1 */
+	--muted-foreground: #67787a; /* text/body-3 */
+	--accent: #cee0e0; /* theme/bg-2 */
+	--accent-foreground: #0c1e21;
+	--destructive: #ff0000; /* red/1 */
+	--destructive-foreground: #ffffff;
+	--border: #c9d1d1; /* border/1 */
+	--input: #c9d1d1;
+	--ring: #1e8a8a;
+}
+
+.dark {
+	--background: #0c1e21; /* theme/dark */
+	--foreground: rgba(255, 255, 255, 0.8); /* text/body-5 */
+	--card: #18292c; /* theme/dark-2 */
+	--card-foreground: rgba(255, 255, 255, 0.8);
+	--popover: #18292c;
+	--popover-foreground: rgba(255, 255, 255, 0.8);
+	--primary: #1e8a8a;
+	--primary-foreground: #ffffff;
+	--secondary: #202e30; /* theme/bg-3 */
+	--secondary-foreground: #ffffff;
+	--muted: #202e30;
+	--muted-foreground: #a9b8b8; /* text/body-2 */
+	--accent: #313d3d; /* border/2 */
+	--accent-foreground: #ffffff;
+	--destructive: #ff0000;
+	--destructive-foreground: #ffffff;
+	--border: rgba(255, 255, 255, 0.15); /* border/3 */
+	--input: rgba(255, 255, 255, 0.2); /* border/4 */
+	--ring: #1e8a8a;
+}
+
+@theme inline {
+	--color-background: var(--background);
+	--color-foreground: var(--foreground);
+	--color-card: var(--card);
+	--color-card-foreground: var(--card-foreground);
+	--color-popover: var(--popover);
+	--color-popover-foreground: var(--popover-foreground);
+	--color-primary: var(--primary);
+	--color-primary-foreground: var(--primary-foreground);
+	--color-secondary: var(--secondary);
+	--color-secondary-foreground: var(--secondary-foreground);
+	--color-muted: var(--muted);
+	--color-muted-foreground: var(--muted-foreground);
+	--color-accent: var(--accent);
+	--color-accent-foreground: var(--accent-foreground);
+	--color-destructive: var(--destructive);
+	--color-destructive-foreground: var(--destructive-foreground);
+	--color-border: var(--border);
+	--color-input: var(--input);
+	--color-ring: var(--ring);
+
+	--radius-sm: calc(var(--radius) - 4px);
+	--radius-md: calc(var(--radius) - 2px);
+	--radius-lg: var(--radius);
+	--radius-xl: calc(var(--radius) + 4px);
+
+	/* Mona Sans — the --tj-ff-* variables are injected by next/font in layout.js */
+	--font-sans: var(--tj-ff-body), ui-sans-serif, system-ui, sans-serif;
+	--font-body: var(--tj-ff-body), ui-sans-serif, system-ui, sans-serif;
+	--font-heading: var(--tj-ff-heading), ui-sans-serif, system-ui, sans-serif;
+}
+
+@theme {
+	/* Brand palette (from _colors.scss) → bg-brand, text-brand-dark, etc. */
+	--color-brand: #1e8a8a; /* theme/primary */
+	--color-brand-bg: #bcedff; /* theme/bg */
+	--color-brand-bg-2: #32BCF1; /* theme/bg-2 */
+	--color-brand-bg-3: #202e30; /* theme/bg-3 */
+	--color-brand-dark: #0c1e21; /* theme/dark, heading/primary */
+	--color-brand-dark-2: #32BCF1; /* theme/dark-2, text/body-4 */
+	--color-brand-dark-3: #364e52; /* theme/dark-3, text/body */
+	--color-brand-dark-4: #67787a; /* theme/dark-4, text/body-3 */
+	--color-brand-dark-5: #676e7a; /* theme/dark-5 */
+	--color-brand-grey: #32BCF1; /* grey/1 */
+	--color-brand-grey-2: #a9b8b8; /* grey/2, text/body-2 */
+
+	/* Heading scale (from _typography.scss $font-size) → text-h1 ... text-h6 */
+	--text-h1: 74px;
+	--text-h2: 48px;
+	--text-h3: 32px;
+	--text-h4: 24px;
+	--text-h5: 20px;
+	--text-h6: 18px;
+
+	/* Section spacing (from components/_theme.scss .section-gap) */
+	--spacing-section: 120px; /* desktop */
+	--spacing-section-lg: 100px; /* <= 1199px */
+	--spacing-section-sm: 70px; /* <= 991px */
+}

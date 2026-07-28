@@ -1,0 +1,37 @@
+{
+	"version": 1.1,
+	"atDirectives": [
+		{
+			"name": "@theme",
+			"description": "Tailwind CSS v4 theme tokens and design system configuration."
+		},
+		{
+			"name": "@plugin",
+			"description": "Load a Tailwind CSS v4 plugin."
+		},
+		{
+			"name": "@custom-variant",
+			"description": "Define a custom Tailwind CSS variant."
+		},
+		{
+			"name": "@utility",
+			"description": "Define a custom Tailwind CSS utility class."
+		},
+		{
+			"name": "@source",
+			"description": "Specify content paths for Tailwind CSS class detection."
+		},
+		{
+			"name": "@config",
+			"description": "Reference a Tailwind CSS configuration file."
+		},
+		{
+			"name": "@reference",
+			"description": "Import Tailwind theme values without emitting CSS."
+		},
+		{
+			"name": "@variant",
+			"description": "Apply Tailwind variants within nested CSS rules."
+		}
+	]
+}

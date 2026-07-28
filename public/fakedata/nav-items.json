@@ -1,0 +1,82 @@
+[
+	{
+		"id": 1,
+		"name": "Home",
+		"path": "/"
+	},
+	{
+		"id": 2,
+		"name": "About FKM",
+		"path": "/about",
+		"submenu": [
+			{
+				"id": 1,
+				"name": "Our Team",
+				"path": "/team"
+			},
+			{
+				"id": 2,
+				"name": "Career",
+				"path": "/careers"
+			}
+		]
+	},
+	{
+		"id": 3,
+		"name": "Services",
+		"path": "/services",
+		"submenu": [
+			{
+				"id": 1,
+				"name": "Business Strategy Development",
+				"icon": "tji-service-1",
+				"path": "/services/business-strategy-development"
+			},
+			{
+				"id": 2,
+				"name": "Customer Experience Solutions",
+				"icon": "tji-service-2",
+				"path": "/services/customer-experience-solutions"
+			},
+			{
+				"id": 3,
+				"name": "Sustainability and ESG Consulting",
+				"icon": "tji-service-3",
+				"path": "/services/sustainability-and-esg-consulting"
+			},
+			{
+				"id": 4,
+				"name": "Training and Development Programs",
+				"icon": "tji-service-4",
+				"path": "/services/training-development-programs"
+			},
+			{
+				"id": 5,
+				"name": "IT Support & Maintenance",
+				"icon": "tji-service-5",
+				"path": "/services/it-support-maintenance"
+			},
+			{
+				"id": 6,
+				"name": "Marketing Strategy & Campaigns",
+				"icon": "tji-service-6",
+				"path": "/services/marketing-strategy-campaigns"
+			}
+		]
+	},
+	{
+		"id": 4,
+		"name": "Portfolio",
+		"path": "/portfolios"
+	},
+	{
+		"id": 5,
+		"name": "Insights",
+		"path": "/blogs"
+	},
+	{
+		"id": 6,
+		"name": "Contact",
+		"path": "/contact"
+	}
+]
