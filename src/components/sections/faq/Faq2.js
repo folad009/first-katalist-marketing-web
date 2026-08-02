@@ -3,37 +3,12 @@
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import FaqItem from "@/components/shared/faq/FaqItem";
 import { Accordion } from "@/components/ui/accordion";
+import faqs from "../../../../public/fakedata/faqs.json";
 import Image from "next/image";
 import Link from "next/link";
 
 const Faq2 = ({ type = 1 }) => {
-	const items = [
-		{
-			title: "What services does Bexon offer to clients?",
-			desc: "	Getting started is easy! Simply reach out to us through our contact form or give us a call, and we’ll schedule a consultation to discuss your project and how we can best assist you. Our team keeps you informed throughout the process, ensuring quality control and timely delivery.",
-			initActive: true,
-		},
-		{
-			title: "How do I get started with Corporate Business?",
-			desc: "	Getting started is easy! Simply reach out to us through our contact form or give us a call, and we’ll schedule a consultation to discuss your project and how we can best assist you. Our team keeps you informed throughout the process, ensuring quality control and timely delivery.",
-			initActive: false,
-		},
-		{
-			title: "How do you ensure the success of a project?",
-			desc: "	Getting started is easy! Simply reach out to us through our contact form or give us a call, and we’ll schedule a consultation to discuss your project and how we can best assist you. Our team keeps you informed throughout the process, ensuring quality control and timely delivery.",
-			initActive: false,
-		},
-		{
-			title: "How long will it take to complete my project?",
-			desc: "	Getting started is easy! Simply reach out to us through our contact form or give us a call, and we’ll schedule a consultation to discuss your project and how we can best assist you. Our team keeps you informed throughout the process, ensuring quality control and timely delivery.",
-			initActive: false,
-		},
-		{
-			title: "Can I track the progress of my project?",
-			desc: "	Getting started is easy! Simply reach out to us through our contact form or give us a call, and we’ll schedule a consultation to discuss your project and how we can best assist you. Our team keeps you informed throughout the process, ensuring quality control and timely delivery.",
-			initActive: false,
-		},
-	];
+	const items = faqs;
 
 	const defaultOpen = items.findIndex(item => item.initActive);
 	const defaultValue =
@@ -59,11 +34,12 @@ const Faq2 = ({ type = 1 }) => {
 									</h2>
 								</div>
 								<p className="desc wow fadeInUp" data-wow-delay=".6s">
-									We stay ahead of curve, leveraging <br /> cutting-edge are
-									technologies and <br /> strategies to competitive
+									Answers about First Katalyst Marketing —
+									activations, trade, HR outsourcing, digital,
+									events, and more.
 								</p>
 								<div className="wow fadeInUp" data-wow-delay=".8s">
-									<ButtonPrimary text={"Request a Call"} url={"/contact"} />
+									<ButtonPrimary text={"Send Us a Brief"} url={"/contact"} />
 								</div>
 							</div>
 						</div>
@@ -77,7 +53,7 @@ const Faq2 = ({ type = 1 }) => {
 								<div className="faq-img overflow-hidden">
 									<Image
 										src="/images/faq/faq.webp"
-										alt=""
+										alt="First Katalyst Marketing FAQ"
 										width={585}
 										height={629}
 									/>
@@ -87,12 +63,12 @@ const Faq2 = ({ type = 1 }) => {
 								</div>
 								<div className="box-area ">
 									<div className="call-box">
-										<h4 className="title">Get Started Free Call? </h4>
+										<h4 className="title">Prefer to talk?</h4>
 										<span className="call-icon">
 											<i className="tji-phone"></i>
 										</span>
-										<Link className="number" href="tel:18884521505">
-											<span>1-888-452-1505</span>
+										<Link className="number" href="tel:+2348092900214">
+											<span>+234 809 290 0214</span>
 										</Link>
 									</div>
 								</div>

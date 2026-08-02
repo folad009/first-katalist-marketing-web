@@ -6,9 +6,12 @@ const CtaSidebar = () => {
 			<div className="feature-content">
 				<h2 className="title">Modern</h2>
 				<span>Home Makeover</span>
-				<Link className="read-more feature-contact" href="tel:8321890640">
+				<Link
+					className="read-more feature-contact"
+					href="tel:+2348092900214"
+				>
 					<i className="tji-phone-3"></i>
-					<span>+8 (321) 890-640</span>
+					<span>+234 809 290 0214</span>
 				</Link>
 			</div>
 			<div className="feature-images">

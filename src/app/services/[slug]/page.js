@@ -7,6 +7,7 @@ import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
 import getALlServices from "@/libs/getALlServices";
 import getServiceBySlug from "@/libs/getServiceBySlug";
+import { DEFAULT_DESCRIPTION } from "@/lib/site-seo";
 import { buildMetadataFromItem } from "@/lib/wordpress-seo";
 import { notFound } from "next/navigation";
 
@@ -14,7 +15,10 @@ export async function generateMetadata({ params }) {
 	const { slug } = await params;
 	const service = await getServiceBySlug(slug);
 	if (!service) return { title: "Service Not Found" };
-	return buildMetadataFromItem(service);
+	return buildMetadataFromItem(service, {
+		title: service.title,
+		description: service.shortDesc || service.desc || DEFAULT_DESCRIPTION,
+	});
 }
 
 export async function generateStaticParams() {

@@ -7,6 +7,7 @@ import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
 import getPortfolio from "@/libs/getPortfolio";
 import getPortfolioBySlug from "@/libs/getPortfolioBySlug";
+import { DEFAULT_DESCRIPTION } from "@/lib/site-seo";
 import { buildMetadataFromItem } from "@/lib/wordpress-seo";
 import { notFound } from "next/navigation";
 
@@ -14,7 +15,11 @@ export async function generateMetadata({ params }) {
 	const { slug } = await params;
 	const item = await getPortfolioBySlug(slug);
 	if (!item) return { title: "Portfolio Not Found" };
-	return buildMetadataFromItem(item);
+	const clientName = item.title;
+	return buildMetadataFromItem(item, {
+		title: clientName,
+		description: `${clientName} — client of First Katalyst Marketing Limited. ${DEFAULT_DESCRIPTION}`,
+	});
 }
 
 export async function generateStaticParams() {

@@ -1,9 +1,9 @@
 [
 	{
 		"id": 1,
-		"title": "Event Management Platform",
+		"title": "MTN",
 		"title2": "Project Description",
-		"titleLarge": "Transforming operational efficiency with start edge Solutions for businesses",
+		"titleLarge": "MTN",
 		"img": "/images/project/project-1.webp",
 		"img2": "/images/project/project-1.webp",
 		"img3": "/images/project/project-6.webp",
@@ -14,55 +14,62 @@
 		"img8": "/images/project/h10-project-1.webp",
 		"imgLarge": "/images/project/tj-project-1.webp",
 		"detailsImg": "/img/portfolio/portfolio-details-1.jpg",
-		"desc": "They are was greater open above shelter lets itself under appear sixth open gathering made upon can't own above midst gathering gathered he one us saying can't divide.",
-		"shortDesc": "Project was about precision and information",
-		"desc1": "The goal is there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
-		"desc2": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
-		"category": "Connect",
-		"featured": true,
-		"featuredDesc": " Project was about precision and information. That’s all. Our design tem helps clients achieve their marketing Trager and branding that appeals to a website",
 		"featuredImg": "/img/project/project-2.png",
+		"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
+		"shortDesc": "TODO: Short project description not published on live site.",
+		"desc1": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
+		"desc2": "TODO: Detailed project narrative not published on live site (no project pages).",
+		"category": "Clientele",
+		"featured": true,
+		"featuredDesc": "TODO: Featured description not published \u2014 client listed on firstkatalystmarketing.com/our-clientele.html.",
 		"employee": {
-			"name": "Jeremy Doughlas",
-			"desig": "UI & UX designer",
-			"img": "/img/project/project-1.png"
+			"name": "TODO",
+			"desig": "TODO",
+			"img": "/images/team/team-1.webp"
 		},
-		"tags": ["Strategy", "Growth"],
-		"dataFilter": "impact innovate",
+		"tags": [
+			"Clientele",
+			"Our Work"
+		],
+		"dataFilter": "clientele work",
 		"statusItem": [
 			{
 				"title": "Category",
-				"desc": "Web Design"
+				"desc": "Clientele"
 			},
 			{
 				"title": "Client",
-				"desc": "Artboard Studio"
+				"desc": "MTN"
 			},
 			{
 				"title": "Start Date",
-				"desc": "August 20, 2023"
+				"desc": "TODO: Not published"
 			},
 			{
-				"title": "Designer",
-				"desc": "ThemeJunction"
+				"title": "Agency",
+				"desc": "First Katalyst Marketing"
+			},
+			{
+				"title": "Images",
+				"desc": "TODO: Replace temporary /images/project/* paths with FKM our_work / clientele assets"
 			}
 		],
 		"descItems": [
 			{
 				"title": "The story",
-				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+				"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets."
 			},
 			{
 				"title": "OUR APPROACH",
-				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+				"desc": "TODO: Approach write-up not published on live site."
 			}
 		]
 	},
 	{
 		"id": 2,
-		"title": "Digital Marketing Campaign",
+		"title": "PZ Cussons",
 		"title2": "Project Description",
-		"titleLarge": "Transforming operational efficiency with start edge Solutions for businesses",
+		"titleLarge": "PZ Cussons",
 		"img": "/images/project/project-2.webp",
 		"img2": "/images/project/project-4.webp",
 		"img3": "/images/project/project-7.webp",
@@ -73,55 +80,62 @@
 		"img8": "/images/project/h10-project-2.webp",
 		"imgLarge": "/images/project/tj-project-1.webp",
 		"detailsImg": "/img/portfolio/portfolio-details-2.jpg",
-		"desc": "They are was greater open above shelter lets itself under appear sixth open gathering made upon can't own above midst gathering gathered he one us saying can't divide.",
-		"shortDesc": "Project was about precision and information",
-		"desc1": "The goal is there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
-		"desc2": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
-		"category": "Empower",
-		"featured": true,
-		"featuredDesc": " Project was about precision and information. That’s all. Our design tem helps clients achieve their marketing Trager and branding that appeals to a website",
 		"featuredImg": "/img/project/project-3.png",
+		"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
+		"shortDesc": "TODO: Short project description not published on live site.",
+		"desc1": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
+		"desc2": "TODO: Detailed project narrative not published on live site (no project pages).",
+		"category": "Clientele",
+		"featured": true,
+		"featuredDesc": "TODO: Featured description not published \u2014 client listed on firstkatalystmarketing.com/our-clientele.html.",
 		"employee": {
-			"name": "",
-			"desig": "",
-			"img": ""
+			"name": "TODO",
+			"desig": "TODO",
+			"img": "/images/team/team-1.webp"
 		},
-		"tags": ["Strategy", "Growth"],
-		"dataFilter": "success lead impact",
+		"tags": [
+			"Clientele",
+			"Our Work"
+		],
+		"dataFilter": "clientele work",
 		"statusItem": [
 			{
 				"title": "Category",
-				"desc": "Web Design"
+				"desc": "Clientele"
 			},
 			{
 				"title": "Client",
-				"desc": "Artboard Studio"
+				"desc": "PZ Cussons"
 			},
 			{
 				"title": "Start Date",
-				"desc": "August 20, 2023"
+				"desc": "TODO: Not published"
 			},
 			{
-				"title": "Designer",
-				"desc": "ThemeJunction"
+				"title": "Agency",
+				"desc": "First Katalyst Marketing"
+			},
+			{
+				"title": "Images",
+				"desc": "TODO: Replace temporary /images/project/* paths with FKM our_work / clientele assets"
 			}
 		],
 		"descItems": [
 			{
 				"title": "The story",
-				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+				"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets."
 			},
 			{
 				"title": "OUR APPROACH",
-				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+				"desc": "TODO: Approach write-up not published on live site."
 			}
 		]
 	},
 	{
 		"id": 3,
-		"title": "Interactive Learning Platform",
+		"title": "Guinness",
 		"title2": "Project Description",
-		"titleLarge": "Transforming operational efficiency with start edge Solutions for businesses",
+		"titleLarge": "Guinness",
 		"img": "/images/project/project-3.webp",
 		"img2": "/images/project/project-5.webp",
 		"img3": "/images/project/project-8.webp",
@@ -132,234 +146,62 @@
 		"img8": "/images/project/h10-project-3.webp",
 		"imgLarge": "/images/project/tj-project-1.webp",
 		"detailsImg": "/img/portfolio/portfolio-details-3.jpg",
-		"desc": "They are was greater open above shelter lets itself under appear sixth open gathering made upon can't own above midst gathering gathered he one us saying can't divide.",
-		"shortDesc": "Project was about precision and information",
-		"desc1": "The goal is there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
-		"desc2": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
-		"category": "Support",
-		"featured": true,
-		"featuredDesc": " Project was about precision and information. That’s all. Our design tem helps clients achieve their marketing Trager and branding that appeals to a website",
 		"featuredImg": "/img/project/project-4.png",
+		"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
+		"shortDesc": "TODO: Short project description not published on live site.",
+		"desc1": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
+		"desc2": "TODO: Detailed project narrative not published on live site (no project pages).",
+		"category": "Clientele",
+		"featured": true,
+		"featuredDesc": "TODO: Featured description not published \u2014 client listed on firstkatalystmarketing.com/our-clientele.html.",
 		"employee": {
-			"name": "",
-			"desig": "",
-			"img": ""
+			"name": "TODO",
+			"desig": "TODO",
+			"img": "/images/team/team-1.webp"
 		},
-		"tags": ["Strategy", "Growth"],
-		"dataFilter": "lead innovate",
+		"tags": [
+			"Clientele",
+			"Our Work"
+		],
+		"dataFilter": "clientele work",
 		"statusItem": [
 			{
 				"title": "Category",
-				"desc": "Web Design"
+				"desc": "Clientele"
 			},
 			{
 				"title": "Client",
-				"desc": "Artboard Studio"
+				"desc": "Guinness"
 			},
 			{
 				"title": "Start Date",
-				"desc": "August 20, 2023"
+				"desc": "TODO: Not published"
 			},
 			{
-				"title": "Designer",
-				"desc": "ThemeJunction"
+				"title": "Agency",
+				"desc": "First Katalyst Marketing"
+			},
+			{
+				"title": "Images",
+				"desc": "TODO: Replace temporary /images/project/* paths with FKM our_work / clientele assets"
 			}
 		],
 		"descItems": [
 			{
 				"title": "The story",
-				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+				"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets."
 			},
 			{
 				"title": "OUR APPROACH",
-				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+				"desc": "TODO: Approach write-up not published on live site."
 			}
 		]
 	},
 	{
 		"id": 4,
-		"title": "Environmental Impact Dashboard",
+		"title": "Vlisco",
 		"title2": "Project Description",
-		"titleLarge": "Transforming operational efficiency with start edge Solutions for businesses",
-		"img": "/images/project/project-4.webp",
-		"img2": "/images/project/project-1.webp",
-		"img3": "/images/project/project-9.webp",
-		"img4": "/images/project/project-4.webp",
-		"img5": "/images/project/h5-project-1.webp",
-		"img6": "/images/project/h6-project-4.webp",
-		"img7": "/images/project/project-4.webp",
-		"img8": "/images/project/h10-project-4.webp",
-		"imgLarge": "/images/project/tj-project-1.webp",
-		"detailsImg": "/img/portfolio/portfolio-details-4.jpg",
-		"desc": "They are was greater open above shelter lets itself under appear sixth open gathering made upon can't own above midst gathering gathered he one us saying can't divide.",
-		"shortDesc": "Project was about precision and information",
-		"desc1": "The goal is there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
-		"desc2": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
-		"category": "Business",
-		"featured": false,
-		"featuredDesc": " Project was about precision and information. That’s all. Our design tem helps clients achieve their marketing Trager and branding that appeals to a website",
-		"featuredImg": "/img/project/project-2.png",
-		"employee": {
-			"name": "",
-			"desig": "",
-			"img": ""
-		},
-		"tags": ["Strategy", "Growth"],
-		"dataFilter": "success innovate",
-		"statusItem": [
-			{
-				"title": "Category",
-				"desc": "Web Design"
-			},
-			{
-				"title": "Client",
-				"desc": "Artboard Studio"
-			},
-			{
-				"title": "Start Date",
-				"desc": "August 20, 2023"
-			},
-			{
-				"title": "Designer",
-				"desc": "ThemeJunction"
-			}
-		],
-		"descItems": [
-			{
-				"title": "The story",
-				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
-			},
-			{
-				"title": "OUR APPROACH",
-				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
-			}
-		]
-	},
-	{
-		"id": 5,
-		"title": "Rebranding Strategy for a Growing",
-		"title2": "Project Description",
-		"titleLarge": "Transforming operational efficiency with start edge Solutions for businesses",
-		"img": "/images/project/project-3.webp",
-		"img2": "/images/project/project-4.webp",
-		"img3": "/images/project/project-6.webp",
-		"img4": "/images/project/project-8.webp",
-		"img5": "/images/project/h5-project-2.webp",
-		"img6": "/images/project/h6-project-5.webp",
-		"img7": "/images/project/project-8.webp",
-		"img8": "/images/project/h10-project-1.webp",
-		"imgLarge": "/images/project/tj-project-1.webp",
-		"detailsImg": "/img/portfolio/portfolio-details-4.jpg",
-		"desc": "They are was greater open above shelter lets itself under appear sixth open gathering made upon can't own above midst gathering gathered he one us saying can't divide.",
-		"shortDesc": "Project was about precision and information",
-		"desc1": "The goal is there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
-		"desc2": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
-
-		"category": "Connect",
-		"featured": false,
-		"featuredDesc": " Project was about precision and information. That’s all. Our design tem helps clients achieve their marketing Trager and branding that appeals to a website",
-		"featuredImg": "/img/project/project-2.png",
-		"employee": {
-			"name": "",
-			"desig": "",
-			"img": ""
-		},
-		"tags": ["Strategy", "Growth"],
-		"dataFilter": "impact innovate",
-		"statusItem": [
-			{
-				"title": "Category",
-				"desc": "Web Design"
-			},
-			{
-				"title": "Client",
-				"desc": "Artboard Studio"
-			},
-			{
-				"title": "Start Date",
-				"desc": "August 20, 2023"
-			},
-			{
-				"title": "Designer",
-				"desc": "ThemeJunction"
-			}
-		],
-		"descItems": [
-			{
-				"title": "The story",
-				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
-			},
-			{
-				"title": "OUR APPROACH",
-				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
-			}
-		]
-	},
-	{
-		"id": 6,
-		"title": "Integrated Marketing Campaign",
-		"title2": "Project Description",
-		"titleLarge": "Transforming operational efficiency with start edge Solutions for businesses",
-		"img": "/images/project/project-2.webp",
-		"img2": "/images/project/project-5.webp",
-		"img3": "/images/project/project-7.webp",
-		"img4": "/images/project/project-9.webp",
-		"img5": "/images/project/h5-project-3.webp",
-		"img6": "/images/project/h6-project-6.webp",
-		"img7": "/images/project/project-9.webp",
-		"img8": "/images/project/h10-project-1.webp",
-		"imgLarge": "/images/project/tj-project-1.webp",
-		"detailsImg": "/img/portfolio/portfolio-details-4.jpg",
-		"desc": "They are was greater open above shelter lets itself under appear sixth open gathering made upon can't own above midst gathering gathered he one us saying can't divide.",
-		"shortDesc": "Project was about precision and information",
-		"desc1": "The goal is there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
-		"desc2": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
-
-		"category": "Connect",
-		"featured": false,
-		"featuredDesc": " Project was about precision and information. That’s all. Our design tem helps clients achieve their marketing Trager and branding that appeals to a website",
-		"featuredImg": "/img/project/project-2.png",
-		"employee": {
-			"name": "",
-			"desig": "",
-			"img": ""
-		},
-		"tags": ["Strategy", "Growth"],
-		"dataFilter": "impact innovate",
-		"statusItem": [
-			{
-				"title": "Category",
-				"desc": "Web Design"
-			},
-			{
-				"title": "Client",
-				"desc": "Artboard Studio"
-			},
-			{
-				"title": "Start Date",
-				"desc": "August 20, 2023"
-			},
-			{
-				"title": "Designer",
-				"desc": "ThemeJunction"
-			}
-		],
-		"descItems": [
-			{
-				"title": "The story",
-				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
-			},
-			{
-				"title": "OUR APPROACH",
-				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
-			}
-		]
-	},
-	{
-		"id": 7,
-		"title": "Event Management Platform",
-		"title2": "Project Description",
-		"titleLarge": "Transforming operational efficiency with start edge Solutions for businesses",
+		"titleLarge": "Vlisco",
 		"img": "/images/project/project-4.webp",
 		"img2": "/images/project/project-8.webp",
 		"img3": "/images/project/project-8.webp",
@@ -370,48 +212,780 @@
 		"img8": "/images/project/h10-project-1.webp",
 		"imgLarge": "/images/project/tj-project-1.webp",
 		"detailsImg": "/img/portfolio/portfolio-details-2.jpg",
-		"desc": "They are was greater open above shelter lets itself under appear sixth open gathering made upon can't own above midst gathering gathered he one us saying can't divide.",
-		"shortDesc": "Project was about precision and information",
-		"desc1": "The goal is there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
-		"desc2": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
-
-		"category": "UX/UI",
-		"featured": true,
-		"featuredDesc": " Project was about precision and information. That’s all. Our design tem helps clients achieve their marketing Trager and branding that appeals to a website",
 		"featuredImg": "/img/project/project-3.png",
+		"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
+		"shortDesc": "TODO: Short project description not published on live site.",
+		"desc1": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
+		"desc2": "TODO: Detailed project narrative not published on live site (no project pages).",
+		"category": "Clientele",
+		"featured": true,
+		"featuredDesc": "TODO: Featured description not published \u2014 client listed on firstkatalystmarketing.com/our-clientele.html.",
 		"employee": {
-			"name": "",
-			"desig": "",
-			"img": ""
+			"name": "TODO",
+			"desig": "TODO",
+			"img": "/images/team/team-1.webp"
 		},
-		"tags": ["Strategy", "Growth"],
-		"dataFilter": "uxui",
+		"tags": [
+			"Clientele",
+			"Our Work"
+		],
+		"dataFilter": "clientele work",
 		"statusItem": [
 			{
 				"title": "Category",
-				"desc": "Web Design"
+				"desc": "Clientele"
 			},
 			{
 				"title": "Client",
-				"desc": "Artboard Studio"
+				"desc": "Vlisco"
 			},
 			{
 				"title": "Start Date",
-				"desc": "August 20, 2023"
+				"desc": "TODO: Not published"
 			},
 			{
-				"title": "Designer",
-				"desc": "ThemeJunction"
+				"title": "Agency",
+				"desc": "First Katalyst Marketing"
+			},
+			{
+				"title": "Images",
+				"desc": "TODO: Replace temporary /images/project/* paths with FKM our_work / clientele assets"
 			}
 		],
 		"descItems": [
 			{
 				"title": "The story",
-				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+				"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets."
 			},
 			{
 				"title": "OUR APPROACH",
-				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+				"desc": "TODO: Approach write-up not published on live site."
+			}
+		]
+	},
+	{
+		"id": 5,
+		"title": "FMN",
+		"title2": "Project Description",
+		"titleLarge": "FMN",
+		"img": "/images/project/project-1.webp",
+		"img2": "/images/project/project-1.webp",
+		"img3": "/images/project/project-6.webp",
+		"img4": "/images/project/project-4.webp",
+		"img5": "/images/project/h5-project-1.webp",
+		"img6": "/images/project/h6-project-1.webp",
+		"img7": "/images/project/project-4.webp",
+		"img8": "/images/project/h10-project-1.webp",
+		"imgLarge": "/images/project/tj-project-1.webp",
+		"detailsImg": "/img/portfolio/portfolio-details-1.jpg",
+		"featuredImg": "/img/project/project-2.png",
+		"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
+		"shortDesc": "TODO: Short project description not published on live site.",
+		"desc1": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
+		"desc2": "TODO: Detailed project narrative not published on live site (no project pages).",
+		"category": "Clientele",
+		"featured": false,
+		"featuredDesc": "TODO: Featured description not published \u2014 client listed on firstkatalystmarketing.com/our-clientele.html.",
+		"employee": {
+			"name": "TODO",
+			"desig": "TODO",
+			"img": "/images/team/team-1.webp"
+		},
+		"tags": [
+			"Clientele",
+			"Our Work"
+		],
+		"dataFilter": "clientele work",
+		"statusItem": [
+			{
+				"title": "Category",
+				"desc": "Clientele"
+			},
+			{
+				"title": "Client",
+				"desc": "FMN"
+			},
+			{
+				"title": "Start Date",
+				"desc": "TODO: Not published"
+			},
+			{
+				"title": "Agency",
+				"desc": "First Katalyst Marketing"
+			},
+			{
+				"title": "Images",
+				"desc": "TODO: Replace temporary /images/project/* paths with FKM our_work / clientele assets"
+			}
+		],
+		"descItems": [
+			{
+				"title": "The story",
+				"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets."
+			},
+			{
+				"title": "OUR APPROACH",
+				"desc": "TODO: Approach write-up not published on live site."
+			}
+		]
+	},
+	{
+		"id": 6,
+		"title": "Lafarge",
+		"title2": "Project Description",
+		"titleLarge": "Lafarge",
+		"img": "/images/project/project-2.webp",
+		"img2": "/images/project/project-4.webp",
+		"img3": "/images/project/project-7.webp",
+		"img4": "/images/project/project-8.webp",
+		"img5": "/images/project/h5-project-1.webp",
+		"img6": "/images/project/h6-project-2.webp",
+		"img7": "/images/project/project-8.webp",
+		"img8": "/images/project/h10-project-2.webp",
+		"imgLarge": "/images/project/tj-project-1.webp",
+		"detailsImg": "/img/portfolio/portfolio-details-2.jpg",
+		"featuredImg": "/img/project/project-3.png",
+		"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
+		"shortDesc": "TODO: Short project description not published on live site.",
+		"desc1": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
+		"desc2": "TODO: Detailed project narrative not published on live site (no project pages).",
+		"category": "Clientele",
+		"featured": false,
+		"featuredDesc": "TODO: Featured description not published \u2014 client listed on firstkatalystmarketing.com/our-clientele.html.",
+		"employee": {
+			"name": "TODO",
+			"desig": "TODO",
+			"img": "/images/team/team-1.webp"
+		},
+		"tags": [
+			"Clientele",
+			"Our Work"
+		],
+		"dataFilter": "clientele work",
+		"statusItem": [
+			{
+				"title": "Category",
+				"desc": "Clientele"
+			},
+			{
+				"title": "Client",
+				"desc": "Lafarge"
+			},
+			{
+				"title": "Start Date",
+				"desc": "TODO: Not published"
+			},
+			{
+				"title": "Agency",
+				"desc": "First Katalyst Marketing"
+			},
+			{
+				"title": "Images",
+				"desc": "TODO: Replace temporary /images/project/* paths with FKM our_work / clientele assets"
+			}
+		],
+		"descItems": [
+			{
+				"title": "The story",
+				"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets."
+			},
+			{
+				"title": "OUR APPROACH",
+				"desc": "TODO: Approach write-up not published on live site."
+			}
+		]
+	},
+	{
+		"id": 7,
+		"title": "PZ Wilmar",
+		"title2": "Project Description",
+		"titleLarge": "PZ Wilmar",
+		"img": "/images/project/project-3.webp",
+		"img2": "/images/project/project-5.webp",
+		"img3": "/images/project/project-8.webp",
+		"img4": "/images/project/project-9.webp",
+		"img5": "/images/project/h5-project-3.webp",
+		"img6": "/images/project/h6-project-3.webp",
+		"img7": "/images/project/project-9.webp",
+		"img8": "/images/project/h10-project-3.webp",
+		"imgLarge": "/images/project/tj-project-1.webp",
+		"detailsImg": "/img/portfolio/portfolio-details-3.jpg",
+		"featuredImg": "/img/project/project-4.png",
+		"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
+		"shortDesc": "TODO: Short project description not published on live site.",
+		"desc1": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
+		"desc2": "TODO: Detailed project narrative not published on live site (no project pages).",
+		"category": "Clientele",
+		"featured": false,
+		"featuredDesc": "TODO: Featured description not published \u2014 client listed on firstkatalystmarketing.com/our-clientele.html.",
+		"employee": {
+			"name": "TODO",
+			"desig": "TODO",
+			"img": "/images/team/team-1.webp"
+		},
+		"tags": [
+			"Clientele",
+			"Our Work"
+		],
+		"dataFilter": "clientele work",
+		"statusItem": [
+			{
+				"title": "Category",
+				"desc": "Clientele"
+			},
+			{
+				"title": "Client",
+				"desc": "PZ Wilmar"
+			},
+			{
+				"title": "Start Date",
+				"desc": "TODO: Not published"
+			},
+			{
+				"title": "Agency",
+				"desc": "First Katalyst Marketing"
+			},
+			{
+				"title": "Images",
+				"desc": "TODO: Replace temporary /images/project/* paths with FKM our_work / clientele assets"
+			}
+		],
+		"descItems": [
+			{
+				"title": "The story",
+				"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets."
+			},
+			{
+				"title": "OUR APPROACH",
+				"desc": "TODO: Approach write-up not published on live site."
+			}
+		]
+	},
+	{
+		"id": 8,
+		"title": "B.A.T",
+		"title2": "Project Description",
+		"titleLarge": "B.A.T",
+		"img": "/images/project/project-4.webp",
+		"img2": "/images/project/project-8.webp",
+		"img3": "/images/project/project-8.webp",
+		"img4": "/images/project/project-4.webp",
+		"img5": "/images/project/h5-project-1.webp",
+		"img6": "/images/project/h6-project-1.webp",
+		"img7": "/images/project/project-4.webp",
+		"img8": "/images/project/h10-project-1.webp",
+		"imgLarge": "/images/project/tj-project-1.webp",
+		"detailsImg": "/img/portfolio/portfolio-details-2.jpg",
+		"featuredImg": "/img/project/project-3.png",
+		"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
+		"shortDesc": "TODO: Short project description not published on live site.",
+		"desc1": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
+		"desc2": "TODO: Detailed project narrative not published on live site (no project pages).",
+		"category": "Clientele",
+		"featured": false,
+		"featuredDesc": "TODO: Featured description not published \u2014 client listed on firstkatalystmarketing.com/our-clientele.html.",
+		"employee": {
+			"name": "TODO",
+			"desig": "TODO",
+			"img": "/images/team/team-1.webp"
+		},
+		"tags": [
+			"Clientele",
+			"Our Work"
+		],
+		"dataFilter": "clientele work",
+		"statusItem": [
+			{
+				"title": "Category",
+				"desc": "Clientele"
+			},
+			{
+				"title": "Client",
+				"desc": "B.A.T"
+			},
+			{
+				"title": "Start Date",
+				"desc": "TODO: Not published"
+			},
+			{
+				"title": "Agency",
+				"desc": "First Katalyst Marketing"
+			},
+			{
+				"title": "Images",
+				"desc": "TODO: Replace temporary /images/project/* paths with FKM our_work / clientele assets"
+			}
+		],
+		"descItems": [
+			{
+				"title": "The story",
+				"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets."
+			},
+			{
+				"title": "OUR APPROACH",
+				"desc": "TODO: Approach write-up not published on live site."
+			}
+		]
+	},
+	{
+		"id": 9,
+		"title": "P&G",
+		"title2": "Project Description",
+		"titleLarge": "P&G",
+		"img": "/images/project/project-1.webp",
+		"img2": "/images/project/project-1.webp",
+		"img3": "/images/project/project-6.webp",
+		"img4": "/images/project/project-4.webp",
+		"img5": "/images/project/h5-project-1.webp",
+		"img6": "/images/project/h6-project-1.webp",
+		"img7": "/images/project/project-4.webp",
+		"img8": "/images/project/h10-project-1.webp",
+		"imgLarge": "/images/project/tj-project-1.webp",
+		"detailsImg": "/img/portfolio/portfolio-details-1.jpg",
+		"featuredImg": "/img/project/project-2.png",
+		"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
+		"shortDesc": "TODO: Short project description not published on live site.",
+		"desc1": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
+		"desc2": "TODO: Detailed project narrative not published on live site (no project pages).",
+		"category": "Clientele",
+		"featured": false,
+		"featuredDesc": "TODO: Featured description not published \u2014 client listed on firstkatalystmarketing.com/our-clientele.html.",
+		"employee": {
+			"name": "TODO",
+			"desig": "TODO",
+			"img": "/images/team/team-1.webp"
+		},
+		"tags": [
+			"Clientele",
+			"Our Work"
+		],
+		"dataFilter": "clientele work",
+		"statusItem": [
+			{
+				"title": "Category",
+				"desc": "Clientele"
+			},
+			{
+				"title": "Client",
+				"desc": "P&G"
+			},
+			{
+				"title": "Start Date",
+				"desc": "TODO: Not published"
+			},
+			{
+				"title": "Agency",
+				"desc": "First Katalyst Marketing"
+			},
+			{
+				"title": "Images",
+				"desc": "TODO: Replace temporary /images/project/* paths with FKM our_work / clientele assets"
+			}
+		],
+		"descItems": [
+			{
+				"title": "The story",
+				"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets."
+			},
+			{
+				"title": "OUR APPROACH",
+				"desc": "TODO: Approach write-up not published on live site."
+			}
+		]
+	},
+	{
+		"id": 10,
+		"title": "Gionee",
+		"title2": "Project Description",
+		"titleLarge": "Gionee",
+		"img": "/images/project/project-2.webp",
+		"img2": "/images/project/project-4.webp",
+		"img3": "/images/project/project-7.webp",
+		"img4": "/images/project/project-8.webp",
+		"img5": "/images/project/h5-project-1.webp",
+		"img6": "/images/project/h6-project-2.webp",
+		"img7": "/images/project/project-8.webp",
+		"img8": "/images/project/h10-project-2.webp",
+		"imgLarge": "/images/project/tj-project-1.webp",
+		"detailsImg": "/img/portfolio/portfolio-details-2.jpg",
+		"featuredImg": "/img/project/project-3.png",
+		"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
+		"shortDesc": "TODO: Short project description not published on live site.",
+		"desc1": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
+		"desc2": "TODO: Detailed project narrative not published on live site (no project pages).",
+		"category": "Clientele",
+		"featured": false,
+		"featuredDesc": "TODO: Featured description not published \u2014 client listed on firstkatalystmarketing.com/our-clientele.html.",
+		"employee": {
+			"name": "TODO",
+			"desig": "TODO",
+			"img": "/images/team/team-1.webp"
+		},
+		"tags": [
+			"Clientele",
+			"Our Work"
+		],
+		"dataFilter": "clientele work",
+		"statusItem": [
+			{
+				"title": "Category",
+				"desc": "Clientele"
+			},
+			{
+				"title": "Client",
+				"desc": "Gionee"
+			},
+			{
+				"title": "Start Date",
+				"desc": "TODO: Not published"
+			},
+			{
+				"title": "Agency",
+				"desc": "First Katalyst Marketing"
+			},
+			{
+				"title": "Images",
+				"desc": "TODO: Replace temporary /images/project/* paths with FKM our_work / clientele assets"
+			}
+		],
+		"descItems": [
+			{
+				"title": "The story",
+				"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets."
+			},
+			{
+				"title": "OUR APPROACH",
+				"desc": "TODO: Approach write-up not published on live site."
+			}
+		]
+	},
+	{
+		"id": 11,
+		"title": "Samsung",
+		"title2": "Project Description",
+		"titleLarge": "Samsung",
+		"img": "/images/project/project-3.webp",
+		"img2": "/images/project/project-5.webp",
+		"img3": "/images/project/project-8.webp",
+		"img4": "/images/project/project-9.webp",
+		"img5": "/images/project/h5-project-3.webp",
+		"img6": "/images/project/h6-project-3.webp",
+		"img7": "/images/project/project-9.webp",
+		"img8": "/images/project/h10-project-3.webp",
+		"imgLarge": "/images/project/tj-project-1.webp",
+		"detailsImg": "/img/portfolio/portfolio-details-3.jpg",
+		"featuredImg": "/img/project/project-4.png",
+		"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
+		"shortDesc": "TODO: Short project description not published on live site.",
+		"desc1": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
+		"desc2": "TODO: Detailed project narrative not published on live site (no project pages).",
+		"category": "Clientele",
+		"featured": false,
+		"featuredDesc": "TODO: Featured description not published \u2014 client listed on firstkatalystmarketing.com/our-clientele.html.",
+		"employee": {
+			"name": "TODO",
+			"desig": "TODO",
+			"img": "/images/team/team-1.webp"
+		},
+		"tags": [
+			"Clientele",
+			"Our Work"
+		],
+		"dataFilter": "clientele work",
+		"statusItem": [
+			{
+				"title": "Category",
+				"desc": "Clientele"
+			},
+			{
+				"title": "Client",
+				"desc": "Samsung"
+			},
+			{
+				"title": "Start Date",
+				"desc": "TODO: Not published"
+			},
+			{
+				"title": "Agency",
+				"desc": "First Katalyst Marketing"
+			},
+			{
+				"title": "Images",
+				"desc": "TODO: Replace temporary /images/project/* paths with FKM our_work / clientele assets"
+			}
+		],
+		"descItems": [
+			{
+				"title": "The story",
+				"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets."
+			},
+			{
+				"title": "OUR APPROACH",
+				"desc": "TODO: Approach write-up not published on live site."
+			}
+		]
+	},
+	{
+		"id": 12,
+		"title": "Suntory",
+		"title2": "Project Description",
+		"titleLarge": "Suntory",
+		"img": "/images/project/project-4.webp",
+		"img2": "/images/project/project-8.webp",
+		"img3": "/images/project/project-8.webp",
+		"img4": "/images/project/project-4.webp",
+		"img5": "/images/project/h5-project-1.webp",
+		"img6": "/images/project/h6-project-1.webp",
+		"img7": "/images/project/project-4.webp",
+		"img8": "/images/project/h10-project-1.webp",
+		"imgLarge": "/images/project/tj-project-1.webp",
+		"detailsImg": "/img/portfolio/portfolio-details-2.jpg",
+		"featuredImg": "/img/project/project-3.png",
+		"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
+		"shortDesc": "TODO: Short project description not published on live site.",
+		"desc1": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
+		"desc2": "TODO: Detailed project narrative not published on live site (no project pages).",
+		"category": "Clientele",
+		"featured": false,
+		"featuredDesc": "TODO: Featured description not published \u2014 client listed on firstkatalystmarketing.com/our-clientele.html.",
+		"employee": {
+			"name": "TODO",
+			"desig": "TODO",
+			"img": "/images/team/team-1.webp"
+		},
+		"tags": [
+			"Clientele",
+			"Our Work"
+		],
+		"dataFilter": "clientele work",
+		"statusItem": [
+			{
+				"title": "Category",
+				"desc": "Clientele"
+			},
+			{
+				"title": "Client",
+				"desc": "Suntory"
+			},
+			{
+				"title": "Start Date",
+				"desc": "TODO: Not published"
+			},
+			{
+				"title": "Agency",
+				"desc": "First Katalyst Marketing"
+			},
+			{
+				"title": "Images",
+				"desc": "TODO: Replace temporary /images/project/* paths with FKM our_work / clientele assets"
+			}
+		],
+		"descItems": [
+			{
+				"title": "The story",
+				"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets."
+			},
+			{
+				"title": "OUR APPROACH",
+				"desc": "TODO: Approach write-up not published on live site."
+			}
+		]
+	},
+	{
+		"id": 13,
+		"title": "FanMilk",
+		"title2": "Project Description",
+		"titleLarge": "FanMilk",
+		"img": "/images/project/project-1.webp",
+		"img2": "/images/project/project-1.webp",
+		"img3": "/images/project/project-6.webp",
+		"img4": "/images/project/project-4.webp",
+		"img5": "/images/project/h5-project-1.webp",
+		"img6": "/images/project/h6-project-1.webp",
+		"img7": "/images/project/project-4.webp",
+		"img8": "/images/project/h10-project-1.webp",
+		"imgLarge": "/images/project/tj-project-1.webp",
+		"detailsImg": "/img/portfolio/portfolio-details-1.jpg",
+		"featuredImg": "/img/project/project-2.png",
+		"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
+		"shortDesc": "TODO: Short project description not published on live site.",
+		"desc1": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
+		"desc2": "TODO: Detailed project narrative not published on live site (no project pages).",
+		"category": "Clientele",
+		"featured": false,
+		"featuredDesc": "TODO: Featured description not published \u2014 client listed on firstkatalystmarketing.com/our-clientele.html.",
+		"employee": {
+			"name": "TODO",
+			"desig": "TODO",
+			"img": "/images/team/team-1.webp"
+		},
+		"tags": [
+			"Clientele",
+			"Our Work"
+		],
+		"dataFilter": "clientele work",
+		"statusItem": [
+			{
+				"title": "Category",
+				"desc": "Clientele"
+			},
+			{
+				"title": "Client",
+				"desc": "FanMilk"
+			},
+			{
+				"title": "Start Date",
+				"desc": "TODO: Not published"
+			},
+			{
+				"title": "Agency",
+				"desc": "First Katalyst Marketing"
+			},
+			{
+				"title": "Images",
+				"desc": "TODO: Replace temporary /images/project/* paths with FKM our_work / clientele assets"
+			}
+		],
+		"descItems": [
+			{
+				"title": "The story",
+				"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets."
+			},
+			{
+				"title": "OUR APPROACH",
+				"desc": "TODO: Approach write-up not published on live site."
+			}
+		]
+	},
+	{
+		"id": 14,
+		"title": "Godrej",
+		"title2": "Project Description",
+		"titleLarge": "Godrej",
+		"img": "/images/project/project-2.webp",
+		"img2": "/images/project/project-4.webp",
+		"img3": "/images/project/project-7.webp",
+		"img4": "/images/project/project-8.webp",
+		"img5": "/images/project/h5-project-1.webp",
+		"img6": "/images/project/h6-project-2.webp",
+		"img7": "/images/project/project-8.webp",
+		"img8": "/images/project/h10-project-2.webp",
+		"imgLarge": "/images/project/tj-project-1.webp",
+		"detailsImg": "/img/portfolio/portfolio-details-2.jpg",
+		"featuredImg": "/img/project/project-3.png",
+		"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
+		"shortDesc": "TODO: Short project description not published on live site.",
+		"desc1": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
+		"desc2": "TODO: Detailed project narrative not published on live site (no project pages).",
+		"category": "Clientele",
+		"featured": false,
+		"featuredDesc": "TODO: Featured description not published \u2014 client listed on firstkatalystmarketing.com/our-clientele.html.",
+		"employee": {
+			"name": "TODO",
+			"desig": "TODO",
+			"img": "/images/team/team-1.webp"
+		},
+		"tags": [
+			"Clientele",
+			"Our Work"
+		],
+		"dataFilter": "clientele work",
+		"statusItem": [
+			{
+				"title": "Category",
+				"desc": "Clientele"
+			},
+			{
+				"title": "Client",
+				"desc": "Godrej"
+			},
+			{
+				"title": "Start Date",
+				"desc": "TODO: Not published"
+			},
+			{
+				"title": "Agency",
+				"desc": "First Katalyst Marketing"
+			},
+			{
+				"title": "Images",
+				"desc": "TODO: Replace temporary /images/project/* paths with FKM our_work / clientele assets"
+			}
+		],
+		"descItems": [
+			{
+				"title": "The story",
+				"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets."
+			},
+			{
+				"title": "OUR APPROACH",
+				"desc": "TODO: Approach write-up not published on live site."
+			}
+		]
+	},
+	{
+		"id": 15,
+		"title": "Saro",
+		"title2": "Project Description",
+		"titleLarge": "Saro",
+		"img": "/images/project/project-3.webp",
+		"img2": "/images/project/project-5.webp",
+		"img3": "/images/project/project-8.webp",
+		"img4": "/images/project/project-9.webp",
+		"img5": "/images/project/h5-project-3.webp",
+		"img6": "/images/project/h6-project-3.webp",
+		"img7": "/images/project/project-9.webp",
+		"img8": "/images/project/h10-project-3.webp",
+		"imgLarge": "/images/project/tj-project-1.webp",
+		"detailsImg": "/img/portfolio/portfolio-details-3.jpg",
+		"featuredImg": "/img/project/project-4.png",
+		"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
+		"shortDesc": "TODO: Short project description not published on live site.",
+		"desc1": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
+		"desc2": "TODO: Detailed project narrative not published on live site (no project pages).",
+		"category": "Clientele",
+		"featured": false,
+		"featuredDesc": "TODO: Featured description not published \u2014 client listed on firstkatalystmarketing.com/our-clientele.html.",
+		"employee": {
+			"name": "TODO",
+			"desig": "TODO",
+			"img": "/images/team/team-1.webp"
+		},
+		"tags": [
+			"Clientele",
+			"Our Work"
+		],
+		"dataFilter": "clientele work",
+		"statusItem": [
+			{
+				"title": "Category",
+				"desc": "Clientele"
+			},
+			{
+				"title": "Client",
+				"desc": "Saro"
+			},
+			{
+				"title": "Start Date",
+				"desc": "TODO: Not published"
+			},
+			{
+				"title": "Agency",
+				"desc": "First Katalyst Marketing"
+			},
+			{
+				"title": "Images",
+				"desc": "TODO: Replace temporary /images/project/* paths with FKM our_work / clientele assets"
+			}
+		],
+		"descItems": [
+			{
+				"title": "The story",
+				"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets."
+			},
+			{
+				"title": "OUR APPROACH",
+				"desc": "TODO: Approach write-up not published on live site."
 			}
 		]
 	}

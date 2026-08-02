@@ -23,59 +23,108 @@
 	},
 	{
 		"id": 3,
-		"name": "Services",
-		"path": "/services",
+		"name": "FKM Group",
+		"path": "/fk-group",
 		"submenu": [
 			{
 				"id": 1,
-				"name": "Business Strategy Development",
-				"icon": "tji-service-1",
-				"path": "/services/business-strategy-development"
+				"name": "First Katalyst Marketing",
+				"path": "/fk-group/first-katalyst-marketing"
 			},
 			{
 				"id": 2,
-				"name": "Customer Experience Solutions",
-				"icon": "tji-service-2",
-				"path": "/services/customer-experience-solutions"
+				"name": "FK Ghana",
+				"path": "/fk-group/fk-ghana"
 			},
 			{
 				"id": 3,
-				"name": "Sustainability and ESG Consulting",
-				"icon": "tji-service-3",
-				"path": "/services/sustainability-and-esg-consulting"
+				"name": "Image Target",
+				"path": "/fk-group/image-target"
 			},
 			{
 				"id": 4,
-				"name": "Training and Development Programs",
-				"icon": "tji-service-4",
-				"path": "/services/training-development-programs"
+				"name": "SSB Africa",
+				"path": "/fk-group/ssb-africa"
 			},
 			{
 				"id": 5,
-				"name": "IT Support & Maintenance",
-				"icon": "tji-service-5",
-				"path": "/services/it-support-maintenance"
+				"name": "FK Properties",
+				"path": "/fk-group/fk-properties"
 			},
 			{
 				"id": 6,
-				"name": "Marketing Strategy & Campaigns",
-				"icon": "tji-service-6",
-				"path": "/services/marketing-strategy-campaigns"
+				"name": "FK Digital",
+				"path": "/fk-group/fk-digital"
 			}
 		]
 	},
 	{
 		"id": 4,
+		"name": "Services",
+		"path": "/services",
+		"submenu": [
+			{
+				"id": 1,
+				"name": "Consumer Activation",
+				"icon": "tji-service-1",
+				"path": "/services/consumer-activation"
+			},
+			{
+				"id": 2,
+				"name": "Trade Marketing Activation",
+				"icon": "tji-service-2",
+				"path": "/services/trade-marketing-activation"
+			},
+			{
+				"id": 3,
+				"name": "Sales and Distribution",
+				"icon": "tji-service-3",
+				"path": "/services/sales-and-distribution"
+			},
+			{
+				"id": 4,
+				"name": "HR Outsourcing",
+				"icon": "tji-service-4",
+				"path": "/services/hr-outsourcing"
+			},
+			{
+				"id": 5,
+				"name": "Advertising",
+				"icon": "tji-service-5",
+				"path": "/services/advertising"
+			},
+			{
+				"id": 6,
+				"name": "Digital Marketing",
+				"icon": "tji-service-6",
+				"path": "/services/digital-marketing"
+			},
+			{
+				"id": 7,
+				"name": "Production Services",
+				"icon": "tji-service-1",
+				"path": "/services/production-services"
+			},
+			{
+				"id": 8,
+				"name": "Events",
+				"icon": "tji-service-2",
+				"path": "/services/events"
+			}
+		]
+	},
+	{
+		"id": 5,
 		"name": "Portfolio",
 		"path": "/portfolios"
 	},
 	{
-		"id": 5,
+		"id": 6,
 		"name": "Insights",
 		"path": "/blogs"
 	},
 	{
-		"id": 6,
+		"id": 7,
 		"name": "Contact",
 		"path": "/contact"
 	}

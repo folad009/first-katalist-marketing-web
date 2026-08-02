@@ -15,7 +15,13 @@ import Testimonials1 from "@/components/sections/testimonials/Testimonials1";
 import BackToTop from "@/components/shared/others/BackToTop";
 import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
+import { DEFAULT_DESCRIPTION, DEFAULT_TITLE } from "@/lib/site-seo";
 import getTestimonials from "@/libs/getTestimonials";
+
+export const metadata = {
+	title: { absolute: DEFAULT_TITLE },
+	description: DEFAULT_DESCRIPTION,
+};
 
 export default async function Home() {
 	const testimonials = await getTestimonials();

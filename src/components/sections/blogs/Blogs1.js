@@ -8,10 +8,10 @@ const Blogs1 = async () => {
 			<div className="tj-container">
 				<div className="sec-heading text-center">
 					<span className="sub-title wow fadeInUp" data-wow-delay=".3s">
-						<i className="tji-box"></i>Insights & Ideas
+						<i className="tji-box"></i>Insights
 					</span>
 					<h2 className="sec-title title-anim">
-						The Ultimate <span>Resource.</span>
+						Ideas from the <span>Powerhouse.</span>
 					</h2>
 				</div>
 				<div className="grid grid-cols-1 gap-x-6 gap-y-6 md:grid-cols-2 xl:grid-cols-3">

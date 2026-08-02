@@ -8,20 +8,21 @@ const Hero = () => {
 				<div className="banner-left-box">
 					<div className="banner-content">
 						<span className="sub-title wow fadeInDown" data-wow-delay=".2s">
-							<i className="tji-excellence"></i> Recognized for Excellence
+							<i className="tji-excellence"></i> Marketing Communications 360
 						</span>
 						<h1 className="banner-title title-anim">
-							Driving Excellence Through Evolution and <span>Trust.</span>
+							A First Class Ideas <span>Powerhouse.</span>
 						</h1>
 						<div className="banner-desc-area wow fadeInUp" data-wow-delay=".7s">
-							<Link className="banner-link" href="/about">
+							<Link className="banner-link" href="/services">
 								<span>
 									<i className="tji-arrow-right-big"></i>
 								</span>
 							</Link>
 							<div className="banner-desc">
-								Represents growth, expansion, and modern business solution
-								present growth, expansion.
+								First Katalyst Marketing Limited creates attention-grabbing
+								activations that surprise consumers and build lasting brand
+								relationships.
 							</div>
 						</div>
 					</div>
@@ -34,7 +35,7 @@ const Hero = () => {
 						<Image
 							data-speed="0.8"
 							src="/images/hero/hero-img.webp"
-							alt=""
+							alt="First Katalyst Marketing"
 							width={945}
 							height={793}
 						/>
@@ -78,10 +79,10 @@ const Hero = () => {
 								className="customers-number wow fadeInUp"
 								data-wow-delay=".5s"
 							>
-								30K
+								15+
 							</div>
 							<h6 className="customers-text wow fadeInUp" data-wow-delay=".5s">
-								Happy customer we have world-wide.
+								Our clients are our partners.
 							</h6>
 						</div>
 					</div>

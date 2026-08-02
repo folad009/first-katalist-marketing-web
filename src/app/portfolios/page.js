@@ -6,7 +6,14 @@ import PortfoliosPrimary from "@/components/sections/portfolios/PortfoliosPrimar
 import BackToTop from "@/components/shared/others/BackToTop";
 import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
+import { pageMetadata } from "@/lib/site-seo";
 import getPortfolio from "@/libs/getPortfolio";
+
+export const metadata = pageMetadata({
+	title: "Our Work & Clientele",
+	description:
+		"Brands that trust First Katalyst Marketing — clientele and campaign work across activation, trade marketing, events and brand building in Nigeria and West Africa.",
+});
 
 export default async function Portfolios() {
 	const portfolio = await getPortfolio();

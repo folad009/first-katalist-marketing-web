@@ -11,8 +11,15 @@ import Testimonials2 from "@/components/sections/testimonials/Testimonials2";
 import BackToTop from "@/components/shared/others/BackToTop";
 import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
+import { pageMetadata } from "@/lib/site-seo";
 import getTeamMembers from "@/libs/getTeamMembers";
 import getTestimonials from "@/libs/getTestimonials";
+
+export const metadata = pageMetadata({
+	title: "About FKM",
+	description:
+		"Who we are: First Katalyst Marketing Limited — a go-to agency for top-notch marketing solutions since 2012. A first class ideas powerhouse across Nigeria, West Africa, the UAE and the UK.",
+});
 
 export default async function About() {
 	const [teamMembers, testimonials] = await Promise.all([
@@ -29,7 +36,7 @@ export default async function About() {
 				<div id="smooth-content">
 					<main>
 						<HeaderSpace />
-						<HeroInner title={"About Us"} text={"About Us"} />
+						<HeroInner title={"About FKM"} text={"About"} />
 						<Features type={2} />
 						<About3 type={2} />
 						<Brands1 type={2} />

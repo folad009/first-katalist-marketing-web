@@ -7,9 +7,9 @@ const Funfact1 = () => {
 					<div>
 						<div className="countup-wrap">
 							<div className="countup-item">
-								<FunfactSingle currentValue={93} symbol={"%"} />
+								<FunfactSingle currentValue={2012} symbol={""} />
 
-								<span className="count-text">Projects Completed.</span>
+								<span className="count-text">Year We Commenced Business</span>
 								<span
 									className="count-separator"
 									style={{
@@ -18,8 +18,8 @@ const Funfact1 = () => {
 								></span>
 							</div>
 							<div className="countup-item">
-								<FunfactSingle currentValue={20} symbol={"M"} />
-								<span className="count-text">Reach Worldwide</span>
+								<FunfactSingle currentValue={8} symbol={"B"} />
+								<span className="count-text">Naira Revenue in 6 Months*</span>
 								<span
 									className="count-separator"
 									style={{
@@ -28,8 +28,8 @@ const Funfact1 = () => {
 								></span>
 							</div>
 							<div className="countup-item">
-								<FunfactSingle currentValue={8.5} symbol={"X"} />
-								<span className="count-text">Faster Growth</span>
+								<FunfactSingle currentValue={70} symbol={"%"} />
+								<span className="count-text">Shopping Decisions at POP*</span>
 								<span
 									className="count-separator"
 									style={{
@@ -38,8 +38,8 @@ const Funfact1 = () => {
 								></span>
 							</div>
 							<div className="countup-item">
-								<FunfactSingle currentValue={100} symbol={"+"} />
-								<span className="count-text">Awards Archived</span>
+								<FunfactSingle currentValue={4} symbol={""} />
+								<span className="count-text">Regional Subsidiaries</span>
 							</div>
 						</div>
 					</div>

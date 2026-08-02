@@ -3,11 +3,24 @@ import Link from "next/link";
 const navLink =
 	"inline-flex items-center gap-1 text-brand-dark-3 transition-all duration-300 hover:translate-x-[5px] hover:text-brand";
 
+// Live socials from firstkatalystmarketing.com
 const socialItems = [
-	{ href: "https://www.facebook.com/", icon: "fa-brands fa-facebook-f" },
-	{ href: "https://www.instagram.com/", icon: "fa-brands fa-instagram" },
-	{ href: "https://x.com/", icon: "fa-brands fa-x-twitter" },
-	{ href: "https://www.linkedin.com/", icon: "fa-brands fa-linkedin-in" },
+	{ href: "https://www.facebook.com/firstkatalystmarketing", icon: "fa-brands fa-facebook-f" },
+	{ href: "https://www.instagram.com/firstkatalystmarketing/", icon: "fa-brands fa-instagram" },
+	{ href: "https://twitter.com/FirstKatalyst", icon: "fa-brands fa-x-twitter" },
+	{ href: "https://www.linkedin.com/company/first-katalyst-marketing-limited/", icon: "fa-brands fa-linkedin-in" },
+];
+
+// Slugs aligned with public/fakedata/services.json
+const serviceLinks = [
+	["/services/consumer-activation", "Consumer Activation"],
+	["/services/trade-marketing-activation", "Trade Marketing Activation"],
+	["/services/sales-and-distribution", "Sales and Distribution"],
+	["/services/hr-outsourcing", "HR Outsourcing"],
+	["/services/advertising", "Advertising"],
+	["/services/digital-marketing", "Digital Marketing"],
+	["/services/production-services", "Production Services"],
+	["/services/events", "Events"],
 ];
 
 const Footer = () => {
@@ -24,13 +37,16 @@ const Footer = () => {
 							>
 								<div className="max-w-37.5">
 									<Link href="/">
-										<img src="/images/logos/fk-logo.png" alt="Logos" />
+										<img src="/images/logos/fk-logo.png" alt="First Katalyst Marketing" />
 									</Link>
 								</div>
 								<div className="w-full max-w-70 max-md:max-w-full">
+									{/* Homepage slider positioning: “a first class ideas powerhouse” */}
 									<p className="mb-8.5 mt-7 text-black max-lg:mb-5">
-										Developing personalze our customer journeys to increase
-										satisfaction & loyalty of our expansion.
+										First Katalyst Marketing — a first class ideas powerhouse.
+										Marketing Communications 360: cost-effective, value-adding
+										and result-oriented solutions that build lasting relationships
+										between brands and their consumers.
 									</p>
 								</div>
 								<div className="flex flex-wrap gap-4.5">
@@ -54,15 +70,8 @@ const Footer = () => {
 									Services
 								</h5>
 								<ul className="list-none">
-									{[
-										["/services/customer-experience-solutions", "Customer Experience"],
-										["/services/training-development-programs", "Training Programs"],
-										["/services/business-strategy-development", "Business Strategy"],
-										["/services/marketing-strategy-campaigns", "Marketing Strategy"],
-										["/services/sustainability-and-esg-consulting", "ESG Consulting"],
-										["/services/it-support-maintenance", "IT Support"],
-									].map(([href, label]) => (
-										<li key={label} className="py-1.5 first:pt-0">
+									{serviceLinks.map(([href, label]) => (
+										<li key={href} className="py-1.5 first:pt-0">
 											<Link href={href} className={navLink}>
 												{label}
 											</Link>
@@ -89,22 +98,27 @@ const Footer = () => {
 									</li>
 									<li className="py-1.5">
 										<Link href="/team" className={navLink}>
-											Team Member
+											Our Team
 										</Link>
 									</li>
 									<li className="py-1.5">
-										<Link href="#" className={navLink}>
-											Recognitions
+										<Link href="/portfolios" className={navLink}>
+											Portfolio
 										</Link>
 									</li>
 									<li className="py-1.5">
 										<Link href="/blogs" className={navLink}>
-											News
+											Insights
 										</Link>
 									</li>
 									<li className="py-1.5">
-										<Link href="#" className={navLink}>
-											Feedback
+										<Link href="/about" className={navLink}>
+											About FKM
+										</Link>
+									</li>
+									<li className="py-1.5">
+										<Link href="/fk-group" className={navLink}>
+											FKM Group
 										</Link>
 									</li>
 								</ul>
@@ -118,7 +132,7 @@ const Footer = () => {
 								data-wow-delay=".7s"
 							>
 								<h3 className="mb-6.25 font-medium">
-									Subscribe to Our Newsletter.
+									Stay Close to the Ideas Powerhouse.
 								</h3>
 								<div className="relative max-md:mt-4.5">
 									<form action="#">
@@ -168,7 +182,7 @@ const Footer = () => {
 							<ul className="flex list-none flex-wrap justify-center gap-5.5 leading-none">
 								<li>
 									<Link
-										href="tel:2348092900214"
+										href="tel:+2348092900214"
 										className="group inline-flex items-center gap-1.75 text-brand-dark-3"
 									>
 										<span className="inline-flex size-7 items-center justify-center rounded-full bg-red-700 text-[28px] leading-none [&_i]:text-white">
@@ -192,6 +206,18 @@ const Footer = () => {
 										</span>
 									</Link>
 								</li>
+								<li>
+									<span className="group inline-flex items-center gap-1.75 text-brand-dark-3">
+										<span className="inline-flex size-7 items-center justify-center rounded-full bg-red-700 text-[28px] leading-none [&_i]:text-white">
+											<i className="tji-location"></i>
+										</span>
+										{/* Live contact.html Find Us (cleaned “Ikeja Jones” → Ikeja, Lagos) */}
+										<span>
+											19b Alhaji Bankole Crescent, Off Adeniyi Jones, Ikeja,
+											Lagos
+										</span>
+									</span>
+								</li>
 							</ul>
 						</div>
 						<div className="max-md:w-full">
@@ -211,15 +237,14 @@ const Footer = () => {
 						</div>
 						<div className="max-md:w-full max-md:text-center">
 							<p className="m-0">
-								&copy; 2026 {" "}
+								&copy; 2026{" "}
 								<Link
-									href="https://themeforest.net/user/theme-junction/portfolio"
-									target="_blank"
+									href="/"
 									className="text-black transition-all duration-300 hover:text-brand"
 								>
-									First Katalyst Marketing
+									First Katalyst Marketing Limited
 								</Link>{" "}
-								All right reserved
+								All rights reserved
 							</p>
 						</div>
 					</div>

@@ -1,82 +1,13 @@
 [
 	{
 		"id": 1,
-		"title": "Business Strategy Consultant",
+		"title": "TODO: No open roles listed on live site — replace when FKM publishes openings",
 		"iconName": "tji-strategy",
-		"price": "$400-$550",
-		"duration": "week",
-		"location": "London,UK",
-		"category": "Full time job/on site",
-		"need": "Urgent"
-	},
-	{
-		"id": 2,
-		"title": "Management Consultant",
-		"iconName": "tji-manage",
-		"price": "$400-$550",
-		"duration": "week",
-		"location": "London,UK",
-		"category": "Full time job/on site",
-		"need": "Urgent"
-	},
-	{
-		"id": 3,
-		"title": "Business Process Consultant",
-		"iconName": "tji-process-1",
-		"price": "$400-$550",
-		"duration": "week",
-		"location": "London,UK",
-		"category": "Full time job/on site",
-		"need": "Urgent"
-	},
-	{
-		"id": 4,
-		"title": "Operations Consultant",
-		"iconName": "tji-operations",
-		"price": "$400-$550",
-		"duration": "week",
-		"location": "London,UK",
-		"category": "Full time job/on site",
-		"need": "Urgent"
-	},
-	{
-		"id": 5,
-		"title": "Organizational Development",
-		"iconName": "tji-organize",
-		"price": "$400-$550",
-		"duration": "week",
-		"location": "London,UK",
-		"category": "Full time job/on site",
-		"need": "Urgent"
-	},
-	{
-		"id": 6,
-		"title": "Performance Optimization",
-		"iconName": "tji-performance",
-		"price": "$400-$550",
-		"duration": "week",
-		"location": "London,UK",
-		"category": "Full time job/on site",
-		"need": "Urgent"
-	},
-	{
-		"id": 7,
-		"title": "Management Consultant",
-		"iconName": "tji-manage",
-		"price": "$400-$550",
-		"duration": "week",
-		"location": "London,UK",
-		"category": "Full time job/on site",
-		"need": "Urgent"
-	},
-	{
-		"id": 8,
-		"title": "Business Process Consultant",
-		"iconName": "tji-process-1",
-		"price": "$400-$550",
-		"duration": "week",
-		"location": "London,UK",
-		"category": "Full time job/on site",
-		"need": "Urgent"
+		"price": "TODO",
+		"duration": "TODO",
+		"location": "Ikeja, Lagos",
+		"category": "TODO: Confirm employment type with FKM",
+		"need": "TODO",
+		"desc": "TODO: Job description unavailable. Live site has no careers board (careers.html / career.html / join-us.html 404). Employer brand copy only appears on contact.html#career: First Katalyst is the name of a collection of individuals who believe in excellence. We specialize in hiring people who have the drive to succeed and the will to implement the discipline required to succeed. We focus on nurturing our team and providing an environment that is conducive to creative thought."
 	}
 ]

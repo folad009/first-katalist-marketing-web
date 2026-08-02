@@ -7,7 +7,15 @@ import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
 import getBlogCategories from "@/libs/getBlogCategories";
 import getBlogs from "@/libs/getBlogs";
+import { pageMetadata } from "@/lib/site-seo";
 import getBlogTags from "@/libs/getBlogTags";
+
+// TODO: Live site has no blog — refine when FKM publishes articles.
+export const metadata = pageMetadata({
+	title: "Insights",
+	description:
+		"Insights from First Katalyst Marketing Limited on brand building, activations, trade marketing and Marketing Communications 360.",
+});
 
 export default async function Blogs() {
 	const [blogs, categories, tags] = await Promise.all([

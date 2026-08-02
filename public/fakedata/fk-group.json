@@ -1,0 +1,62 @@
+[
+	{
+		"id": 1,
+		"name": "First Katalyst Marketing",
+		"slug": "first-katalyst-marketing",
+		"parentSlug": null,
+		"shortDesc": "TODO: Entity description not on org chart — use existing About / Services / Team pages for FKM content.",
+		"color": "blue",
+		"logoTodo": "TODO: Add First Katalyst Marketing logo (no hotlink)",
+		"relatedLinks": [
+			{ "label": "About FKM", "path": "/about" },
+			{ "label": "Services", "path": "/services" },
+			{ "label": "Our Team", "path": "/team" },
+			{ "label": "Contact", "path": "/contact" }
+		]
+	},
+	{
+		"id": 2,
+		"name": "FK Ghana",
+		"slug": "fk-ghana",
+		"parentSlug": "first-katalyst-marketing",
+		"shortDesc": "TODO: Description not on org chart — confirm copy and local contact details with FKM.",
+		"color": "blue",
+		"logoTodo": "TODO: Add FK Ghana logo / skyline mark (no hotlink)"
+	},
+	{
+		"id": 3,
+		"name": "Image Target",
+		"slug": "image-target",
+		"parentSlug": null,
+		"shortDesc": "TODO: Description not on org chart — confirm positioning and services with FKM.",
+		"color": "green",
+		"logoTodo": "TODO: Add Image Target logo (no hotlink)"
+	},
+	{
+		"id": 4,
+		"name": "SSB Africa",
+		"slug": "ssb-africa",
+		"parentSlug": null,
+		"shortDesc": "TODO: Description not on org chart — confirm positioning and services with FKM.",
+		"color": "orange",
+		"logoTodo": "TODO: Add SSB Africa logo (no hotlink)"
+	},
+	{
+		"id": 5,
+		"name": "FK Properties",
+		"slug": "fk-properties",
+		"parentSlug": null,
+		"shortDesc": "TODO: Description not on org chart — confirm positioning and services with FKM.",
+		"color": "purple",
+		"logoTodo": "TODO: Add FK Properties logo (no hotlink)"
+	},
+	{
+		"id": 6,
+		"name": "FK Digital",
+		"slug": "fk-digital",
+		"parentSlug": null,
+		"shortDesc": "TODO: Description not on org chart — confirm positioning and services with FKM.",
+		"color": "teal",
+		"logoTodo": "TODO: Add FK Digital logo (no hotlink)"
+	}
+]

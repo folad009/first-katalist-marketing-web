@@ -16,22 +16,31 @@ const TeamCard = ({ teamMember }) => {
 				<div className="social-links">
 					<ul>
 						<li>
-							<Link href="https://www.facebook.com/" target="_blank">
+							<Link
+								href="https://www.facebook.com/firstkatalystmarketing"
+								target="_blank"
+							>
 								<i className="fa-brands fa-facebook-f"></i>
 							</Link>
 						</li>
 						<li>
-							<Link href="https://www.instagram.com/" target="_blank">
+							<Link
+								href="https://www.instagram.com/firstkatalystmarketing/"
+								target="_blank"
+							>
 								<i className="fa-brands fa-instagram"></i>
 							</Link>
 						</li>
 						<li>
-							<Link href="https://x.com/" target="_blank">
+							<Link href="https://twitter.com/FirstKatalyst" target="_blank">
 								<i className="fa-brands fa-x-twitter"></i>
 							</Link>
 						</li>
 						<li>
-							<Link href="https://www.linkedin.com/" target="_blank">
+							<Link
+								href="https://www.linkedin.com/company/first-katalyst-marketing-limited/"
+								target="_blank"
+							>
 								<i className="fa-brands fa-linkedin-in"></i>
 							</Link>
 						</li>
@@ -43,7 +52,10 @@ const TeamCard = ({ teamMember }) => {
 					<Link href={`/team/${slug}`}>{name}</Link>
 				</h4>
 				<span className="designation">{desig}</span>
-				<Link className="mail-at" href="mailto:info@bexon.com">
+				<Link
+					className="mail-at"
+					href="mailto:outsourcing@firstkatalystmarketing.com"
+				>
 					<i className="tji-at"></i>
 				</Link>
 			</div>

@@ -2,37 +2,12 @@
 import FaqItem from "@/components/shared/faq/FaqItem";
 import WordPressContent from "@/components/shared/content/WordPressContent";
 import { Accordion } from "@/components/ui/accordion";
+import faqs from "../../../../public/fakedata/faqs.json";
 import Image from "next/image";
 import Link from "next/link";
 import CtaSidebar from "../cta/CtaSidebar";
 
-const serviceFaqItems = [
-	{
-		title: "What is Customer Experience (CX) and why is it important?",
-		desc: "Customer Experience (CX) refers to the overall impression a customer has of a business based on their interactions across various touchpoints—whether it’s a website visit, a customer support call, or an in-store purchase. It encompasses everything from ease of navigation and service quality to emotional connection and brand perception.",
-		initActive: true,
-	},
-	{
-		title: "How can your Customer Experience Solutions benefit?",
-		desc: "Our solutions optimize every touchpoint of the customer journey, ensuring seamless, personalized, and meaningful interactions. The benefits include improved customer satisfaction, higher retention rates, stronger brand loyalty, and actionable insights to continuously improve your customer engagement strategies. We help integrate these channels so customers feel valued.",
-	},
-	{
-		title: "How do you personalize the customer experience?",
-		desc: "Getting started is easy! Simply reach out to us through our contact form or give us a call, and we’ll schedule a consultation to discuss your project and how we can best assist you. Our team keeps you informed throughout the process, ensuring quality control and timely delivery.",
-	},
-	{
-		title: "What kind of tools do you use to improve customer experience?",
-		desc: "Getting started is easy! Simply reach out to us through our contact form or give us a call, and we’ll schedule a consultation to discuss your project and how we can best assist you. Our team keeps you informed throughout the process, ensuring quality control and timely delivery.",
-	},
-	{
-		title: "How do you collect customer feedback?",
-		desc: "Getting started is easy! Simply reach out to us through our contact form or give us a call, and we’ll schedule a consultation to discuss your project and how we can best assist you. Our team keeps you informed throughout the process, ensuring quality control and timely delivery.",
-	},
-	{
-		title: "Can you help improve our customer support system?",
-		desc: "Getting started is easy! Simply reach out to us through our contact form or give us a call, and we’ll schedule a consultation to discuss your project and how we can best assist you. Our team keeps you informed throughout the process, ensuring quality control and timely delivery.",
-	},
-];
+const serviceFaqItems = faqs;
 
 const ServicesDetailsPrimary = ({ option }) => {
 	const {
@@ -171,13 +146,12 @@ const ServicesDetailsPrimary = ({ option }) => {
 									Our Range of Customer Services
 								</h3>
 								<p className="wow fadeInUp" data-wow-delay=".3s">
-									At Bexon, we don't just focus on solving customer problems—we
-									focus on creating experiences that delight and build lasting
-									relationships. Whether it's through improving customer service
-									operations, leveraging technology, or designing more engaging
-									digital experiences, our team is here to help you exceed your
-									customers' expectations every time. We help you understand
-									your customers deeply, optimize their experience.
+									At First Katalyst Marketing, we don't just focus on solving
+									customer problems—we focus on creating experiences that
+									delight and build lasting brand relationships. Through
+									activation, trade marketing, and experiential campaigns, our
+									team helps you engage consumers and grow demand across the
+									channel.
 								</p>
 								<div className="details-content-box">
 									<div

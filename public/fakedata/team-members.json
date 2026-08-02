@@ -1,114 +1,82 @@
 [
 	{
 		"id": 1,
-		"name": "Eade Marren",
-		"desig": "Chief Executive",
+		"name": "Soji Odedina",
+		"desig": "Managing Director",
 		"img": "/images/team/team-1.webp",
-		"img2": "/images/team/h7-team-1.webp",
-		"imgLarge": "/images/team/team-1-big.webp"
+		"imgLarge": "/images/team/team-1-big.webp",
+		"contentHtml": "<p>A frontline marketing communication professional with over 25 years’ experience in Marketing Communications spanning Advertising, BTL Activations, Journalism &amp; Grassroot Mobilization.</p><p>Has driven some of the best marketing communication campaigns in West Africa with measurable results. Led the agency team that orchestrated a landmark achievement for Etisalat who came into the market as a 4th player &amp; became the fastest growing telecoms in Nigeria. A cutting edge strategy was employed to study the Nigerian population and find immense opportunities in the youth segment which no one was consciously starting with ‘0809ja for life’.</p><p>Led the agency in redefining MTN’s POS channels with an innovative and effective merchandising manual that serves as a guide for locating street &amp; indoor furniture across retail points.</p><p>Other clients/brands Soji made significant contributions to their strategy and executional framework include: GNPlc’s portfolio of Brands, First bank, Cadbury, IEI, Notore chemicals, Western Union, 3 line, MANTRAC, Midwestern Oil &amp; Gas, PZ Group, Elf Petroleum, BAT, Yes International Cigarette, Philip Morris International Brands etc.</p><p>Was a member of the Ogilvy Action’s Leadership Team for Eastern Europe, Middle East &amp; Africa (EEMEA). Team Lead for BAT/Ogilvy Action in 22 markets in WAA. He is a member of APCON, NIPR, DMAN &amp; ICM London. A member of the African Leadership Magazine’s CEOS Hall Of Fame (Class Of 2018) &amp; Business Excellence Award recipient.</p><p>Pursued scholarship through the following institutions: Comprehensive High School, Ayetoro; The Polytechnic, Ibadan; Ogun State University; University of Lagos and the Lagos Business School.</p>"
 	},
 	{
 		"id": 2,
-		"name": "Savannah Ngueen",
-		"desig": "Operations Head",
+		"name": "Sunday Awoyomi",
+		"desig": "Principal Partner",
 		"img": "/images/team/team-2.webp",
-		"img2": "/images/team/h7-team-2.webp",
-		"imgLarge": "/images/team/team-2-big.webp"
+		"imgLarge": "/images/team/team-2-big.webp",
+		"contentHtml": "<p>A shrewd entrepreneur and a seasoned marketer with over 20 years extensive working experience in blue chip companies across all areas of marketing (brands, trade and marketing research).</p><p>As a group brand manager with British American Tobacco he managed the premium brands portfolio delivering a record 17% growth in the performance of the company’s flagship brand and outstanding results across the company’s brand portfolio in Nigeria as well as several other West African Markets.</p><p>Represented Africa &amp; Middle East as a leading member of a global IDMM project team that developed a customer engagement blueprint that is still being used as a best practice TM&amp;D tool for managing indirect distributors for BAT worldwide. He was a member of the AC Nielsen team that carried out the company’s widely acclaimed first retail census in Nigeria.</p><p>As principal partner in First Katalyst Marketing, he provided the required technical and managerial expertise for the development and deployment of several marketing initiatives for high profile clients across various product categories some of which are the merchandising manual for MTN and the hugely successful rural distribution project for BAT. A widely travelled professional, he is a member of the NIM and APCON.</p>"
 	},
 	{
 		"id": 3,
-		"name": "Kristin Watson",
-		"desig": "Marketing Lead",
+		"name": "Agnes Ailuelohia",
+		"desig": "Client Service Director",
 		"img": "/images/team/team-3.webp",
-		"img2": "/images/team/h7-team-3.webp",
-		"imgLarge": "/images/team/team-3-big.webp"
+		"imgLarge": "/images/team/team-3-big.webp",
+		"contentHtml": "<p>With over 14 years experience in marketing communications and brand management, Agnes has played key roles in the different facets of marketing both within the agency and FMCG.</p><p>While in the agency, she was instrumental in driving the Benson &amp; Hedges business through various BTL activations and consumer engagement platforms such as the gold and tones roadshow, the new pack launch of B&amp;H, and Nestlé 3-in-1 campus and office roles within BAT Nigeria. She was instrumental in the growth of brands such as Rothmans King Size, London King Size, Pall Mall and Royal Standard. She was involved with packs and packaging as well as various consumer activities.</p><p>She was at the forefront of the team that led BAT to the standardization of in-store furniture (ISF) within Nigeria and West Africa. She also developed the merchandising strategy for the West African area. She has pioneered workshops such as the B&amp;H artiste development workshop, lunch and learn sessions within BAT, and held several inductions to develop the required competencies for the marketing team. She is an associate member of the Chartered Institute of Marketing.</p>"
 	},
 	{
 		"id": 4,
-		"name": "Darlene Robertson",
-		"desig": "Business Director",
+		"name": "Taiye Akinmade",
+		"desig": "Associate Director",
 		"img": "/images/team/team-4.webp",
-		"img2": "/images/team/h7-team-4.webp",
-		"imgLarge": "/images/team/team-4-big.webp"
+		"imgLarge": "/images/team/team-4-big.webp",
+		"contentHtml": "<p>Taiye is a results-producing marketing communications professional with vast experience spanning close to two decades working on leading and award winning brands. He has a passion in leading comprehensive marketing strategies in support of business goals and objectives.</p><p>He is an imaginative and highly analytical person who enjoys using own initiative. Also has ability to manage change and communicate effectively at various levels. He is a graduate of sociology and a registered advertising practitioner.</p><p>He has attended many strategic marketing courses/workshops home and abroad. His mantra ‘maintain your focus’ is hinged on his strong determination to succeed always.</p>"
 	},
 	{
 		"id": 5,
-		"name": "James Anderson",
-		"desig": "Business Director",
+		"name": "Henry Okueso",
+		"desig": "Operations Director",
 		"img": "/images/team/team-5.webp",
-		"img2": "/images/team/h7-team-6.webp",
-		"imgLarge": "/images/team/team-1-big.webp"
+		"imgLarge": "/images/team/team-5-big.webp",
+		"contentHtml": "<p>Henry is a highly experienced Sales Management Expert with proficiency in sales strategy planning, training and B2B relationship management.</p><p>He has over two decades hands-on experience in PR, Trade Marketing, Experiential Marketing and core Sales Management in the FMCG sector.</p><p>He won Cadbury-Mondelez National Award for Outstanding Sales Performance as a Territory Commercial Manager in 2015. His varied experience in the corporate terrain has afforded him a well-rounded skill set including new business and new product development.</p>"
 	},
 	{
 		"id": 6,
-		"name": "Emma Richardson",
-		"desig": "Marketing Lead",
+		"name": "Ganiu Sanni",
+		"desig": "Associate Director",
 		"img": "/images/team/team-6.webp",
-		"img2": "/images/team/h7-team-7.webp",
-		"imgLarge": "/images/team/team-2-big.webp"
+		"imgLarge": "/images/team/team-6-big.webp",
+		"contentHtml": "<p>Ganiu has over 10 years experience in sales activations during which he traversed most states and key cities in Nigeria executing bespoke activation and managing challenging operational issues and achieving flawless execution in most cases.</p><p>He has a “third eye” when it comes to recruitment and training of sales ad-hoc staff and this accounts for critical execution of field activities under his watch.</p>"
 	},
 	{
 		"id": 7,
-		"name": "Benjamin Reed",
-		"desig": "Operations Head",
+		"name": "Constance Akpabio",
+		"desig": "Events & Experiential Director",
 		"img": "/images/team/team-7.webp",
-		"img2": "/images/team/h7-team-8.webp",
-		"imgLarge": "/images/team/team-3-big.webp"
+		"imgLarge": "/images/team/team-7-big.webp",
+		"contentHtml": "<p>Constance is a brand specialist with more than fifteen years’ experience in brand marketing, project management, product and content development.</p><p>She has managed brands across various segments, launched various campaigns and products while also driving strategic business objectives to consistently deliver results.</p><p>Constance successfully launched Benson &amp; Hedges Switch, has managed brands across West Africa and as a brand consultant has worked with NIBSS, SON and Salma Okonkwo (Founder &amp; CEO of UBI Group and Blue Power Energy). Passionate about bringing ideas to life, Constance is big on driving and delivering unique consumer experiences.</p>"
 	},
 	{
 		"id": 8,
-		"name": "Savannah Nguyen",
-		"desig": "Chief Executive",
+		"name": "Eyimofe Onifade",
+		"desig": "Head, Human Resources and Administration",
 		"img": "/images/team/team-8.webp",
-		"img2": "/images/team/h7-team-9.webp",
-		"imgLarge": "/images/team/team-4-big.webp"
+		"imgLarge": "/images/team/team-8-big.webp",
+		"contentHtml": "<p>Eyimofe Onifade has a wealth of experience in Human Resources that spans across Marketing Communications, Pharmaceuticals, Medical, Agriculture, International NGO sectors to mention a few.</p><p>She applies her people management skills to create a positive working environment. An Associate Member of Chartered Institute of Personnel Management, Nigeria (ACIPM). She is passionate about business growth, profit maximization and creating a self-motivated people in organizations.</p>"
 	},
 	{
 		"id": 9,
-		"name": "Nathan Price",
-		"desig": "Marketing Lead",
-		"img": "/images/team/team-3.webp",
-		"img2": "/images/team/h7-team-1.webp",
-		"imgLarge": "/images/team/team-1-big.webp"
+		"name": "Tajudeen Ismaila",
+		"desig": "Group Head, Finance",
+		"img": "/images/team/team-1.webp",
+		"imgLarge": "/images/team/team-1-big.webp",
+		"contentHtml": "<p>Tajudeen is a well organized and adaptable finance professional with years of professional working experience. He is highly adept at the implementation and management of accounting systems and procedures.</p><p>His core skills and abilities include corporate accounting skills and knowledge, systems implementation, and strategic and operational management.</p><p>Specialties: Audit and Compliance, Financial Accounting, Financial Reporting, Financial Risk Management, Group Consolidations, Business Process Improvement, System and ERP Implementations, Operational and strategic models.</p>"
 	},
 	{
 		"id": 10,
-		"name": "Caleb Turner",
-		"desig": "Business Director",
-		"img": "/images/team/team-4.webp",
-		"img2": "/images/team/h7-team-2.webp",
-		"imgLarge": "/images/team/team-2-big.webp"
-	},
-	{
-		"id": 11,
-		"name": "Nathaniel Ellington",
-		"desig": "Business Director",
-		"img": "/images/team/team-5.webp",
-		"img2": "/images/team/h7-team-3.webp",
-		"imgLarge": "/images/team/team-3-big.webp"
-	},
-	{
-		"id": 12,
-		"name": "Kristin Watson",
-		"desig": "Marketing Lead",
-		"img": "/images/team/team-6.webp",
-		"img2": "/images/team/h7-team-4.webp",
-		"imgLarge": "/images/team/team-4-big.webp"
-	},
-	{
-		"id": 13,
-		"name": "Savannah Nguyen",
-		"desig": "Operations Head",
-		"img": "/images/team/team-7.webp",
-		"img2": "/images/team/h7-team-1.webp",
-		"imgLarge": "/images/team/team-1-big.webp"
-	},
-	{
-		"id": 14,
-		"name": "Eade Marren",
-		"desig": "Chief Executive",
-		"img": "/images/team/team-8.webp",
-		"img2": "/images/team/h7-team-1.webp",
-		"imgLarge": "/images/team/team-2-big.webp"
+		"name": "Issa N. Ahmed",
+		"desig": "Consultant",
+		"img": "/images/team/team-2.webp",
+		"imgLarge": "/images/team/team-2-big.webp",
+		"contentHtml": "<p>Issa N. Ahmed holds a B.Sc. and an M.Sc. in Mass Communication from the University of Lagos. He is an experienced producer/director (radio, TV, photography), art buyer and project manager.</p><p>He has worked on a number of corporate and consumer brands which include Airtel (telecoms), Western Union, Nestlé, Coca-Cola, GlaxoSmithKline, Unilever, Rothmans, Kanekalon, United Bank for Africa, Dettol, Gain and Alive and Thrive. He is a trusted hand in Production, and Creative Services Management.</p>"
 	}
 ]

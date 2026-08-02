@@ -22,7 +22,9 @@ const ContactTop = () => {
 								<i className="tji-location-3"></i>
 							</div>
 							<h3 className="contact-title">Our Location</h3>
-							<p>993 Renner Burg, West Rond, MT 94251-030</p>
+							<p>
+								19b Alhaji Bankole Street, Off Adeniyi Jones, Ikeja, Lagos
+							</p>
 						</div>
 					</div>
 					<div>
@@ -36,10 +38,14 @@ const ContactTop = () => {
 							<h3 className="contact-title">Email us</h3>
 							<ul className="contact-list">
 								<li>
-									<Link href="mailto:support@bexon.com">support@bexon.com</Link>
+									<Link href="mailto:outsourcing@firstkatalystmarketing.com">
+										outsourcing@firstkatalystmarketing.com
+									</Link>
 								</li>
 								<li>
-									<Link href="mailto:info@bexon.com">info@bexon.com</Link>
+									<Link href="mailto:soj@firstkatalystmarketing.com">
+										soj@firstkatalystmarketing.com
+									</Link>
 								</li>
 							</ul>
 						</div>
@@ -55,10 +61,7 @@ const ContactTop = () => {
 							<h3 className="contact-title">Call us</h3>
 							<ul className="contact-list">
 								<li>
-									<Link href="tel:10095447818">+1 (009) 544-7818</Link>
-								</li>
-								<li>
-									<Link href="tel:10098801810">+1 (009) 880-1810</Link>
+									<Link href="tel:+2348092900214">+234 809 290 0214</Link>
 								</li>
 							</ul>
 						</div>
@@ -71,11 +74,11 @@ const ContactTop = () => {
 							<div className="contact-icon">
 								<i className="tji-chat"></i>
 							</div>
-							<h3 className="contact-title">Live chat</h3>
+							<h3 className="contact-title">Send a brief</h3>
 							<ul className="contact-list">
 								<li>
-									<Link href="mailto:livechat@bexon.com">
-										livechat@bexon.com
+									<Link href="mailto:outsourcing@firstkatalystmarketing.com">
+										outsourcing@firstkatalystmarketing.com
 									</Link>
 								</li>
 								<li className="active">

@@ -46,10 +46,11 @@ const ContactMenu = ({ isContactOpen, setIsContactOpen }) => {
 						</div>
 
 						<div className="mb-10">
+							{/* Homepage slider positioning + Marketing Communications 360 */}
 							<p className="m-0 text-brand-grey-2">
-								Developing personalize our customer journeys to increase
-								satisfaction & loyalty of our expansion recognized by industry
-								leaders.
+								First Katalyst Marketing — a first class ideas powerhouse.
+								Marketing Communications 360: cost-effective, value-adding and
+								result-oriented solutions across Nigeria and West Africa.
 							</p>
 						</div>
 
@@ -75,10 +76,7 @@ const ContactMenu = ({ isContactOpen, setIsContactOpen }) => {
 							</div>
 						</div>
 
-						<HamburgerContactInfo
-							phone="+1 (009) 544-7818"
-							phoneHref="tel:10095447818"
-						/>
+						<HamburgerContactInfo />
 					</div>
 					<HamburgerSocials />
 				</div>

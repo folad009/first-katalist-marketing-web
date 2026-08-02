@@ -51,10 +51,10 @@ const TeamDetails1 = async ({ currentSlug }) => {
 								/>
 							) : (
 								<p className="wow fadeInUp" data-wow-delay=".3s">
-									Our mission is to empowers businesses sizes thrive businesses ev
-									changing marketplace We are committed to the delivering
-									exceptional value through strategic inset innovative approaches.
-									Our consulting of our missing empower.
+									{/* TODO: Bio missing — profiles live on our-team.html modals */}
+									Part of the First Katalyst team delivering cost-effective,
+									value-adding and result-oriented marketing solutions through the
+									power of ideas.
 								</p>
 							)}
 							<div
@@ -64,35 +64,44 @@ const TeamDetails1 = async ({ currentSlug }) => {
 								<ul>
 									<li>
 										<span>Email address</span>
-										<a href="mailto:eade.marren@bexon.com">
-											eade.marren@bexon.com
+										<a href="mailto:outsourcing@firstkatalystmarketing.com">
+											outsourcing@firstkatalystmarketing.com
 										</a>
 									</li>
 									<li>
 										<span>Phone number</span>
-										<a href="tel:10095447818">+1 (009) 544-7818</a>
+										<a href="tel:+2348092900214">+234 809 290 0214</a>
 									</li>
 								</ul>
 							</div>
 							<div className="social-links wow fadeInUp" data-wow-delay=".5s">
 								<ul>
 									<li>
-										<a href="https://www.facebook.com/" target="_blank">
+										<a
+											href="https://www.facebook.com/firstkatalystmarketing"
+											target="_blank"
+										>
 											<i className="fa-brands fa-facebook-f"></i>
 										</a>
 									</li>
 									<li>
-										<a href="https://www.instagram.com/" target="_blank">
+										<a
+											href="https://www.instagram.com/firstkatalystmarketing/"
+											target="_blank"
+										>
 											<i className="fa-brands fa-instagram"></i>
 										</a>
 									</li>
 									<li>
-										<a href="https://x.com/" target="_blank">
+										<a href="https://twitter.com/FirstKatalyst" target="_blank">
 											<i className="fa-brands fa-x-twitter"></i>
 										</a>
 									</li>
 									<li>
-										<a href="https://www.linkedin.com/" target="_blank">
+										<a
+											href="https://www.linkedin.com/company/first-katalyst-marketing-limited/"
+											target="_blank"
+										>
 											<i className="fa-brands fa-linkedin-in"></i>
 										</a>
 									</li>
@@ -105,19 +114,11 @@ const TeamDetails1 = async ({ currentSlug }) => {
 								>
 									Work experience
 								</h4>
+								{/* TODO: Live site has no structured work-experience timeline — bio is in contentHtml above */}
 								<p className="wow fadeInUp" data-wow-delay=".3s">
-									Our mission is to empowers businesses size to thrivie in ses
-									ever changing marketplace We are committed to the delivering
-									exceptionals the value thro strategic ins innovative
-									approaches. Our consulting of our missing empowers businesses
-									of all sizes Committed to the delivering exceptional in the
-									values
-								</p>
-								<p className="wow fadeInUp" data-wow-delay=".3s">
-									Our mission is to empowers businesses size to thrivie in ses
-									ever changing marketplace We are committed to the delivering
-									exceptionals the value thro strategic ins innovative
-									approaches. Our consulting of our missing empowers
+									We care for our clients’ business as our business. We think and
+									act like business partners — sharing aspirations, understanding
+									reality, and aligning incentives with client objectives.
 								</p>
 								<div
 									className="team-details__experience__list wow fadeInUp"
@@ -126,31 +127,19 @@ const TeamDetails1 = async ({ currentSlug }) => {
 									<ul>
 										<li>
 											<i className="tji-check"></i>
-											<p>
-												We believe that the human essential start any successful
-												project.
-											</p>
+											<p>Youthfulness</p>
 										</li>
 										<li>
 											<i className="tji-check"></i>
-											<p>
-												We believe that the human essential start any successful
-												project.
-											</p>
+											<p>Commitment to excellence</p>
 										</li>
 										<li>
 											<i className="tji-check"></i>
-											<p>
-												We believe that the human essential start any successful
-												project.
-											</p>
+											<p>Passion</p>
 										</li>
 										<li>
 											<i className="tji-check"></i>
-											<p>
-												We believe that the human essential start any successful
-												project.
-											</p>
+											<p>Through-the-line thinking</p>
 										</li>
 									</ul>
 								</div>
@@ -162,28 +151,32 @@ const TeamDetails1 = async ({ currentSlug }) => {
 								>
 									Professional skills
 								</h4>
+								{/* TODO: Skill percentages not published on live site — keep layout stubs only */}
 								<p className="wow fadeInUp" data-wow-delay=".3s">
-									Our mission is to empowers businesses size to thrivie in ses
-									ever changing marketplace We are committed to the delivering
-									exceptionals the value thro strategic ins innovative
-									approaches. Our consulting of our missing empowers.
+									Experience and global standards shape how we deliver marketing
+									communications, activations, trade, and production for brands
+									across West Africa.
 								</p>
 								<ul
 									className="tj-progress-list wow fadeInUp"
 									data-wow-delay=".3s"
 								>
 									<li>
-										<h6 className="tj-progress-title">Business Consultants</h6>
+										<h6 className="tj-progress-title">
+											TODO: Skill metric unpublished
+										</h6>
 										<div className="tj-progress">
-											<span className="tj-progress-percent">82%</span>
-											<div className="tj-progress-bar" data-percent="82"></div>
+											<span className="tj-progress-percent">0%</span>
+											<div className="tj-progress-bar" data-percent="0"></div>
 										</div>
 									</li>
 									<li>
-										<h6 className="tj-progress-title">Client Communication</h6>
+										<h6 className="tj-progress-title">
+											TODO: Skill metric unpublished
+										</h6>
 										<div className="tj-progress">
-											<span className="tj-progress-percent">90%</span>
-											<div className="tj-progress-bar" data-percent="90"></div>
+											<span className="tj-progress-percent">0%</span>
+											<div className="tj-progress-bar" data-percent="0"></div>
 										</div>
 									</li>
 								</ul>

@@ -1,0 +1,52 @@
+[
+	{
+		"title": "What does First Katalyst do?",
+		"desc": "When you work at First Katalyst, you get to be part of a team that is known for its performance. We are efficiency-driven professionals who focus on the endgame.",
+		"initActive": true,
+		"source": "live",
+		"sourceNote": "From firstkatalystmarketing.com/contact.html#career accordion"
+	},
+	{
+		"title": "What industries do you specialize in?",
+		"desc": "First Katalyst focuses not just on recruiting individuals that are performance oriented but also on developing them. To us it is important to ensure that our clients are satisfied and are being served with the care and respect they deserve.",
+		"initActive": false,
+		"source": "live",
+		"sourceNote": "From firstkatalystmarketing.com/contact.html#career accordion"
+	},
+	{
+		"title": "What is consumer activation?",
+		"desc": "[Drafted from live service descriptions] We specialize in creating attention-grabbing activities that surprise consumers and build lasting brand relationships. Through activities in and around the point of sale, we influence buying behaviour by turning shopping opportunities into unforgettable brand experiences — using innovative concepts that highlight products and make sales fun for the consumer.",
+		"initActive": false,
+		"source": "drafted"
+	},
+	{
+		"title": "What is trade marketing activation?",
+		"desc": "[Drafted from live service descriptions] We help create brand management strategies that sustain need at the consumer end and increase demand at wholesaler, retailer, or distributor level. We market products through the value chain and at the point of sale — important because about 70% of shopping decisions are made at the point of purchase, which elevates merchandising and shopper promotions.",
+		"initActive": false,
+		"source": "drafted"
+	},
+	{
+		"title": "Do you offer sales, distribution, and HR outsourcing?",
+		"desc": "[Drafted from live service descriptions] Yes. Sales and Distribution has been part of FK since the beginning, across FMCG and technical brands — including a Pan-Nigeria Wholesale Expansion Scheme. HR Outsourcing (a First Katalyst subsidiary) provides 360° HR services across Nigeria: workforce management, HR service delivery, payroll administration, and learning and development.",
+		"initActive": false,
+		"source": "drafted"
+	},
+	{
+		"title": "What digital marketing and advertising services do you provide?",
+		"desc": "[Drafted from live service descriptions] Advertising builds a wholesome brand identity so your brand stays visible and in touch with customers, with a consumer-centred brand philosophy. Digital marketing improves online presence and helps generate new business — engaging audiences and generating leads with a range of digital support services tailored to your resources.",
+		"initActive": false,
+		"source": "drafted"
+	},
+	{
+		"title": "What production and events services do you offer?",
+		"desc": "[Drafted from live service descriptions] Production covers tailor-made video (filming, editing, producing), photo and writing services, plus video / DSLR / drone footage. Events support strategic marketing and communication — press conferences, promotional events, and product launches for companies of every size.",
+		"initActive": false,
+		"source": "drafted"
+	},
+	{
+		"title": "How can I send a brief or get in touch?",
+		"desc": "[Drafted from live contact details] Email outsourcing@firstkatalystmarketing.com or call +234 809 290 0214. Our head office is at 19b Alhaji Bankole Street, Off Adeniyi Jones, Ikeja, Lagos — or use the contact form on this site.",
+		"initActive": false,
+		"source": "drafted"
+	}
+]

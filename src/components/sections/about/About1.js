@@ -17,7 +17,7 @@ const About1 = () => {
 								<Image
 									data-speed="0.8"
 									src="/images/about/about-1.webp"
-									alt=""
+									alt="First Katalyst Marketing"
 									width={653}
 									height={675}
 								/>
@@ -27,10 +27,10 @@ const About1 = () => {
 									className="experience-box wow fadeInUp"
 									data-wow-delay=".3s"
 								>
-									<span className="sub-title">Experiences</span>
-									<div className="customers-number">13+</div>
+									<span className="sub-title">Since</span>
+									<div className="customers-number">2012</div>
 									<h6 className="customers-text">
-										Decades of Experience, Endless Innovation
+										Commenced business as a go-to agency for marketing solutions
 									</h6>
 								</div>
 							</div>
@@ -43,11 +43,11 @@ const About1 = () => {
 						>
 							<div className="sec-heading">
 								<span className="sub-title wow fadeInUp" data-wow-delay=".3s">
-									<i className="tji-box"></i>Get to Know Us
+									<i className="tji-box"></i>Who We Are
 								</span>
 								<h2 className="sec-title title-anim">
-									Empowering Businesses with Innovation, Expertise, and for{" "}
-									<span>Success.</span>
+									Driving Growth Across Nigeria, West Africa &{" "}
+									<span>Beyond.</span>
 								</h2>
 							</div>
 							<div className="wow fadeInUp" data-wow-delay=".5s">
@@ -67,13 +67,14 @@ const About1 = () => {
 									<Ratings1 />
 								</div>
 								<p className="desc">
-									We believe in building lasting relationships with our clients
-									through trust, innovation, and exceptional service.
+									We provide cost-effective, value-adding and result-oriented
+									marketing solutions through the power of ideas — building
+									long-term relationships between clients and their consumers.
 								</p>
 								<div className="client-info-area">
 									<div className="client-info">
-										<h6 className="title">Esther Howard</h6>
-										<span className="designation">Co.Founder</span>
+										<h6 className="title">First Katalyst Marketing</h6>
+										<span className="designation">Ideas Powerhouse</span>
 									</div>
 									<span className="quote-icon">
 										<i className="tji-quote"></i>
@@ -83,7 +84,7 @@ const About1 = () => {
 							<div className="video-img  wow fadeInUp" data-wow-delay=".9s">
 								<Image
 									src="/images/about/about-2.webp"
-									alt=""
+									alt="First Katalyst Marketing"
 									width={224}
 									height={234}
 								/>

@@ -1,21 +1,23 @@
 import Footer from "@/components/layout/footer/Footer";
 import Header from "@/components/layout/header/Header";
-import Contact3 from "@/components/sections/contacts/Contact3";
-import ContactTop from "@/components/sections/contacts/ContactTop";
 import Cta from "@/components/sections/cta/Cta";
+import FkGroupOverview from "@/components/sections/fk-group/FkGroupOverview";
 import HeroInner from "@/components/sections/hero/HeroInner";
 import BackToTop from "@/components/shared/others/BackToTop";
 import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
 import { pageMetadata } from "@/lib/site-seo";
+import getFkGroup from "@/libs/getFkGroup";
 
 export const metadata = pageMetadata({
-	title: "Contact Us",
+	title: "FKM Group",
 	description:
-		"Contact First Katalyst Marketing Limited — 19b Alhaji Bankole Crescent, Off Adeniyi Jones, Ikeja, Lagos. Call +234 809 290 0214 or email outsourcing@firstkatalystmarketing.com.",
+		"FKM Group — First Katalyst Marketing, Image Target, SSB Africa, FK Properties, and FK Digital. Structure from the FKM Group org chart.",
 });
 
-export default function Contact() {
+export default async function FkGroupPage() {
+	const entities = await getFkGroup();
+
 	return (
 		<div>
 			<BackToTop />
@@ -25,9 +27,8 @@ export default function Contact() {
 				<div id="smooth-content">
 					<main>
 						<HeaderSpace />
-						<HeroInner title={"Contact Us"} text={"Contact Us"} />
-						<ContactTop />
-						<Contact3 />
+						<HeroInner title="FKM Group" text="FKM Group" />
+						<FkGroupOverview entities={entities} />
 						<Cta />
 					</main>
 					<Footer />

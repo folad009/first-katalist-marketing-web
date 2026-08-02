@@ -11,9 +11,8 @@ const Brands1 = ({ type = 1 }) => {
 			<div className="w-full overflow-hidden">
 				<div className="client-content">
 					<h5 className="sec-title">
-						Join Over <span className="client-numbers">1000+</span> Companies
-						with
-						<span className="client-text">Bexon</span> Here
+						Our Clientele — Brands That Trust
+						<span className="client-text"> First Katalyst Marketing</span>
 					</h5>
 				</div>
 				<BrandSlider1 />

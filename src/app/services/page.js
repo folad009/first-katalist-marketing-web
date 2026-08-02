@@ -9,7 +9,14 @@ import ServicesPrimary from "@/components/sections/services/ServicesPrimary";
 import BackToTop from "@/components/shared/others/BackToTop";
 import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
+import { pageMetadata } from "@/lib/site-seo";
 import getALlServices from "@/libs/getALlServices";
+
+export const metadata = pageMetadata({
+	title: "Services",
+	description:
+		"Marketing Communications 360 from First Katalyst Marketing: consumer activation, trade marketing, sales and distribution, HR outsourcing, advertising, digital marketing, production services and events.",
+});
 
 export default async function Services() {
 	const services = await getALlServices();

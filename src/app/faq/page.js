@@ -7,6 +7,14 @@ import HeroInner from "@/components/sections/hero/HeroInner";
 import BackToTop from "@/components/shared/others/BackToTop";
 import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
+import { pageMetadata } from "@/lib/site-seo";
+
+export const metadata = pageMetadata({
+	title: "FAQ",
+	description:
+		"Common questions about First Katalyst Marketing services — activation, trade marketing, HR outsourcing, digital, events and how to send a brief.",
+});
+
 export default function Faq() {
 	return (
 		<div>

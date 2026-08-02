@@ -4,18 +4,18 @@ import FeatureCard from "@/components/shared/cards/FeatureCard";
 const Features = ({ type }) => {
 	const features = [
 		{
-			title: "Innovative Solutions",
-			desc: "We stay ahead of the curve, leveraging cutting-edge technologies and strategies to keep  you competitive in a marketplace.",
+			title: "Marketing Mix Mastery",
+			desc: "A robust and in-depth knowledge of marketing from experience across the whole gamut of the marketing mix.",
 			icon: "tji-innovative",
 		},
 		{
-			title: "Award-Winning Expertise",
-			desc: "Recognized by industry leaders, our award-winning team has a proven record of delivering  excellence across projects.",
+			title: "West African Insight",
+			desc: "Deep knowledge of the West African sub-regional market — familiar with consumer needs and preferences across the landscape.",
 			icon: "tji-award",
 		},
 		{
-			title: "Dedicated Support",
-			desc: "Our team is always available to address your concerns, providing quick and effective solution to keep your business.",
+			title: "Brand Building Strength",
+			desc: "Strong at brand building, driven by our work and wide exposure to best practices across industries and blue-chip clients.",
 			icon: "tji-support",
 		},
 	];
@@ -28,26 +28,26 @@ const Features = ({ type }) => {
 						{type == 2 ? (
 							<div className="sec-heading-wrap">
 								<span className="sub-title wow fadeInUp" data-wow-delay=".3s">
-									<i className="tji-box"></i>Choose the Best
+									<i className="tji-box"></i>Stand Out Points
 								</span>
 								<div className="heading-wrap-content">
 									<div className="sec-heading">
 										<h2 className="sec-title title-anim">
-											Empowering Business with <span>Expertise.</span>
+											Why Brands Choose <span>FKM.</span>
 										</h2>
 									</div>
 									<div className="btn-wrap wow fadeInUp" data-wow-delay=".6s">
-										<ButtonPrimary text="Request a Call" url="/contact" />
+										<ButtonPrimary text="Send Us a Brief" url="/contact" />
 									</div>
 								</div>
 							</div>
 						) : (
 							<div className="sec-heading text-center">
 								<span className="sub-title wow fadeInUp" data-wow-delay=".3s">
-									<i className="tji-box"></i>Choose the Best
+									<i className="tji-box"></i>Stand Out Points
 								</span>
 								<h2 className="sec-title title-anim">
-									Empowering Business with <span>Expertise.</span>
+									Why Brands Choose <span>FKM.</span>
 								</h2>
 							</div>
 						)}

@@ -44,19 +44,13 @@ const Team1 = ({ type, teamMembers = [] }) => {
 							{type === 3 ? <i className="tji-box"></i> : ""}
 							Meet Our Team
 						</span>
-						{type === 3 ? (
-							<h2 className="sec-title title-anim">
-								Success <span>Stories</span> Fuel our Innovation.
-							</h2>
-						) : (
-							<h2
-								className={`sec-title ${
-									type === 2 ? "title-anim" : "text-anim"
-								}`}
-							>
-								People Behind <span>Bexon.</span>
-							</h2>
-						)}
+						<h2
+							className={`sec-title ${
+								type === 3 || type === 2 ? "title-anim" : "text-anim"
+							}`}
+						>
+							People Behind <span>FKM.</span>
+						</h2>
 					</div>
 				)}
 

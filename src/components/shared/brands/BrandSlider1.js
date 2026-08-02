@@ -23,12 +23,13 @@ const BrandSlider1 = ({ className }) => {
 			modules={[Autoplay]}
 		>
 			{brands?.length
-				? brands?.map(({ img }, idx) => (
-						<SwiperSlide key={idx} className="client-item">
+				? brands?.map(({ img, name }, idx) => (
+						<SwiperSlide key={name ? `${name}-${idx}` : idx} className="client-item">
 							<div className="client-logo">
+								{/* TODO: imageTodo in brands.json — temporary local brand-* assets until FKM logos are licensed/added */}
 								<img
 									src={img ? img : "/images/brands/brand-1.webp"}
-									alt="Brand"
+									alt={name ? name : "Client brand"}
 								/>
 							</div>
 						</SwiperSlide>

@@ -11,20 +11,20 @@ const Portfolios1 = async () => {
 					<div>
 						<div className="sec-heading-wrap">
 							<span className="sub-title wow fadeInUp" data-wow-delay=".3s">
-								<i className="tji-box"></i>Proud Projects
+								<i className="tji-box"></i>Our Work
 							</span>
 							<div className="heading-wrap-content">
 								<div className="sec-heading">
 									<h2 className="sec-title title-anim">
-										Breaking Boundaries, Building <span>Dreams.</span>
+										Campaigns, Activations & Brand <span>Moments.</span>
 									</h2>
 								</div>
 								<p className="desc wow fadeInUp" data-wow-delay=".5s">
-									We work closely with our clients to understand their unique
-									needs and craft tailored solutions that address challenges.
+									From trade and consumer activations to experiential events —
+									a look at the work we deliver for leading brands.
 								</p>
 								<div className="btn-wrap wow fadeInUp" data-wow-delay=".6s">
-									<ButtonPrimary text={"More Projects"} url="/portfolios" />
+									<ButtonPrimary text={"View Gallery"} url="/portfolios" />
 								</div>
 							</div>
 						</div>

@@ -17,7 +17,7 @@ export async function generateMetadata({ params }) {
 	if (!member) return { title: "Team Member Not Found" };
 	return buildMetadataFromItem(member, {
 		title: member.name,
-		description: member.desig,
+		description: `${member.name}, ${member.desig} at First Katalyst Marketing Limited.`,
 	});
 }
 

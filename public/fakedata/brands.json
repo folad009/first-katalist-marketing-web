@@ -1,62 +1,107 @@
 [
 	{
+		"name": "MTN",
 		"img": "/images/brands/brand-1.webp",
 		"img2": "/images/brands/brand-1-light.webp",
-		"img3": "/images/brands/h5-brand-1.webp"
+		"img3": "/images/brands/h5-brand-1.webp",
+		"imageTodo": "TODO: Replace with FKM clientele logo (live: images/mtn.jpg) — not copied; rights/reliability not assumed"
 	},
 	{
+		"name": "PZ Cussons",
 		"img": "/images/brands/brand-2.webp",
 		"img2": "/images/brands/brand-2-light.webp",
-		"img3": "/images/brands/h5-brand-2.webp"
+		"img3": "/images/brands/h5-brand-2.webp",
+		"imageTodo": "TODO: Replace with FKM clientele logo (live: images/PzCussons.png)"
 	},
 	{
+		"name": "Guinness",
 		"img": "/images/brands/brand-3.webp",
 		"img2": "/images/brands/brand-3-light.webp",
-		"img3": "/images/brands/h5-brand-3.webp"
+		"img3": "/images/brands/h5-brand-3.webp",
+		"imageTodo": "TODO: Replace with FKM clientele logo (live: images/guinness.png)"
 	},
 	{
+		"name": "Vlisco",
 		"img": "/images/brands/brand-4.webp",
 		"img2": "/images/brands/brand-4-light.webp",
-		"img3": "/images/brands/h5-brand-4.webp"
+		"img3": "/images/brands/h5-brand-4.webp",
+		"imageTodo": "TODO: Replace with FKM clientele logo (live: images/vlisco.png)"
 	},
 	{
+		"name": "FMN",
 		"img": "/images/brands/brand-5.webp",
 		"img2": "/images/brands/brand-5-light.webp",
-		"img3": "/images/brands/h5-brand-5.webp"
+		"img3": "/images/brands/h5-brand-5.webp",
+		"imageTodo": "TODO: Replace with FKM clientele logo (live: FK/FMN.PNG)"
 	},
 	{
+		"name": "Lafarge",
 		"img": "/images/brands/brand-6.webp",
 		"img2": "/images/brands/brand-6-light.webp",
-		"img3": "/images/brands/h5-brand-6.webp"
+		"img3": "/images/brands/h5-brand-6.webp",
+		"imageTodo": "TODO: Replace with FKM clientele logo (live: images/lafarge.png)"
 	},
 	{
+		"name": "PZ Wilmar",
 		"img": "/images/brands/brand-1.webp",
 		"img2": "/images/brands/brand-1-light.webp",
-		"img3": "/images/brands/h5-brand-1.webp"
+		"img3": "/images/brands/h5-brand-1.webp",
+		"imageTodo": "TODO: Replace with FKM clientele logo (live: FK/PZ-WIL.jpg)"
 	},
 	{
+		"name": "B.A.T",
 		"img": "/images/brands/brand-2.webp",
 		"img2": "/images/brands/brand-2-light.webp",
-		"img3": "/images/brands/h5-brand-2.webp"
+		"img3": "/images/brands/h5-brand-2.webp",
+		"imageTodo": "TODO: Replace with FKM clientele logo (live: FK/bat.png)"
 	},
 	{
+		"name": "P&G",
 		"img": "/images/brands/brand-3.webp",
 		"img2": "/images/brands/brand-3-light.webp",
-		"img3": "/images/brands/h5-brand-3.webp"
+		"img3": "/images/brands/h5-brand-3.webp",
+		"imageTodo": "TODO: Replace with FKM clientele logo (live: images/pgg.jpg)"
 	},
 	{
+		"name": "Gionee",
 		"img": "/images/brands/brand-4.webp",
 		"img2": "/images/brands/brand-4-light.webp",
-		"img3": "/images/brands/h5-brand-4.webp"
+		"img3": "/images/brands/h5-brand-4.webp",
+		"imageTodo": "TODO: Replace with FKM clientele logo (live: FK/gionee.png)"
 	},
 	{
+		"name": "Samsung",
 		"img": "/images/brands/brand-5.webp",
 		"img2": "/images/brands/brand-5-light.webp",
-		"img3": "/images/brands/h5-brand-5.webp"
+		"img3": "/images/brands/h5-brand-5.webp",
+		"imageTodo": "TODO: Replace with FKM clientele logo (live: images/samsung.jpg)"
 	},
 	{
+		"name": "Suntory",
 		"img": "/images/brands/brand-6.webp",
 		"img2": "/images/brands/brand-6-light.webp",
-		"img3": "/images/brands/h5-brand-6.webp"
+		"img3": "/images/brands/h5-brand-6.webp",
+		"imageTodo": "TODO: Replace with FKM clientele logo (live: images/suntory.gif). Note: a second live entry is labeled “suntory” but uses images/kimberly.png — confirm with FKM"
+	},
+	{
+		"name": "FanMilk",
+		"img": "/images/brands/brand-1.webp",
+		"img2": "/images/brands/brand-1-light.webp",
+		"img3": "/images/brands/h5-brand-1.webp",
+		"imageTodo": "TODO: Replace with FKM clientele logo (live: images/fanmilk.png)"
+	},
+	{
+		"name": "Godrej",
+		"img": "/images/brands/brand-2.webp",
+		"img2": "/images/brands/brand-2-light.webp",
+		"img3": "/images/brands/h5-brand-2.webp",
+		"imageTodo": "TODO: Replace with FKM clientele logo (live: images/g.png)"
+	},
+	{
+		"name": "Saro",
+		"img": "/images/brands/brand-3.webp",
+		"img2": "/images/brands/brand-3-light.webp",
+		"img3": "/images/brands/h5-brand-3.webp",
+		"imageTodo": "TODO: Replace with FKM clientele logo (live: images/saro.jpg)"
 	}
 ]

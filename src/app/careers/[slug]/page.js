@@ -7,6 +7,7 @@ import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
 import getCareerBySlug from "@/libs/getCareerBySlug";
 import getCareers from "@/libs/getCareers";
+import { DEFAULT_DESCRIPTION } from "@/lib/site-seo";
 import { buildMetadataFromItem } from "@/lib/wordpress-seo";
 import { notFound } from "next/navigation";
 
@@ -14,7 +15,10 @@ export async function generateMetadata({ params }) {
 	const { slug } = await params;
 	const career = await getCareerBySlug(slug);
 	if (!career) return { title: "Career Not Found" };
-	return buildMetadataFromItem(career);
+	return buildMetadataFromItem(career, {
+		title: "Careers at First Katalyst Marketing",
+		description: `Careers at First Katalyst Marketing Limited. ${DEFAULT_DESCRIPTION}`,
+	});
 }
 
 export async function generateStaticParams() {

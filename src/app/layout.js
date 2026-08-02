@@ -1,5 +1,6 @@
 import DraftModeBanner from "@/components/shared/preview/DraftModeBanner";
 import { Toaster } from "@/components/ui/sonner";
+import { rootMetadata } from "@/lib/site-seo";
 import { Mona_Sans } from "next/font/google";
 import "react-range-slider-input/dist/style.css";
 import "swiper/css";
@@ -31,10 +32,7 @@ const headingFont = Mona_Sans({
 	display: "swap",
 });
 
-export const metadata = {
-	title: "First Katalyst Marketing Limited",
-	description: "FKM specialize in creating attention-grabbing activities that surprise consumers and effectively build lasting brand relationships.",
-};
+export const metadata = rootMetadata;
 
 export default function RootLayout({ children }) {
 	return (

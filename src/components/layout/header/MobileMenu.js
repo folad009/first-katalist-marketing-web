@@ -24,12 +24,20 @@ const mobileLink =
 const accordionTrigger =
 	"items-center rounded-none py-[18px] text-left text-base font-medium capitalize leading-none tracking-[0.5px] text-white transition-all duration-[400ms] hover:no-underline hover:text-brand [&>svg]:text-white [&[data-state=open]]:text-brand [&[data-state=open]>svg]:text-brand";
 
+// Live socials from firstkatalystmarketing.com
 const socialItems = [
-	{ href: "https://www.facebook.com/", icon: "fa-brands fa-facebook-f" },
-	{ href: "https://www.instagram.com/", icon: "fa-brands fa-instagram" },
-	{ href: "https://x.com/", icon: "fa-brands fa-x-twitter" },
-	{ href: "https://www.linkedin.com/", icon: "fa-brands fa-linkedin-in" },
+	{ href: "https://www.facebook.com/firstkatalystmarketing", icon: "fa-brands fa-facebook-f" },
+	{ href: "https://www.instagram.com/firstkatalystmarketing/", icon: "fa-brands fa-instagram" },
+	{ href: "https://twitter.com/FirstKatalyst", icon: "fa-brands fa-x-twitter" },
+	{ href: "https://www.linkedin.com/company/first-katalyst-marketing-limited/", icon: "fa-brands fa-linkedin-in" },
 ];
+
+const FKM_PHONE = "+234 809 290 0214";
+const FKM_PHONE_HREF = "tel:+2348092900214";
+const FKM_EMAIL = "outsourcing@firstkatalystmarketing.com";
+// Live contact.html Find Us (cleaned garbled “Ikeja Jones” → Ikeja, Lagos)
+const FKM_LOCATION =
+	"19b Alhaji Bankole Crescent, Off Adeniyi Jones, Ikeja, Lagos";
 
 export const HamburgerTitle = ({ children }) => (
 	<h5 className="relative z-1 mb-6.25 text-[22px] leading-none text-white">
@@ -37,7 +45,12 @@ export const HamburgerTitle = ({ children }) => (
 	</h5>
 );
 
-export const HamburgerContactInfo = ({ phone, phoneHref }) => (
+export const HamburgerContactInfo = ({
+	phone = FKM_PHONE,
+	phoneHref = FKM_PHONE_HREF,
+	email = FKM_EMAIL,
+	location = FKM_LOCATION,
+}) => (
 	<div className="mb-11.25">
 		<HamburgerTitle>Contact Info</HamburgerTitle>
 		<div>
@@ -58,18 +71,16 @@ export const HamburgerContactInfo = ({ phone, phoneHref }) => (
 				</span>
 				<Link
 					className="inline-block text-white transition-all duration-300 hover:text-brand"
-					href="mailto:info@bexon.com"
+					href={`mailto:${email}`}
 				>
-					info@bexon.com
+					{email}
 				</Link>
 			</div>
 			<div className="pb-2.5 pt-3.75">
 				<span className="mb-1.75 block text-[14px] leading-none text-brand-grey-2">
 					Location
 				</span>
-				<span className="inline-block text-white">
-					993 Renner Burg, West Rond, MT 94251-030
-				</span>
+				<span className="inline-block text-white">{location}</span>
 			</div>
 		</div>
 	</div>
@@ -97,12 +108,15 @@ export const HamburgerSocials = () => (
 const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
 	const makeActiveLink = useActiveLink();
 	const navItems = getNavItems();
-	const homeNav = makeActiveLink(navItems[0]);
-	const aboutNav = makeActiveLink(navItems[1]);
-	const serviceNav = makeActiveLink(navItems[2]);
-	const portfolioNav = makeActiveLink(navItems[3]);
-	const insightsNav = makeActiveLink(navItems[4]);
-	const contactNav = makeActiveLink(navItems[5]);
+	const findNav = path =>
+		makeActiveLink(navItems.find(item => item.path === path));
+	const homeNav = findNav("/");
+	const aboutNav = findNav("/about");
+	const groupNav = findNav("/fk-group");
+	const serviceNav = findNav("/services");
+	const portfolioNav = findNav("/portfolios");
+	const insightsNav = findNav("/blogs");
+	const contactNav = findNav("/contact");
 
 	/* Close the sheet whenever a navigation link is clicked */
 	const handleNavClick = event => {
@@ -179,6 +193,31 @@ const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
 										))}
 									</AccordionContent>
 								</AccordionItem>
+								<AccordionItem value="fkm-group" className="border-white/10">
+									<AccordionTrigger
+										className={cn(
+											accordionTrigger,
+											groupNav?.isActive && "text-brand"
+										)}
+									>
+										{groupNav?.name ? groupNav.name : "FKM Group"}
+									</AccordionTrigger>
+									<AccordionContent className="pb-0 ps-6.25">
+										{groupNav?.submenu?.map((item, idx) => (
+											<Link
+												key={idx}
+												href={item?.path ? item.path : "/fk-group"}
+												className={cn(
+													mobileLink,
+													"font-normal",
+													item?.isActive && "text-brand"
+												)}
+											>
+												{item?.name}
+											</Link>
+										))}
+									</AccordionContent>
+								</AccordionItem>
 								<AccordionItem value="services" className="border-white/10">
 									<AccordionTrigger
 										className={cn(
@@ -237,7 +276,7 @@ const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
 							</Link>
 						</nav>
 
-						<HamburgerContactInfo phone="808-909-1313" phoneHref="tel:8089091313" />
+						<HamburgerContactInfo />
 					</div>
 					<HamburgerSocials />
 				</div>
