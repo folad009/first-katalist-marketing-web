@@ -37,7 +37,7 @@ const FKM_PHONE_HREF = "tel:+2348092900214";
 const FKM_EMAIL = "outsourcing@firstkatalystmarketing.com";
 // Live contact.html Find Us (cleaned garbled “Ikeja Jones” → Ikeja, Lagos)
 const FKM_LOCATION =
-	"19b Alhaji Bankole Crescent, Off Adeniyi Jones, Ikeja, Lagos";
+	"27, Akinola Cole Crescent, off Adeniyi Jones, Ikeja, Lagos, Nigeria.";
 
 export const HamburgerTitle = ({ children }) => (
 	<h5 className="relative z-1 mb-6.25 text-[22px] leading-none text-white">

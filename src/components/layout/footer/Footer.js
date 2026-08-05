@@ -213,8 +213,7 @@ const Footer = () => {
 										</span>
 										{/* Live contact.html Find Us (cleaned “Ikeja Jones” → Ikeja, Lagos) */}
 										<span>
-											19b Alhaji Bankole Crescent, Off Adeniyi Jones, Ikeja,
-											Lagos
+											27, Akinola Cole Crescent, off Adeniyi Jones, Ikeja, Lagos, Nigeria.
 										</span>
 									</span>
 								</li>

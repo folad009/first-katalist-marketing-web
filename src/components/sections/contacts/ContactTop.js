@@ -23,7 +23,7 @@ const ContactTop = () => {
 							</div>
 							<h3 className="contact-title">Our Location</h3>
 							<p>
-								19b Alhaji Bankole Street, Off Adeniyi Jones, Ikeja, Lagos
+								27, Akinola Cole Crescent, off Adeniyi Jones, Ikeja, Lagos, Nigeria.
 							</p>
 						</div>
 					</div>
