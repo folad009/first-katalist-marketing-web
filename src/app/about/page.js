@@ -44,7 +44,7 @@ export default async function About() {
 						<About3 type={2} />
 						<Features type={2} />
 						<Awards1 />
-						<CoverageCapabilities />
+						{/*<CoverageCapabilities />*/}
 						<Brands1 type={2} />
 						<Testimonials2 type={2} testimonials={testimonials} />
 						<Team1 type={3} teamMembers={teamMembers} />

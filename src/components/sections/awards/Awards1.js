@@ -14,7 +14,7 @@ const Awards1 = () => {
 						Recognition that reflects <span>our work.</span>
 					</h2>
 				</div>
-				<ul className="list-none grid grid-cols-1 gap-4 md:grid-cols-2">
+				<ul className="list-none grid grid-cols-1 gap-4 md:grid-cols-4">
 					{awards.map((award, idx) => (
 						<li
 							key={award.title}
