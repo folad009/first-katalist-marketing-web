@@ -6,9 +6,9 @@ import Link from "next/link";
 const Logo = () => {
 	return (
 		<div>
-			<Link className="inline-block w-full max-w-34" href="/">
+			<Link className="inline-block w-full max-w-40" href="/">
 				<Image
-					src="/images/logos/fk-logo.png"
+					src="/images/logos/fkmarketing-logo.png"
 					alt=""
 					width={100}
 					height={100}

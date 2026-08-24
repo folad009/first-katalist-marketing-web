@@ -3,7 +3,11 @@ import PopupVideo from "@/components/shared/popup-video/PopupVideo";
 import Ratings1 from "@/components/shared/ratings/Ratings1";
 import Image from "next/image";
 import Link from "next/link";
+import companyProfile from "../../../../public/fakedata/company-profile.json";
+
 const About1 = () => {
+	const { facts, mission } = companyProfile;
+
 	return (
 		<section className="tj-about-section section-gap">
 			<div className="tj-container">
@@ -14,6 +18,7 @@ const About1 = () => {
 							data-wow-delay=".2s"
 						>
 							<div className="about-img overflow-hidden">
+								{/* TODO: Replace with FKM about image — do not hotlink */}
 								<Image
 									data-speed="0.8"
 									src="/images/about/about-1.webp"
@@ -30,7 +35,7 @@ const About1 = () => {
 									<span className="sub-title">Since</span>
 									<div className="customers-number">2012</div>
 									<h6 className="customers-text">
-										Commenced business as a go-to agency for marketing solutions
+										{facts.commenced}
 									</h6>
 								</div>
 							</div>
@@ -46,8 +51,8 @@ const About1 = () => {
 									<i className="tji-box"></i>Who We Are
 								</span>
 								<h2 className="sec-title title-anim">
-									Driving Growth Across Nigeria, West Africa &{" "}
-									<span>Beyond.</span>
+									A first class ideas powerhouse{" "}
+									<span>globally.</span>
 								</h2>
 							</div>
 							<div className="wow fadeInUp" data-wow-delay=".5s">
@@ -67,9 +72,10 @@ const About1 = () => {
 									<Ratings1 />
 								</div>
 								<p className="desc">
-									We provide cost-effective, value-adding and result-oriented
-									marketing solutions through the power of ideas — building
-									long-term relationships between clients and their consumers.
+									‘…{mission}…’
+								</p>
+								<p className="desc">
+									{facts.team}. {facts.expertise}
 								</p>
 								<div className="client-info-area">
 									<div className="client-info">
@@ -82,6 +88,7 @@ const About1 = () => {
 								</div>
 							</div>
 							<div className="video-img  wow fadeInUp" data-wow-delay=".9s">
+								{/* TODO: Replace with FKM video still — do not hotlink */}
 								<Image
 									src="/images/about/about-2.webp"
 									alt="First Katalyst Marketing"

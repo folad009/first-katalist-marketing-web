@@ -12,7 +12,7 @@ import getPortfolio from "@/libs/getPortfolio";
 export const metadata = pageMetadata({
 	title: "Our Work & Clientele",
 	description:
-		"Brands that trust First Katalyst Marketing — clientele and campaign work across activation, trade marketing, events and brand building in Nigeria and West Africa.",
+		"Brands that trust First Katalyst Marketing — clientele and campaign work across experiential, activations, merchandising, and creative development in Nigeria and West Africa.",
 });
 
 export default async function Portfolios() {

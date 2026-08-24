@@ -1,0 +1,58 @@
+[
+	{
+		"name": "MTN",
+		"img": "/images/clients/fkm-client-logo-mtn.jpg"
+	},
+	{
+		"name": "Bet9ja",
+		"img": "/images/clients/fkm-client-logo-bet9ja.jpg"
+	},
+	{
+		"name": "Nasco",
+		"img": "/images/clients/fkm-client-logo-nasco.jpg"
+	},
+	{
+		"name": "PZ Wilmar",
+		"img": "/images/clients/fkm-client-logo-pz-wilmar.jpg"
+	},
+	{
+		"name": "National Orientation Agency",
+		"img": "/images/clients/fkm-client-logo-noa.jpg"
+	},
+	{
+        "name": "FanMilk",
+        "img": "/images/clients/fkm-client-logo-fanmilk.jpg"
+    },
+    {
+        "name": "British American Tobacco Nigeria",
+        "img": "/images/clients/fkm-client-logo-bat.jpg"
+    },
+    {
+        "name": "Kimberley Clerk",
+        "img": "/images/clients/fkm-client-logo-kc.jpg"
+    },
+    {
+        "name": "PZ Cussons",
+        "img": "/images/clients/fkm-client-logo-pz-cussons.jpg"
+    },
+    {
+        "name": "Nestle Nigeria",
+        "img": "/images/clients/fkm-client-logo-nestle.jpg"
+    },
+    {
+        "name": "CHI Limited",
+        "img": "/images/clients/fkm-client-logo-CHI.jpg"
+    },
+    {
+        "name": "Guinness Nigeria",
+        "img": "/images/clients/fkm-client-logo-guinness.jpg"
+    },
+    {
+        "name": "Lafarge Africa Plc",
+        "img": "/images/clients/fkm-client-logo-lafarge.jpg"
+    },
+    {
+        "name": "FMN",
+        "img": "/images/clients/fkm-client-logo-fmn.jpg"
+    }
+]

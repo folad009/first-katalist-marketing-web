@@ -4,7 +4,7 @@
 		"name": "First Katalyst Marketing",
 		"slug": "first-katalyst-marketing",
 		"parentSlug": null,
-		"shortDesc": "TODO: Entity description not on org chart — use existing About / Services / Team pages for FKM content.",
+		"shortDesc": "Agency commenced business in June, 2012. First Katalyst Marketing — Experiential, Activations, Sales and Distribution, Merchandising, Field Force, Procurement and Production, Creative Development. (Profile PDF; FK Nigeria on PDF group slide maps here pending confirmation.)",
 		"color": "blue",
 		"logoTodo": "TODO: Add First Katalyst Marketing logo (no hotlink)",
 		"relatedLinks": [
@@ -12,14 +12,15 @@
 			{ "label": "Services", "path": "/services" },
 			{ "label": "Our Team", "path": "/team" },
 			{ "label": "Contact", "path": "/contact" }
-		]
+		],
+		"sourceNote": "Site chart kept as-is. Profile PDF lists FK Nigeria, FK Ghana, FK Benin, Image Target, SSB Africa, FK Digital + “Extending footprints to Cote De Voire”. Confirm before adding FK Nigeria / FK Benin or removing FK Properties. Do not publish personal phone numbers from PDF without confirmation."
 	},
 	{
 		"id": 2,
 		"name": "FK Ghana",
 		"slug": "fk-ghana",
 		"parentSlug": "first-katalyst-marketing",
-		"shortDesc": "TODO: Description not on org chart — confirm copy and local contact details with FKM.",
+		"shortDesc": "TODO: Description not on org chart — confirm copy and local contact details with FKM. Listed on profile PDF Group Structure.",
 		"color": "blue",
 		"logoTodo": "TODO: Add FK Ghana logo / skyline mark (no hotlink)"
 	},
@@ -28,7 +29,7 @@
 		"name": "Image Target",
 		"slug": "image-target",
 		"parentSlug": null,
-		"shortDesc": "TODO: Description not on org chart — confirm positioning and services with FKM.",
+		"shortDesc": "TODO: Description not on org chart — confirm positioning and services with FKM. Listed on profile PDF Group Structure.",
 		"color": "green",
 		"logoTodo": "TODO: Add Image Target logo (no hotlink)"
 	},
@@ -37,7 +38,7 @@
 		"name": "SSB Africa",
 		"slug": "ssb-africa",
 		"parentSlug": null,
-		"shortDesc": "TODO: Description not on org chart — confirm positioning and services with FKM.",
+		"shortDesc": "TODO: Description not on org chart — confirm positioning and services with FKM. Listed on profile PDF Group Structure.",
 		"color": "orange",
 		"logoTodo": "TODO: Add SSB Africa logo (no hotlink)"
 	},
@@ -46,7 +47,7 @@
 		"name": "FK Properties",
 		"slug": "fk-properties",
 		"parentSlug": null,
-		"shortDesc": "TODO: Description not on org chart — confirm positioning and services with FKM.",
+		"shortDesc": "TODO: On current site chart but not on profile PDF Group Structure slide — confirm with FKM.",
 		"color": "purple",
 		"logoTodo": "TODO: Add FK Properties logo (no hotlink)"
 	},
@@ -55,7 +56,7 @@
 		"name": "FK Digital",
 		"slug": "fk-digital",
 		"parentSlug": null,
-		"shortDesc": "TODO: Description not on org chart — confirm positioning and services with FKM.",
+		"shortDesc": "TODO: Description not on org chart — confirm positioning and services with FKM. Listed on profile PDF Group Structure.",
 		"color": "teal",
 		"logoTodo": "TODO: Add FK Digital logo (no hotlink)"
 	}

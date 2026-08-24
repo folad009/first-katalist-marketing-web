@@ -1,9 +1,10 @@
 [
 	{
 		"id": 1,
-		"title": "MTN",
+		"title": "Mai Shai Olympic Milk Activation",
 		"title2": "Project Description",
-		"titleLarge": "MTN",
+		"titleLarge": "Mai Shai Olympic Milk Activation",
+		"slug": "mai-shai-olympic-milk-activation",
 		"img": "/images/project/project-1.webp",
 		"img2": "/images/project/project-1.webp",
 		"img3": "/images/project/project-6.webp",
@@ -15,35 +16,44 @@
 		"imgLarge": "/images/project/tj-project-1.webp",
 		"detailsImg": "/img/portfolio/portfolio-details-1.jpg",
 		"featuredImg": "/img/project/project-2.png",
-		"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
-		"shortDesc": "TODO: Short project description not published on live site.",
-		"desc1": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
-		"desc2": "TODO: Detailed project narrative not published on live site (no project pages).",
-		"category": "Clientele",
+		"desc": "Reach and data capture minimum of 300 Mai-Shai outlets across key locations in Lagos",
+		"shortDesc": "Reach and data capture minimum of 300 Mai-Shai outlets across key locations in Lagos",
+		"desc1": "Reach and data capture minimum of 300 Mai-Shai outlets across key locations in Lagos Create visibility for Coast & Olympic through impactful merchandising. Also Sell into the outlets Obtain key insights and learning on market dynamics and potentials and present this as a viable input into clients decision for possible expansion/ roll out",
+		"desc2": "96% coverage of target achieved 74.6% productive strike rate / conversion achieved 96% of outlets were merchandized",
+		"objectives": [
+			"Reach and data capture minimum of 300 Mai-Shai outlets across key locations in Lagos",
+			"Create visibility for Coast & Olympic through impactful merchandising. Also Sell into the outlets",
+			"Obtain key insights and learning on market dynamics and potentials and present this as a viable input into clients decision for possible expansion/ roll out"
+		],
+		"activity": [],
+		"results": [
+			"96% coverage of target achieved",
+			"74.6% productive strike rate / conversion achieved",
+			"96% of outlets were merchandized"
+		],
+		"contentHtml": "<h3>Objectives</h3><ul><li>Reach and data capture minimum of 300 Mai-Shai outlets across key locations in Lagos</li><li>Create visibility for Coast & Olympic through impactful merchandising. Also Sell into the outlets</li><li>Obtain key insights and learning on market dynamics and potentials and present this as a viable input into clients decision for possible expansion/ roll out</li></ul><h3>Results</h3><ul><li>96% coverage of target achieved</li><li>74.6% productive strike rate / conversion achieved</li><li>96% of outlets were merchandized</li></ul><p><em>TODO: Replace temporary /images/project/* with FKM activity photos from profile PDF — do not hotlink.</em></p>",
+		"category": "Trade Activations",
+		"client": "Olympic / Coast",
 		"featured": true,
-		"featuredDesc": "TODO: Featured description not published \u2014 client listed on firstkatalystmarketing.com/our-clientele.html.",
+		"featuredDesc": "Reach and data capture minimum of 300 Mai-Shai outlets across key locations in Lagos",
 		"employee": {
 			"name": "TODO",
 			"desig": "TODO",
 			"img": "/images/team/team-1.webp"
 		},
 		"tags": [
-			"Clientele",
+			"Trade Activations",
 			"Our Work"
 		],
-		"dataFilter": "clientele work",
+		"dataFilter": "trade activations our work",
 		"statusItem": [
 			{
 				"title": "Category",
-				"desc": "Clientele"
+				"desc": "Trade Activations"
 			},
 			{
 				"title": "Client",
-				"desc": "MTN"
-			},
-			{
-				"title": "Start Date",
-				"desc": "TODO: Not published"
+				"desc": "Olympic / Coast"
 			},
 			{
 				"title": "Agency",
@@ -51,65 +61,77 @@
 			},
 			{
 				"title": "Images",
-				"desc": "TODO: Replace temporary /images/project/* paths with FKM our_work / clientele assets"
+				"desc": "TODO: Replace temporary /images/project/* with FKM profile PDF activity photos"
 			}
 		],
 		"descItems": [
 			{
-				"title": "The story",
-				"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets."
+				"title": "Objectives",
+				"desc": "Reach and data capture minimum of 300 Mai-Shai outlets across key locations in Lagos Create visibility for Coast & Olympic through impactful merchandising. Also Sell into the outlets Obtain key insights and learning on market dynamics and potentials and present this as a viable input into clients decision for possible expansion/ roll out"
 			},
 			{
-				"title": "OUR APPROACH",
-				"desc": "TODO: Approach write-up not published on live site."
+				"title": "Results",
+				"desc": "96% coverage of target achieved 74.6% productive strike rate / conversion achieved 96% of outlets were merchandized"
 			}
-		]
+		],
+		"source": "profile-pdf"
 	},
 	{
 		"id": 2,
-		"title": "PZ Cussons",
+		"title": "Golden Penny Jollof Noodles Distribution Drive",
 		"title2": "Project Description",
-		"titleLarge": "PZ Cussons",
+		"titleLarge": "Golden Penny Jollof Noodles Distribution Drive",
+		"slug": "golden-penny-jollof-noodles-distribution-drive",
 		"img": "/images/project/project-2.webp",
-		"img2": "/images/project/project-4.webp",
-		"img3": "/images/project/project-7.webp",
-		"img4": "/images/project/project-8.webp",
+		"img2": "/images/project/project-2.webp",
+		"img3": "/images/project/project-6.webp",
+		"img4": "/images/project/project-4.webp",
 		"img5": "/images/project/h5-project-1.webp",
-		"img6": "/images/project/h6-project-2.webp",
-		"img7": "/images/project/project-8.webp",
-		"img8": "/images/project/h10-project-2.webp",
+		"img6": "/images/project/h6-project-1.webp",
+		"img7": "/images/project/project-4.webp",
+		"img8": "/images/project/h10-project-1.webp",
 		"imgLarge": "/images/project/tj-project-1.webp",
-		"detailsImg": "/img/portfolio/portfolio-details-2.jpg",
-		"featuredImg": "/img/project/project-3.png",
-		"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
-		"shortDesc": "TODO: Short project description not published on live site.",
-		"desc1": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
-		"desc2": "TODO: Detailed project narrative not published on live site (no project pages).",
-		"category": "Clientele",
+		"detailsImg": "/img/portfolio/portfolio-details-1.jpg",
+		"featuredImg": "/img/project/project-2.png",
+		"desc": "Support direct distribution to key points of sale through redistribution vans across Lagos and South West regions",
+		"shortDesc": "Support direct distribution to key points of sale through redistribution vans across Lagos and South West regions",
+		"desc1": "Support direct distribution to key points of sale through redistribution vans across Lagos and South West regions Expand Golden Penny Jollof Noodles distribution in neighbourhood grocery stores and other retail stores Create awareness by driving merchandizing and visibility in target outlets",
+		"desc2": "136% Cumulative volume achievement 67% strike rate achieved against project plan of 60% 95% Cumulative Coverage of Planned Outlets achieved Increased Jollof vs. Chicken Noodles Performance split to 50/50",
+		"objectives": [
+			"Support direct distribution to key points of sale through redistribution vans across Lagos and South West regions",
+			"Expand Golden Penny Jollof Noodles distribution in neighbourhood grocery stores and other retail stores",
+			"Create awareness by driving merchandizing and visibility in target outlets"
+		],
+		"activity": [],
+		"results": [
+			"136% Cumulative volume achievement",
+			"67% strike rate achieved against project plan of 60%",
+			"95% Cumulative Coverage of Planned Outlets achieved",
+			"Increased Jollof vs. Chicken Noodles Performance split to 50/50"
+		],
+		"contentHtml": "<h3>Objectives</h3><ul><li>Support direct distribution to key points of sale through redistribution vans across Lagos and South West regions</li><li>Expand Golden Penny Jollof Noodles distribution in neighbourhood grocery stores and other retail stores</li><li>Create awareness by driving merchandizing and visibility in target outlets</li></ul><h3>Results</h3><ul><li>136% Cumulative volume achievement</li><li>67% strike rate achieved against project plan of 60%</li><li>95% Cumulative Coverage of Planned Outlets achieved</li><li>Increased Jollof vs. Chicken Noodles Performance split to 50/50</li></ul><p><em>TODO: Replace temporary /images/project/* with FKM activity photos from profile PDF — do not hotlink.</em></p>",
+		"category": "Trade Activations",
+		"client": "Golden Penny",
 		"featured": true,
-		"featuredDesc": "TODO: Featured description not published \u2014 client listed on firstkatalystmarketing.com/our-clientele.html.",
+		"featuredDesc": "Support direct distribution to key points of sale through redistribution vans across Lagos and South West regions",
 		"employee": {
 			"name": "TODO",
 			"desig": "TODO",
 			"img": "/images/team/team-1.webp"
 		},
 		"tags": [
-			"Clientele",
-			"Our Work"
+			"Trade Activations",
+			"Sales and Distribution"
 		],
-		"dataFilter": "clientele work",
+		"dataFilter": "trade activations sales and distribution",
 		"statusItem": [
 			{
 				"title": "Category",
-				"desc": "Clientele"
+				"desc": "Trade Activations"
 			},
 			{
 				"title": "Client",
-				"desc": "PZ Cussons"
-			},
-			{
-				"title": "Start Date",
-				"desc": "TODO: Not published"
+				"desc": "Golden Penny"
 			},
 			{
 				"title": "Agency",
@@ -117,159 +139,183 @@
 			},
 			{
 				"title": "Images",
-				"desc": "TODO: Replace temporary /images/project/* paths with FKM our_work / clientele assets"
+				"desc": "TODO: Replace temporary /images/project/* with FKM profile PDF activity photos"
 			}
 		],
 		"descItems": [
 			{
-				"title": "The story",
-				"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets."
+				"title": "Objectives",
+				"desc": "Support direct distribution to key points of sale through redistribution vans across Lagos and South West regions Expand Golden Penny Jollof Noodles distribution in neighbourhood grocery stores and other retail stores Create awareness by driving merchandizing and visibility in target outlets"
 			},
 			{
-				"title": "OUR APPROACH",
-				"desc": "TODO: Approach write-up not published on live site."
+				"title": "Results",
+				"desc": "136% Cumulative volume achievement 67% strike rate achieved against project plan of 60% 95% Cumulative Coverage of Planned Outlets achieved Increased Jollof vs. Chicken Noodles Performance split to 50/50"
 			}
-		]
+		],
+		"source": "profile-pdf"
 	},
 	{
 		"id": 3,
-		"title": "Guinness",
+		"title": "Devon Kings Campus Activation",
 		"title2": "Project Description",
-		"titleLarge": "Guinness",
+		"titleLarge": "Devon Kings Campus Activation",
+		"slug": "devon-kings-campus-activation",
 		"img": "/images/project/project-3.webp",
-		"img2": "/images/project/project-5.webp",
-		"img3": "/images/project/project-8.webp",
-		"img4": "/images/project/project-9.webp",
-		"img5": "/images/project/h5-project-3.webp",
-		"img6": "/images/project/h6-project-3.webp",
-		"img7": "/images/project/project-9.webp",
-		"img8": "/images/project/h10-project-3.webp",
+		"img2": "/images/project/project-3.webp",
+		"img3": "/images/project/project-6.webp",
+		"img4": "/images/project/project-4.webp",
+		"img5": "/images/project/h5-project-1.webp",
+		"img6": "/images/project/h6-project-1.webp",
+		"img7": "/images/project/project-4.webp",
+		"img8": "/images/project/h10-project-1.webp",
 		"imgLarge": "/images/project/tj-project-1.webp",
-		"detailsImg": "/img/portfolio/portfolio-details-3.jpg",
-		"featuredImg": "/img/project/project-4.png",
-		"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
-		"shortDesc": "TODO: Short project description not published on live site.",
-		"desc1": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
-		"desc2": "TODO: Detailed project narrative not published on live site (no project pages).",
-		"category": "Clientele",
+		"detailsImg": "/img/portfolio/portfolio-details-1.jpg",
+		"featuredImg": "/img/project/project-2.png",
+		"desc": "Drive home King’s affordability message to students through smart choice shopper’s club and sell the Pillow Packs: 750ml, 100ml and 50ml.",
+		"shortDesc": "Drive home King’s affordability message to students through smart choice shopper’s club and sell the Pillow Packs: 750ml, 100ml and 50ml.",
+		"desc1": "Drive home King’s affordability message to students through smart choice shopper’s club and sell the Pillow Packs: 750ml, 100ml and 50ml. Run the Devon King’s Smart Shopper’s Cooking Competition & Jollof Wars in 4 universities.",
+		"desc2": "Achieved 161% in direct reach 132.7% sales achieved",
+		"objectives": [
+			"Drive home King’s affordability message to students through smart choice shopper’s club and sell the Pillow Packs: 750ml, 100ml and 50ml.",
+			"Run the Devon King’s Smart Shopper’s Cooking Competition & Jollof Wars in 4 universities."
+		],
+		"activity": [],
+		"results": [
+			"Achieved 161% in direct reach",
+			"132.7% sales achieved"
+		],
+		"contentHtml": "<h3>Objectives</h3><ul><li>Drive home King’s affordability message to students through smart choice shopper’s club and sell the Pillow Packs: 750ml, 100ml and 50ml.</li><li>Run the Devon King’s Smart Shopper’s Cooking Competition & Jollof Wars in 4 universities.</li></ul><h3>Results</h3><ul><li>Achieved 161% in direct reach</li><li>132.7% sales achieved</li></ul><p><em>TODO: Replace temporary /images/project/* with FKM activity photos from profile PDF — do not hotlink.</em></p>",
+		"category": "Experiential/Events",
+		"client": "Devon Kings",
 		"featured": true,
-		"featuredDesc": "TODO: Featured description not published \u2014 client listed on firstkatalystmarketing.com/our-clientele.html.",
+		"featuredDesc": "Drive home King’s affordability message to students through smart choice shopper’s club and sell the Pillow Packs: 750ml, 100ml and 50ml.",
 		"employee": {
 			"name": "TODO",
 			"desig": "TODO",
 			"img": "/images/team/team-1.webp"
 		},
 		"tags": [
-			"Clientele",
-			"Our Work"
+			"Experiential",
+			"Consumer Activations"
 		],
-		"dataFilter": "clientele work",
+		"dataFilter": "experiential consumer activations",
 		"statusItem": [
 			{
 				"title": "Category",
-				"desc": "Clientele"
+				"desc": "Experiential/Events"
+			},
+			{
+				"title": "Client",
+				"desc": "Devon Kings"
+			},
+			{
+				"title": "Agency",
+				"desc": "First Katalyst Marketing"
+			},
+			{
+				"title": "Images",
+				"desc": "TODO: Replace temporary /images/project/* with FKM profile PDF activity photos"
+			}
+		],
+		"descItems": [
+			{
+				"title": "Objectives",
+				"desc": "Drive home King’s affordability message to students through smart choice shopper’s club and sell the Pillow Packs: 750ml, 100ml and 50ml. Run the Devon King’s Smart Shopper’s Cooking Competition & Jollof Wars in 4 universities."
+			},
+			{
+				"title": "Results",
+				"desc": "Achieved 161% in direct reach 132.7% sales achieved"
+			}
+		],
+		"source": "profile-pdf"
+	},
+	{
+		"id": 4,
+		"title": "Guinness FES In-Bar Consumer Engagement",
+		"title2": "Project Description",
+		"titleLarge": "Guinness FES In-Bar Consumer Engagement",
+		"slug": "guinness-fes-in-bar-consumer-engagement",
+		"img": "/images/project/project-4.webp",
+		"img2": "/images/project/project-4.webp",
+		"img3": "/images/project/project-6.webp",
+		"img4": "/images/project/project-4.webp",
+		"img5": "/images/project/h5-project-1.webp",
+		"img6": "/images/project/h6-project-1.webp",
+		"img7": "/images/project/project-4.webp",
+		"img8": "/images/project/h10-project-1.webp",
+		"imgLarge": "/images/project/tj-project-1.webp",
+		"detailsImg": "/img/portfolio/portfolio-details-1.jpg",
+		"featuredImg": "/img/project/project-2.png",
+		"desc": "Agency to increase the market share of Guinness through in- bar activation",
+		"shortDesc": "Agency to increase the market share of Guinness through in- bar activation",
+		"desc1": "Agency to increase the market share of Guinness through in- bar activation Drive sales of Guinness in 750 selected bars in coverage areas. Reward consumer through a lucky dip mechanics after purchase of 1 FES medium. Achieve 100% target sales during the in bar activities 1759 in-bar Consumer Engagement",
+		"desc2": "TOTAL sales achievement 106% across phases (Phase 1 97%, Phase 2 115%) TOTAL coverage achievement 100% (750/750 both phases) Achieve over 100% across the KPIs (Sales and Coverage)",
+		"objectives": [
+			"Agency to increase the market share of Guinness through in- bar activation",
+			"Drive sales of Guinness in 750 selected bars in coverage areas.",
+			"Reward consumer through a lucky dip mechanics after purchase of 1 FES medium.",
+			"Achieve 100% target sales during the in bar activities",
+			"1759 in-bar Consumer Engagement"
+		],
+		"activity": [],
+		"results": [
+			"TOTAL sales achievement 106% across phases (Phase 1 97%, Phase 2 115%)",
+			"TOTAL coverage achievement 100% (750/750 both phases)",
+			"Achieve over 100% across the KPIs (Sales and Coverage)"
+		],
+		"contentHtml": "<h3>Objectives</h3><ul><li>Agency to increase the market share of Guinness through in- bar activation</li><li>Drive sales of Guinness in 750 selected bars in coverage areas.</li><li>Reward consumer through a lucky dip mechanics after purchase of 1 FES medium.</li><li>Achieve 100% target sales during the in bar activities</li><li>1759 in-bar Consumer Engagement</li></ul><h3>Results</h3><ul><li>TOTAL sales achievement 106% across phases (Phase 1 97%, Phase 2 115%)</li><li>TOTAL coverage achievement 100% (750/750 both phases)</li><li>Achieve over 100% across the KPIs (Sales and Coverage)</li></ul><p><em>TODO: Replace temporary /images/project/* with FKM activity photos from profile PDF — do not hotlink.</em></p>",
+		"category": "Consumer Activations",
+		"client": "Guinness",
+		"featured": true,
+		"featuredDesc": "Agency to increase the market share of Guinness through in- bar activation",
+		"employee": {
+			"name": "TODO",
+			"desig": "TODO",
+			"img": "/images/team/team-1.webp"
+		},
+		"tags": [
+			"Consumer Activations",
+			"Experiential"
+		],
+		"dataFilter": "consumer activations experiential",
+		"statusItem": [
+			{
+				"title": "Category",
+				"desc": "Consumer Activations"
 			},
 			{
 				"title": "Client",
 				"desc": "Guinness"
 			},
 			{
-				"title": "Start Date",
-				"desc": "TODO: Not published"
-			},
-			{
 				"title": "Agency",
 				"desc": "First Katalyst Marketing"
 			},
 			{
 				"title": "Images",
-				"desc": "TODO: Replace temporary /images/project/* paths with FKM our_work / clientele assets"
+				"desc": "TODO: Replace temporary /images/project/* with FKM profile PDF activity photos"
 			}
 		],
 		"descItems": [
 			{
-				"title": "The story",
-				"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets."
+				"title": "Objectives",
+				"desc": "Agency to increase the market share of Guinness through in- bar activation Drive sales of Guinness in 750 selected bars in coverage areas. Reward consumer through a lucky dip mechanics after purchase of 1 FES medium. Achieve 100% target sales during the in bar activities 1759 in-bar Consumer Engagement"
 			},
 			{
-				"title": "OUR APPROACH",
-				"desc": "TODO: Approach write-up not published on live site."
-			}
-		]
-	},
-	{
-		"id": 4,
-		"title": "Vlisco",
-		"title2": "Project Description",
-		"titleLarge": "Vlisco",
-		"img": "/images/project/project-4.webp",
-		"img2": "/images/project/project-8.webp",
-		"img3": "/images/project/project-8.webp",
-		"img4": "/images/project/project-4.webp",
-		"img5": "/images/project/h5-project-1.webp",
-		"img6": "/images/project/h6-project-1.webp",
-		"img7": "/images/project/project-4.webp",
-		"img8": "/images/project/h10-project-1.webp",
-		"imgLarge": "/images/project/tj-project-1.webp",
-		"detailsImg": "/img/portfolio/portfolio-details-2.jpg",
-		"featuredImg": "/img/project/project-3.png",
-		"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
-		"shortDesc": "TODO: Short project description not published on live site.",
-		"desc1": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
-		"desc2": "TODO: Detailed project narrative not published on live site (no project pages).",
-		"category": "Clientele",
-		"featured": true,
-		"featuredDesc": "TODO: Featured description not published \u2014 client listed on firstkatalystmarketing.com/our-clientele.html.",
-		"employee": {
-			"name": "TODO",
-			"desig": "TODO",
-			"img": "/images/team/team-1.webp"
-		},
-		"tags": [
-			"Clientele",
-			"Our Work"
-		],
-		"dataFilter": "clientele work",
-		"statusItem": [
-			{
-				"title": "Category",
-				"desc": "Clientele"
-			},
-			{
-				"title": "Client",
-				"desc": "Vlisco"
-			},
-			{
-				"title": "Start Date",
-				"desc": "TODO: Not published"
-			},
-			{
-				"title": "Agency",
-				"desc": "First Katalyst Marketing"
-			},
-			{
-				"title": "Images",
-				"desc": "TODO: Replace temporary /images/project/* paths with FKM our_work / clientele assets"
+				"title": "Results",
+				"desc": "TOTAL sales achievement 106% across phases (Phase 1 97%, Phase 2 115%) TOTAL coverage achievement 100% (750/750 both phases) Achieve over 100% across the KPIs (Sales and Coverage)"
 			}
 		],
-		"descItems": [
-			{
-				"title": "The story",
-				"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets."
-			},
-			{
-				"title": "OUR APPROACH",
-				"desc": "TODO: Approach write-up not published on live site."
-			}
-		]
+		"source": "profile-pdf"
 	},
 	{
 		"id": 5,
-		"title": "FMN",
+		"title": "Lafarge Raffle Draw",
 		"title2": "Project Description",
-		"titleLarge": "FMN",
-		"img": "/images/project/project-1.webp",
-		"img2": "/images/project/project-1.webp",
+		"titleLarge": "Lafarge Raffle Draw",
+		"slug": "lafarge-raffle-draw",
+		"img": "/images/project/project-5.webp",
+		"img2": "/images/project/project-5.webp",
 		"img3": "/images/project/project-6.webp",
 		"img4": "/images/project/project-4.webp",
 		"img5": "/images/project/h5-project-1.webp",
@@ -279,101 +325,114 @@
 		"imgLarge": "/images/project/tj-project-1.webp",
 		"detailsImg": "/img/portfolio/portfolio-details-1.jpg",
 		"featuredImg": "/img/project/project-2.png",
-		"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
-		"shortDesc": "TODO: Short project description not published on live site.",
-		"desc1": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
-		"desc2": "TODO: Detailed project narrative not published on live site (no project pages).",
-		"category": "Clientele",
+		"desc": "To engage the Block Makers and create excitement by rewarding them for their continued loyalty.",
+		"shortDesc": "To engage the Block Makers and create excitement by rewarding them for their continued loyalty.",
+		"desc1": "To engage the Block Makers and create excitement by rewarding them for their continued loyalty. Raffle Draw Locations - Ikorodu, Eti-Osa, Awoyaya, Alimosho and Epe.",
+		"desc2": "TODO: Results metrics not listed on PDF slide beyond objectives.",
+		"objectives": [
+			"To engage the Block Makers and create excitement by rewarding them for their continued loyalty.",
+			"Raffle Draw Locations - Ikorodu, Eti-Osa, Awoyaya, Alimosho and Epe."
+		],
+		"activity": [],
+		"results": [
+			"TODO: Results metrics not listed on PDF slide beyond objectives."
+		],
+		"contentHtml": "<h3>Objectives</h3><ul><li>To engage the Block Makers and create excitement by rewarding them for their continued loyalty.</li><li>Raffle Draw Locations - Ikorodu, Eti-Osa, Awoyaya, Alimosho and Epe.</li></ul><h3>Results</h3><ul><li>TODO: Results metrics not listed on PDF slide beyond objectives.</li></ul><p><em>TODO: Replace temporary /images/project/* with FKM activity photos from profile PDF — do not hotlink.</em></p>",
+		"category": "Trade Launches",
+		"client": "Lafarge",
 		"featured": false,
-		"featuredDesc": "TODO: Featured description not published \u2014 client listed on firstkatalystmarketing.com/our-clientele.html.",
+		"featuredDesc": "To engage the Block Makers and create excitement by rewarding them for their continued loyalty.",
 		"employee": {
 			"name": "TODO",
 			"desig": "TODO",
 			"img": "/images/team/team-1.webp"
 		},
 		"tags": [
-			"Clientele",
-			"Our Work"
+			"Trade Launches"
 		],
-		"dataFilter": "clientele work",
+		"dataFilter": "trade launches",
 		"statusItem": [
 			{
 				"title": "Category",
-				"desc": "Clientele"
-			},
-			{
-				"title": "Client",
-				"desc": "FMN"
-			},
-			{
-				"title": "Start Date",
-				"desc": "TODO: Not published"
-			},
-			{
-				"title": "Agency",
-				"desc": "First Katalyst Marketing"
-			},
-			{
-				"title": "Images",
-				"desc": "TODO: Replace temporary /images/project/* paths with FKM our_work / clientele assets"
-			}
-		],
-		"descItems": [
-			{
-				"title": "The story",
-				"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets."
-			},
-			{
-				"title": "OUR APPROACH",
-				"desc": "TODO: Approach write-up not published on live site."
-			}
-		]
-	},
-	{
-		"id": 6,
-		"title": "Lafarge",
-		"title2": "Project Description",
-		"titleLarge": "Lafarge",
-		"img": "/images/project/project-2.webp",
-		"img2": "/images/project/project-4.webp",
-		"img3": "/images/project/project-7.webp",
-		"img4": "/images/project/project-8.webp",
-		"img5": "/images/project/h5-project-1.webp",
-		"img6": "/images/project/h6-project-2.webp",
-		"img7": "/images/project/project-8.webp",
-		"img8": "/images/project/h10-project-2.webp",
-		"imgLarge": "/images/project/tj-project-1.webp",
-		"detailsImg": "/img/portfolio/portfolio-details-2.jpg",
-		"featuredImg": "/img/project/project-3.png",
-		"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
-		"shortDesc": "TODO: Short project description not published on live site.",
-		"desc1": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
-		"desc2": "TODO: Detailed project narrative not published on live site (no project pages).",
-		"category": "Clientele",
-		"featured": false,
-		"featuredDesc": "TODO: Featured description not published \u2014 client listed on firstkatalystmarketing.com/our-clientele.html.",
-		"employee": {
-			"name": "TODO",
-			"desig": "TODO",
-			"img": "/images/team/team-1.webp"
-		},
-		"tags": [
-			"Clientele",
-			"Our Work"
-		],
-		"dataFilter": "clientele work",
-		"statusItem": [
-			{
-				"title": "Category",
-				"desc": "Clientele"
+				"desc": "Trade Launches"
 			},
 			{
 				"title": "Client",
 				"desc": "Lafarge"
 			},
 			{
-				"title": "Start Date",
-				"desc": "TODO: Not published"
+				"title": "Agency",
+				"desc": "First Katalyst Marketing"
+			},
+			{
+				"title": "Images",
+				"desc": "TODO: Replace temporary /images/project/* with FKM profile PDF activity photos"
+			}
+		],
+		"descItems": [
+			{
+				"title": "Objectives",
+				"desc": "To engage the Block Makers and create excitement by rewarding them for their continued loyalty. Raffle Draw Locations - Ikorodu, Eti-Osa, Awoyaya, Alimosho and Epe."
+			},
+			{
+				"title": "Results",
+				"desc": "TODO: Results metrics not listed on PDF slide beyond objectives."
+			}
+		],
+		"source": "profile-pdf"
+	},
+	{
+		"id": 6,
+		"title": "Lafarge Supaset Media Launch",
+		"title2": "Project Description",
+		"titleLarge": "Lafarge Supaset Media Launch",
+		"slug": "lafarge-supaset-media-launch",
+		"img": "/images/project/project-6.webp",
+		"img2": "/images/project/project-6.webp",
+		"img3": "/images/project/project-6.webp",
+		"img4": "/images/project/project-4.webp",
+		"img5": "/images/project/h5-project-1.webp",
+		"img6": "/images/project/h6-project-1.webp",
+		"img7": "/images/project/project-4.webp",
+		"img8": "/images/project/h10-project-1.webp",
+		"imgLarge": "/images/project/tj-project-1.webp",
+		"detailsImg": "/img/portfolio/portfolio-details-1.jpg",
+		"featuredImg": "/img/project/project-2.png",
+		"desc": "Premium event to launch the new and improved Supaset product.",
+		"shortDesc": "Premium event to launch the new and improved Supaset product.",
+		"desc1": "Premium event to launch the new and improved Supaset product. Attendance by notable dignitaries, media houses and other key stakeholders.",
+		"desc2": "TODO: Results metrics not listed on PDF slide beyond objectives.",
+		"objectives": [
+			"Premium event to launch the new and improved Supaset product.",
+			"Attendance by notable dignitaries, media houses and other key stakeholders."
+		],
+		"activity": [],
+		"results": [
+			"TODO: Results metrics not listed on PDF slide beyond objectives."
+		],
+		"contentHtml": "<h3>Objectives</h3><ul><li>Premium event to launch the new and improved Supaset product.</li><li>Attendance by notable dignitaries, media houses and other key stakeholders.</li></ul><h3>Results</h3><ul><li>TODO: Results metrics not listed on PDF slide beyond objectives.</li></ul><p><em>TODO: Replace temporary /images/project/* with FKM activity photos from profile PDF — do not hotlink.</em></p>",
+		"category": "Trade Launches",
+		"client": "Lafarge",
+		"featured": false,
+		"featuredDesc": "Premium event to launch the new and improved Supaset product.",
+		"employee": {
+			"name": "TODO",
+			"desig": "TODO",
+			"img": "/images/team/team-1.webp"
+		},
+		"tags": [
+			"Trade Launches",
+			"Media"
+		],
+		"dataFilter": "trade launches media",
+		"statusItem": [
+			{
+				"title": "Category",
+				"desc": "Trade Launches"
+			},
+			{
+				"title": "Client",
+				"desc": "Lafarge"
 			},
 			{
 				"title": "Agency",
@@ -381,65 +440,71 @@
 			},
 			{
 				"title": "Images",
-				"desc": "TODO: Replace temporary /images/project/* paths with FKM our_work / clientele assets"
+				"desc": "TODO: Replace temporary /images/project/* with FKM profile PDF activity photos"
 			}
 		],
 		"descItems": [
 			{
-				"title": "The story",
-				"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets."
+				"title": "Objectives",
+				"desc": "Premium event to launch the new and improved Supaset product. Attendance by notable dignitaries, media houses and other key stakeholders."
 			},
 			{
-				"title": "OUR APPROACH",
-				"desc": "TODO: Approach write-up not published on live site."
+				"title": "Results",
+				"desc": "TODO: Results metrics not listed on PDF slide beyond objectives."
 			}
-		]
+		],
+		"source": "profile-pdf"
 	},
 	{
 		"id": 7,
-		"title": "PZ Wilmar",
+		"title": "Johnnie Walker In-store Activation",
 		"title2": "Project Description",
-		"titleLarge": "PZ Wilmar",
-		"img": "/images/project/project-3.webp",
-		"img2": "/images/project/project-5.webp",
-		"img3": "/images/project/project-8.webp",
-		"img4": "/images/project/project-9.webp",
-		"img5": "/images/project/h5-project-3.webp",
-		"img6": "/images/project/h6-project-3.webp",
-		"img7": "/images/project/project-9.webp",
-		"img8": "/images/project/h10-project-3.webp",
+		"titleLarge": "Johnnie Walker In-store Activation",
+		"slug": "johnnie-walker-in-store-activation",
+		"img": "/images/project/project-7.webp",
+		"img2": "/images/project/project-7.webp",
+		"img3": "/images/project/project-6.webp",
+		"img4": "/images/project/project-4.webp",
+		"img5": "/images/project/h5-project-1.webp",
+		"img6": "/images/project/h6-project-1.webp",
+		"img7": "/images/project/project-4.webp",
+		"img8": "/images/project/h10-project-1.webp",
 		"imgLarge": "/images/project/tj-project-1.webp",
-		"detailsImg": "/img/portfolio/portfolio-details-3.jpg",
-		"featuredImg": "/img/project/project-4.png",
-		"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
-		"shortDesc": "TODO: Short project description not published on live site.",
-		"desc1": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
-		"desc2": "TODO: Detailed project narrative not published on live site (no project pages).",
-		"category": "Clientele",
+		"detailsImg": "/img/portfolio/portfolio-details-1.jpg",
+		"featuredImg": "/img/project/project-2.png",
+		"desc": "Johnnie Walker In-store Activation",
+		"shortDesc": "Johnnie Walker In-store Activation",
+		"desc1": "TODO: PDF title slide only — objectives not listed.",
+		"desc2": "TODO: Results not listed on PDF slide.",
+		"objectives": [
+			"TODO: PDF title slide only — objectives not listed."
+		],
+		"activity": [],
+		"results": [
+			"TODO: Results not listed on PDF slide."
+		],
+		"contentHtml": "<h3>Objectives</h3><ul><li>TODO: PDF title slide only — objectives not listed.</li></ul><h3>Results</h3><ul><li>TODO: Results not listed on PDF slide.</li></ul><p><em>TODO: Replace temporary /images/project/* with FKM activity photos from profile PDF — do not hotlink.</em></p>",
+		"category": "Key Accounts",
+		"client": "Johnnie Walker",
 		"featured": false,
-		"featuredDesc": "TODO: Featured description not published \u2014 client listed on firstkatalystmarketing.com/our-clientele.html.",
+		"featuredDesc": "Johnnie Walker In-store Activation",
 		"employee": {
 			"name": "TODO",
 			"desig": "TODO",
 			"img": "/images/team/team-1.webp"
 		},
 		"tags": [
-			"Clientele",
-			"Our Work"
+			"Key Accounts"
 		],
-		"dataFilter": "clientele work",
+		"dataFilter": "key accounts",
 		"statusItem": [
 			{
 				"title": "Category",
-				"desc": "Clientele"
+				"desc": "Key Accounts"
 			},
 			{
 				"title": "Client",
-				"desc": "PZ Wilmar"
-			},
-			{
-				"title": "Start Date",
-				"desc": "TODO: Not published"
+				"desc": "Johnnie Walker"
 			},
 			{
 				"title": "Agency",
@@ -447,65 +512,79 @@
 			},
 			{
 				"title": "Images",
-				"desc": "TODO: Replace temporary /images/project/* paths with FKM our_work / clientele assets"
+				"desc": "TODO: Replace temporary /images/project/* with FKM profile PDF activity photos"
 			}
 		],
 		"descItems": [
 			{
-				"title": "The story",
-				"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets."
+				"title": "Objectives",
+				"desc": "TODO: PDF title slide only — objectives not listed."
 			},
 			{
-				"title": "OUR APPROACH",
-				"desc": "TODO: Approach write-up not published on live site."
+				"title": "Results",
+				"desc": "TODO: Results not listed on PDF slide."
 			}
-		]
+		],
+		"source": "profile-pdf"
 	},
 	{
 		"id": 8,
-		"title": "B.A.T",
+		"title": "FanIce Indoor Channel Activation",
 		"title2": "Project Description",
-		"titleLarge": "B.A.T",
-		"img": "/images/project/project-4.webp",
+		"titleLarge": "FanIce Indoor Channel Activation",
+		"slug": "fanice-indoor-channel-activation",
+		"img": "/images/project/project-8.webp",
 		"img2": "/images/project/project-8.webp",
-		"img3": "/images/project/project-8.webp",
+		"img3": "/images/project/project-6.webp",
 		"img4": "/images/project/project-4.webp",
 		"img5": "/images/project/h5-project-1.webp",
 		"img6": "/images/project/h6-project-1.webp",
 		"img7": "/images/project/project-4.webp",
 		"img8": "/images/project/h10-project-1.webp",
 		"imgLarge": "/images/project/tj-project-1.webp",
-		"detailsImg": "/img/portfolio/portfolio-details-2.jpg",
-		"featuredImg": "/img/project/project-3.png",
-		"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
-		"shortDesc": "TODO: Short project description not published on live site.",
-		"desc1": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
-		"desc2": "TODO: Detailed project narrative not published on live site (no project pages).",
-		"category": "Clientele",
+		"detailsImg": "/img/portfolio/portfolio-details-1.jpg",
+		"featuredImg": "/img/project/project-2.png",
+		"desc": "Leverage Indoor sales promotion activities to drive offtake",
+		"shortDesc": "Leverage Indoor sales promotion activities to drive offtake",
+		"desc1": "Leverage Indoor sales promotion activities to drive offtake Sustain brand consideration Increase TOMA of brand",
+		"desc2": "133% Vs Targets Team sold 26,864 tubs of Fanice focus SKUs & 12,288 tubs of other SKUs",
+		"objectives": [
+			"Leverage Indoor sales promotion activities to drive offtake",
+			"Sustain brand consideration",
+			"Increase TOMA of brand"
+		],
+		"activity": [
+			"Activated 200 indoor outlets across Lagos, West, North, & East",
+			"Sales of fanice activation focus brands (450 ml & 900ml)",
+			"A Team of 67 promoters and 8 supervisors activated indoor channels on Wednesdays – Sundays for 4 weeks (15 days)"
+		],
+		"results": [
+			"133% Vs Targets",
+			"Team sold 26,864 tubs of Fanice focus SKUs & 12,288 tubs of other SKUs"
+		],
+		"contentHtml": "<h3>Objectives</h3><ul><li>Leverage Indoor sales promotion activities to drive offtake</li><li>Sustain brand consideration</li><li>Increase TOMA of brand</li></ul><h3>Activity</h3><ul><li>Activated 200 indoor outlets across Lagos, West, North, & East</li><li>Sales of fanice activation focus brands (450 ml & 900ml)</li><li>A Team of 67 promoters and 8 supervisors activated indoor channels on Wednesdays – Sundays for 4 weeks (15 days)</li></ul><h3>Results</h3><ul><li>133% Vs Targets</li><li>Team sold 26,864 tubs of Fanice focus SKUs & 12,288 tubs of other SKUs</li></ul><p><em>TODO: Replace temporary /images/project/* with FKM activity photos from profile PDF — do not hotlink.</em></p>",
+		"category": "Key Accounts",
+		"client": "FanIce",
 		"featured": false,
-		"featuredDesc": "TODO: Featured description not published \u2014 client listed on firstkatalystmarketing.com/our-clientele.html.",
+		"featuredDesc": "Leverage Indoor sales promotion activities to drive offtake",
 		"employee": {
 			"name": "TODO",
 			"desig": "TODO",
 			"img": "/images/team/team-1.webp"
 		},
 		"tags": [
-			"Clientele",
-			"Our Work"
+			"Key Accounts",
+			"Consumer Activations"
 		],
-		"dataFilter": "clientele work",
+		"dataFilter": "key accounts consumer activations",
 		"statusItem": [
 			{
 				"title": "Category",
-				"desc": "Clientele"
+				"desc": "Key Accounts"
 			},
 			{
 				"title": "Client",
-				"desc": "B.A.T"
-			},
-			{
-				"title": "Start Date",
-				"desc": "TODO: Not published"
+				"desc": "FanIce"
 			},
 			{
 				"title": "Agency",
@@ -513,25 +592,27 @@
 			},
 			{
 				"title": "Images",
-				"desc": "TODO: Replace temporary /images/project/* paths with FKM our_work / clientele assets"
+				"desc": "TODO: Replace temporary /images/project/* with FKM profile PDF activity photos"
 			}
 		],
 		"descItems": [
 			{
-				"title": "The story",
-				"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets."
+				"title": "Objectives",
+				"desc": "Leverage Indoor sales promotion activities to drive offtake Sustain brand consideration Increase TOMA of brand"
 			},
 			{
-				"title": "OUR APPROACH",
-				"desc": "TODO: Approach write-up not published on live site."
+				"title": "Results",
+				"desc": "133% Vs Targets Team sold 26,864 tubs of Fanice focus SKUs & 12,288 tubs of other SKUs"
 			}
-		]
+		],
+		"source": "profile-pdf"
 	},
 	{
 		"id": 9,
-		"title": "P&G",
+		"title": "Fanmilk Merchandisers to Believers (KA Channel)",
 		"title2": "Project Description",
-		"titleLarge": "P&G",
+		"titleLarge": "Fanmilk Merchandisers to Believers (KA Channel)",
+		"slug": "fanmilk-merchandisers-to-believers-ka-channel",
 		"img": "/images/project/project-1.webp",
 		"img2": "/images/project/project-1.webp",
 		"img3": "/images/project/project-6.webp",
@@ -543,35 +624,48 @@
 		"imgLarge": "/images/project/tj-project-1.webp",
 		"detailsImg": "/img/portfolio/portfolio-details-1.jpg",
 		"featuredImg": "/img/project/project-2.png",
-		"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
-		"shortDesc": "TODO: Short project description not published on live site.",
-		"desc1": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
-		"desc2": "TODO: Detailed project narrative not published on live site (no project pages).",
-		"category": "Clientele",
+		"desc": "Order generation",
+		"shortDesc": "Order generation",
+		"desc1": "Order generation On-shelf/GTF Merchandising Product sales Merchandising App usage",
+		"desc2": "Steady growth of + 58% from 35% to 93% on App use Average Monthly cumulative order raised of over 70%",
+		"objectives": [
+			"Order generation",
+			"On-shelf/GTF Merchandising",
+			"Product sales",
+			"Merchandising App usage"
+		],
+		"activity": [
+			"65 key account channels outlets across Lagos, West, North, & East",
+			"A Team of 54 brand ambassadors and 5 supervisors",
+			"Activity as been running annually since January 2021"
+		],
+		"results": [
+			"Steady growth of + 58% from 35% to 93% on App use",
+			"Average Monthly cumulative order raised of over 70%"
+		],
+		"contentHtml": "<h3>Objectives</h3><ul><li>Order generation</li><li>On-shelf/GTF Merchandising</li><li>Product sales</li><li>Merchandising App usage</li></ul><h3>Activity</h3><ul><li>65 key account channels outlets across Lagos, West, North, & East</li><li>A Team of 54 brand ambassadors and 5 supervisors</li><li>Activity as been running annually since January 2021</li></ul><h3>Results</h3><ul><li>Steady growth of + 58% from 35% to 93% on App use</li><li>Average Monthly cumulative order raised of over 70%</li></ul><p><em>TODO: Replace temporary /images/project/* with FKM activity photos from profile PDF — do not hotlink.</em></p>",
+		"category": "Merchandising",
+		"client": "Fanmilk",
 		"featured": false,
-		"featuredDesc": "TODO: Featured description not published \u2014 client listed on firstkatalystmarketing.com/our-clientele.html.",
+		"featuredDesc": "Order generation",
 		"employee": {
 			"name": "TODO",
 			"desig": "TODO",
 			"img": "/images/team/team-1.webp"
 		},
 		"tags": [
-			"Clientele",
-			"Our Work"
+			"Merchandising",
+			"Key Accounts"
 		],
-		"dataFilter": "clientele work",
+		"dataFilter": "merchandising key accounts",
 		"statusItem": [
 			{
 				"title": "Category",
-				"desc": "Clientele"
+				"desc": "Merchandising"
 			},
 			{
 				"title": "Client",
-				"desc": "P&G"
-			},
-			{
-				"title": "Start Date",
-				"desc": "TODO: Not published"
+				"desc": "Fanmilk"
 			},
 			{
 				"title": "Agency",
@@ -579,225 +673,29 @@
 			},
 			{
 				"title": "Images",
-				"desc": "TODO: Replace temporary /images/project/* paths with FKM our_work / clientele assets"
+				"desc": "TODO: Replace temporary /images/project/* with FKM profile PDF activity photos"
 			}
 		],
 		"descItems": [
 			{
-				"title": "The story",
-				"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets."
+				"title": "Objectives",
+				"desc": "Order generation On-shelf/GTF Merchandising Product sales Merchandising App usage"
 			},
 			{
-				"title": "OUR APPROACH",
-				"desc": "TODO: Approach write-up not published on live site."
+				"title": "Results",
+				"desc": "Steady growth of + 58% from 35% to 93% on App use Average Monthly cumulative order raised of over 70%"
 			}
-		]
+		],
+		"source": "profile-pdf"
 	},
 	{
 		"id": 10,
-		"title": "Gionee",
+		"title": "Go-Slo In-Store Promotion (Buy & Win)",
 		"title2": "Project Description",
-		"titleLarge": "Gionee",
+		"titleLarge": "Go-Slo In-Store Promotion (Buy & Win)",
+		"slug": "go-slo-in-store-promotion-buy-and-win",
 		"img": "/images/project/project-2.webp",
-		"img2": "/images/project/project-4.webp",
-		"img3": "/images/project/project-7.webp",
-		"img4": "/images/project/project-8.webp",
-		"img5": "/images/project/h5-project-1.webp",
-		"img6": "/images/project/h6-project-2.webp",
-		"img7": "/images/project/project-8.webp",
-		"img8": "/images/project/h10-project-2.webp",
-		"imgLarge": "/images/project/tj-project-1.webp",
-		"detailsImg": "/img/portfolio/portfolio-details-2.jpg",
-		"featuredImg": "/img/project/project-3.png",
-		"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
-		"shortDesc": "TODO: Short project description not published on live site.",
-		"desc1": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
-		"desc2": "TODO: Detailed project narrative not published on live site (no project pages).",
-		"category": "Clientele",
-		"featured": false,
-		"featuredDesc": "TODO: Featured description not published \u2014 client listed on firstkatalystmarketing.com/our-clientele.html.",
-		"employee": {
-			"name": "TODO",
-			"desig": "TODO",
-			"img": "/images/team/team-1.webp"
-		},
-		"tags": [
-			"Clientele",
-			"Our Work"
-		],
-		"dataFilter": "clientele work",
-		"statusItem": [
-			{
-				"title": "Category",
-				"desc": "Clientele"
-			},
-			{
-				"title": "Client",
-				"desc": "Gionee"
-			},
-			{
-				"title": "Start Date",
-				"desc": "TODO: Not published"
-			},
-			{
-				"title": "Agency",
-				"desc": "First Katalyst Marketing"
-			},
-			{
-				"title": "Images",
-				"desc": "TODO: Replace temporary /images/project/* paths with FKM our_work / clientele assets"
-			}
-		],
-		"descItems": [
-			{
-				"title": "The story",
-				"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets."
-			},
-			{
-				"title": "OUR APPROACH",
-				"desc": "TODO: Approach write-up not published on live site."
-			}
-		]
-	},
-	{
-		"id": 11,
-		"title": "Samsung",
-		"title2": "Project Description",
-		"titleLarge": "Samsung",
-		"img": "/images/project/project-3.webp",
-		"img2": "/images/project/project-5.webp",
-		"img3": "/images/project/project-8.webp",
-		"img4": "/images/project/project-9.webp",
-		"img5": "/images/project/h5-project-3.webp",
-		"img6": "/images/project/h6-project-3.webp",
-		"img7": "/images/project/project-9.webp",
-		"img8": "/images/project/h10-project-3.webp",
-		"imgLarge": "/images/project/tj-project-1.webp",
-		"detailsImg": "/img/portfolio/portfolio-details-3.jpg",
-		"featuredImg": "/img/project/project-4.png",
-		"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
-		"shortDesc": "TODO: Short project description not published on live site.",
-		"desc1": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
-		"desc2": "TODO: Detailed project narrative not published on live site (no project pages).",
-		"category": "Clientele",
-		"featured": false,
-		"featuredDesc": "TODO: Featured description not published \u2014 client listed on firstkatalystmarketing.com/our-clientele.html.",
-		"employee": {
-			"name": "TODO",
-			"desig": "TODO",
-			"img": "/images/team/team-1.webp"
-		},
-		"tags": [
-			"Clientele",
-			"Our Work"
-		],
-		"dataFilter": "clientele work",
-		"statusItem": [
-			{
-				"title": "Category",
-				"desc": "Clientele"
-			},
-			{
-				"title": "Client",
-				"desc": "Samsung"
-			},
-			{
-				"title": "Start Date",
-				"desc": "TODO: Not published"
-			},
-			{
-				"title": "Agency",
-				"desc": "First Katalyst Marketing"
-			},
-			{
-				"title": "Images",
-				"desc": "TODO: Replace temporary /images/project/* paths with FKM our_work / clientele assets"
-			}
-		],
-		"descItems": [
-			{
-				"title": "The story",
-				"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets."
-			},
-			{
-				"title": "OUR APPROACH",
-				"desc": "TODO: Approach write-up not published on live site."
-			}
-		]
-	},
-	{
-		"id": 12,
-		"title": "Suntory",
-		"title2": "Project Description",
-		"titleLarge": "Suntory",
-		"img": "/images/project/project-4.webp",
-		"img2": "/images/project/project-8.webp",
-		"img3": "/images/project/project-8.webp",
-		"img4": "/images/project/project-4.webp",
-		"img5": "/images/project/h5-project-1.webp",
-		"img6": "/images/project/h6-project-1.webp",
-		"img7": "/images/project/project-4.webp",
-		"img8": "/images/project/h10-project-1.webp",
-		"imgLarge": "/images/project/tj-project-1.webp",
-		"detailsImg": "/img/portfolio/portfolio-details-2.jpg",
-		"featuredImg": "/img/project/project-3.png",
-		"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
-		"shortDesc": "TODO: Short project description not published on live site.",
-		"desc1": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
-		"desc2": "TODO: Detailed project narrative not published on live site (no project pages).",
-		"category": "Clientele",
-		"featured": false,
-		"featuredDesc": "TODO: Featured description not published \u2014 client listed on firstkatalystmarketing.com/our-clientele.html.",
-		"employee": {
-			"name": "TODO",
-			"desig": "TODO",
-			"img": "/images/team/team-1.webp"
-		},
-		"tags": [
-			"Clientele",
-			"Our Work"
-		],
-		"dataFilter": "clientele work",
-		"statusItem": [
-			{
-				"title": "Category",
-				"desc": "Clientele"
-			},
-			{
-				"title": "Client",
-				"desc": "Suntory"
-			},
-			{
-				"title": "Start Date",
-				"desc": "TODO: Not published"
-			},
-			{
-				"title": "Agency",
-				"desc": "First Katalyst Marketing"
-			},
-			{
-				"title": "Images",
-				"desc": "TODO: Replace temporary /images/project/* paths with FKM our_work / clientele assets"
-			}
-		],
-		"descItems": [
-			{
-				"title": "The story",
-				"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets."
-			},
-			{
-				"title": "OUR APPROACH",
-				"desc": "TODO: Approach write-up not published on live site."
-			}
-		]
-	},
-	{
-		"id": 13,
-		"title": "FanMilk",
-		"title2": "Project Description",
-		"titleLarge": "FanMilk",
-		"img": "/images/project/project-1.webp",
-		"img2": "/images/project/project-1.webp",
+		"img2": "/images/project/project-2.webp",
 		"img3": "/images/project/project-6.webp",
 		"img4": "/images/project/project-4.webp",
 		"img5": "/images/project/h5-project-1.webp",
@@ -807,35 +705,47 @@
 		"imgLarge": "/images/project/tj-project-1.webp",
 		"detailsImg": "/img/portfolio/portfolio-details-1.jpg",
 		"featuredImg": "/img/project/project-2.png",
-		"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
-		"shortDesc": "TODO: Short project description not published on live site.",
-		"desc1": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
-		"desc2": "TODO: Detailed project narrative not published on live site (no project pages).",
-		"category": "Clientele",
+		"desc": "To drive affinity of the Go Slo within the Ice cream category within the Indoor and Key Account channel",
+		"shortDesc": "To drive affinity of the Go Slo within the Ice cream category within the Indoor and Key Account channel",
+		"desc1": "To drive affinity of the Go Slo within the Ice cream category within the Indoor and Key Account channel Drive penetration and trial of Go Slo within the premium ice cream sub-category",
+		"desc2": "Sales : 19,377 tubs (104% Vs Targets) Reach : 58,538 Consumers (124% Vs Targets) Sampling : 18,408 consumers (111% Vs Targets)",
+		"objectives": [
+			"To drive affinity of the Go Slo within the Ice cream category within the Indoor and Key Account channel",
+			"Drive penetration and trial of Go Slo within the premium ice cream sub-category"
+		],
+		"activity": [
+			"Drive awareness by deploying visibility materials within activated outlets, Induce trial & drive depletion via reward induced sales",
+			"A Team of 55 Stationary BAs, 32 Roving BAs, 8 supervisors",
+			"Outlets activated were 55 Key Accounts & 212 Indoor stores"
+		],
+		"results": [
+			"Sales : 19,377 tubs (104% Vs Targets)",
+			"Reach : 58,538 Consumers (124% Vs Targets)",
+			"Sampling : 18,408 consumers (111% Vs Targets)"
+		],
+		"contentHtml": "<h3>Objectives</h3><ul><li>To drive affinity of the Go Slo within the Ice cream category within the Indoor and Key Account channel</li><li>Drive penetration and trial of Go Slo within the premium ice cream sub-category</li></ul><h3>Activity</h3><ul><li>Drive awareness by deploying visibility materials within activated outlets, Induce trial & drive depletion via reward induced sales</li><li>A Team of 55 Stationary BAs, 32 Roving BAs, 8 supervisors</li><li>Outlets activated were 55 Key Accounts & 212 Indoor stores</li></ul><h3>Results</h3><ul><li>Sales : 19,377 tubs (104% Vs Targets)</li><li>Reach : 58,538 Consumers (124% Vs Targets)</li><li>Sampling : 18,408 consumers (111% Vs Targets)</li></ul><p><em>TODO: Replace temporary /images/project/* with FKM activity photos from profile PDF — do not hotlink.</em></p>",
+		"category": "Key Accounts",
+		"client": "Go-Slo",
 		"featured": false,
-		"featuredDesc": "TODO: Featured description not published \u2014 client listed on firstkatalystmarketing.com/our-clientele.html.",
+		"featuredDesc": "To drive affinity of the Go Slo within the Ice cream category within the Indoor and Key Account channel",
 		"employee": {
 			"name": "TODO",
 			"desig": "TODO",
 			"img": "/images/team/team-1.webp"
 		},
 		"tags": [
-			"Clientele",
-			"Our Work"
+			"Key Accounts",
+			"Consumer Activations"
 		],
-		"dataFilter": "clientele work",
+		"dataFilter": "key accounts consumer activations",
 		"statusItem": [
 			{
 				"title": "Category",
-				"desc": "Clientele"
+				"desc": "Key Accounts"
 			},
 			{
 				"title": "Client",
-				"desc": "FanMilk"
-			},
-			{
-				"title": "Start Date",
-				"desc": "TODO: Not published"
+				"desc": "Go-Slo"
 			},
 			{
 				"title": "Agency",
@@ -843,131 +753,76 @@
 			},
 			{
 				"title": "Images",
-				"desc": "TODO: Replace temporary /images/project/* paths with FKM our_work / clientele assets"
+				"desc": "TODO: Replace temporary /images/project/* with FKM profile PDF activity photos"
 			}
 		],
 		"descItems": [
 			{
-				"title": "The story",
-				"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets."
+				"title": "Objectives",
+				"desc": "To drive affinity of the Go Slo within the Ice cream category within the Indoor and Key Account channel Drive penetration and trial of Go Slo within the premium ice cream sub-category"
 			},
 			{
-				"title": "OUR APPROACH",
-				"desc": "TODO: Approach write-up not published on live site."
-			}
-		]
-	},
-	{
-		"id": 14,
-		"title": "Godrej",
-		"title2": "Project Description",
-		"titleLarge": "Godrej",
-		"img": "/images/project/project-2.webp",
-		"img2": "/images/project/project-4.webp",
-		"img3": "/images/project/project-7.webp",
-		"img4": "/images/project/project-8.webp",
-		"img5": "/images/project/h5-project-1.webp",
-		"img6": "/images/project/h6-project-2.webp",
-		"img7": "/images/project/project-8.webp",
-		"img8": "/images/project/h10-project-2.webp",
-		"imgLarge": "/images/project/tj-project-1.webp",
-		"detailsImg": "/img/portfolio/portfolio-details-2.jpg",
-		"featuredImg": "/img/project/project-3.png",
-		"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
-		"shortDesc": "TODO: Short project description not published on live site.",
-		"desc1": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
-		"desc2": "TODO: Detailed project narrative not published on live site (no project pages).",
-		"category": "Clientele",
-		"featured": false,
-		"featuredDesc": "TODO: Featured description not published \u2014 client listed on firstkatalystmarketing.com/our-clientele.html.",
-		"employee": {
-			"name": "TODO",
-			"desig": "TODO",
-			"img": "/images/team/team-1.webp"
-		},
-		"tags": [
-			"Clientele",
-			"Our Work"
-		],
-		"dataFilter": "clientele work",
-		"statusItem": [
-			{
-				"title": "Category",
-				"desc": "Clientele"
-			},
-			{
-				"title": "Client",
-				"desc": "Godrej"
-			},
-			{
-				"title": "Start Date",
-				"desc": "TODO: Not published"
-			},
-			{
-				"title": "Agency",
-				"desc": "First Katalyst Marketing"
-			},
-			{
-				"title": "Images",
-				"desc": "TODO: Replace temporary /images/project/* paths with FKM our_work / clientele assets"
+				"title": "Results",
+				"desc": "Sales : 19,377 tubs (104% Vs Targets) Reach : 58,538 Consumers (124% Vs Targets) Sampling : 18,408 consumers (111% Vs Targets)"
 			}
 		],
-		"descItems": [
-			{
-				"title": "The story",
-				"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets."
-			},
-			{
-				"title": "OUR APPROACH",
-				"desc": "TODO: Approach write-up not published on live site."
-			}
-		]
+		"source": "profile-pdf"
 	},
 	{
-		"id": 15,
-		"title": "Saro",
+		"id": 11,
+		"title": "KC Merchandising and Gondola Branding Project",
 		"title2": "Project Description",
-		"titleLarge": "Saro",
+		"titleLarge": "KC Merchandising and Gondola Branding Project",
+		"slug": "kc-merchandising-and-gondola-branding-project",
 		"img": "/images/project/project-3.webp",
-		"img2": "/images/project/project-5.webp",
-		"img3": "/images/project/project-8.webp",
-		"img4": "/images/project/project-9.webp",
-		"img5": "/images/project/h5-project-3.webp",
-		"img6": "/images/project/h6-project-3.webp",
-		"img7": "/images/project/project-9.webp",
-		"img8": "/images/project/h10-project-3.webp",
+		"img2": "/images/project/project-3.webp",
+		"img3": "/images/project/project-6.webp",
+		"img4": "/images/project/project-4.webp",
+		"img5": "/images/project/h5-project-1.webp",
+		"img6": "/images/project/h6-project-1.webp",
+		"img7": "/images/project/project-4.webp",
+		"img8": "/images/project/h10-project-1.webp",
 		"imgLarge": "/images/project/tj-project-1.webp",
-		"detailsImg": "/img/portfolio/portfolio-details-3.jpg",
-		"featuredImg": "/img/project/project-4.png",
-		"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
-		"shortDesc": "TODO: Short project description not published on live site.",
-		"desc1": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets.",
-		"desc2": "TODO: Detailed project narrative not published on live site (no project pages).",
-		"category": "Clientele",
+		"detailsImg": "/img/portfolio/portfolio-details-1.jpg",
+		"featuredImg": "/img/project/project-2.png",
+		"desc": "Kimberly Clark Modern Trade activation, managed by First Katalyst Marketing currently runs across 70 outlets pan Nigeria.",
+		"shortDesc": "Kimberly Clark Modern Trade activation, managed by First Katalyst Marketing currently runs across 70 outlets pan Nigeria.",
+		"desc1": "Kimberly Clark Modern Trade activation, managed by First Katalyst Marketing currently runs across 70 outlets pan Nigeria. Drive distribution for all KC products in all the outlets covered Drive primary share visibility Set up Gondolas in key decision corridors in the outlets Gather insights on competition activities in the outlets",
+		"desc2": "Activity commenced in 2021 across 70 outlets pan Nigeria. TODO: Additional KPI results not listed on PDF slide.",
+		"objectives": [
+			"Kimberly Clark Modern Trade activation, managed by First Katalyst Marketing currently runs across 70 outlets pan Nigeria.",
+			"Drive distribution for all KC products in all the outlets covered",
+			"Drive primary share visibility",
+			"Set up Gondolas in key decision corridors in the outlets",
+			"Gather insights on competition activities in the outlets"
+		],
+		"activity": [],
+		"results": [
+			"Activity commenced in 2021 across 70 outlets pan Nigeria.",
+			"TODO: Additional KPI results not listed on PDF slide."
+		],
+		"contentHtml": "<h3>Objectives</h3><ul><li>Kimberly Clark Modern Trade activation, managed by First Katalyst Marketing currently runs across 70 outlets pan Nigeria.</li><li>Drive distribution for all KC products in all the outlets covered</li><li>Drive primary share visibility</li><li>Set up Gondolas in key decision corridors in the outlets</li><li>Gather insights on competition activities in the outlets</li></ul><h3>Results</h3><ul><li>Activity commenced in 2021 across 70 outlets pan Nigeria.</li><li>TODO: Additional KPI results not listed on PDF slide.</li></ul><p><em>TODO: Replace temporary /images/project/* with FKM activity photos from profile PDF — do not hotlink.</em></p>",
+		"category": "Merchandising",
+		"client": "Kimberly Clark",
 		"featured": false,
-		"featuredDesc": "TODO: Featured description not published \u2014 client listed on firstkatalystmarketing.com/our-clientele.html.",
+		"featuredDesc": "Kimberly Clark Modern Trade activation, managed by First Katalyst Marketing currently runs across 70 outlets pan Nigeria.",
 		"employee": {
 			"name": "TODO",
 			"desig": "TODO",
 			"img": "/images/team/team-1.webp"
 		},
 		"tags": [
-			"Clientele",
-			"Our Work"
+			"Merchandising"
 		],
-		"dataFilter": "clientele work",
+		"dataFilter": "merchandising",
 		"statusItem": [
 			{
 				"title": "Category",
-				"desc": "Clientele"
+				"desc": "Merchandising"
 			},
 			{
 				"title": "Client",
-				"desc": "Saro"
-			},
-			{
-				"title": "Start Date",
-				"desc": "TODO: Not published"
+				"desc": "Kimberly Clark"
 			},
 			{
 				"title": "Agency",
@@ -975,18 +830,96 @@
 			},
 			{
 				"title": "Images",
-				"desc": "TODO: Replace temporary /images/project/* paths with FKM our_work / clientele assets"
+				"desc": "TODO: Replace temporary /images/project/* with FKM profile PDF activity photos"
 			}
 		],
 		"descItems": [
 			{
-				"title": "The story",
-				"desc": "TODO: No project case study on live site. our-clientele.html lists client logos/names only; gallery.html and homepage Our Work show untitled activity photos with no captions. TODO: Replace temporary /images/project/* image paths with FKM assets."
+				"title": "Objectives",
+				"desc": "Kimberly Clark Modern Trade activation, managed by First Katalyst Marketing currently runs across 70 outlets pan Nigeria. Drive distribution for all KC products in all the outlets covered Drive primary share visibility Set up Gondolas in key decision corridors in the outlets Gather insights on competition activities in the outlets"
 			},
 			{
-				"title": "OUR APPROACH",
-				"desc": "TODO: Approach write-up not published on live site."
+				"title": "Results",
+				"desc": "Activity commenced in 2021 across 70 outlets pan Nigeria. TODO: Additional KPI results not listed on PDF slide."
 			}
-		]
+		],
+		"source": "profile-pdf"
+	},
+	{
+		"id": 12,
+		"title": "Hollandia Easter Activation",
+		"title2": "Project Description",
+		"titleLarge": "Hollandia Easter Activation",
+		"slug": "hollandia-easter-activation",
+		"img": "/images/project/project-4.webp",
+		"img2": "/images/project/project-4.webp",
+		"img3": "/images/project/project-6.webp",
+		"img4": "/images/project/project-4.webp",
+		"img5": "/images/project/h5-project-1.webp",
+		"img6": "/images/project/h6-project-1.webp",
+		"img7": "/images/project/project-4.webp",
+		"img8": "/images/project/h10-project-1.webp",
+		"imgLarge": "/images/project/tj-project-1.webp",
+		"detailsImg": "/img/portfolio/portfolio-details-1.jpg",
+		"featuredImg": "/img/project/project-2.png",
+		"desc": "Project: Hollandia Easter Activation",
+		"shortDesc": "Project: Hollandia Easter Activation",
+		"desc1": "Project: Hollandia Easter Activation Location: East Date: April/May 2023 Channel: Modern Trade Duration: 1 Month",
+		"desc2": "Closed-Out: 95% sales and 100% sampling",
+		"objectives": [
+			"Project: Hollandia Easter Activation",
+			"Location: East",
+			"Date: April/May 2023",
+			"Channel: Modern Trade",
+			"Duration: 1 Month"
+		],
+		"activity": [],
+		"results": [
+			"Closed-Out: 95% sales and 100% sampling"
+		],
+		"contentHtml": "<h3>Objectives</h3><ul><li>Project: Hollandia Easter Activation</li><li>Location: East</li><li>Date: April/May 2023</li><li>Channel: Modern Trade</li><li>Duration: 1 Month</li></ul><h3>Results</h3><ul><li>Closed-Out: 95% sales and 100% sampling</li></ul><p><em>TODO: Replace temporary /images/project/* with FKM activity photos from profile PDF — do not hotlink.</em></p>",
+		"category": "Modern Trade",
+		"client": "Hollandia",
+		"featured": false,
+		"featuredDesc": "Project: Hollandia Easter Activation",
+		"employee": {
+			"name": "TODO",
+			"desig": "TODO",
+			"img": "/images/team/team-1.webp"
+		},
+		"tags": [
+			"Modern Trade",
+			"Activations"
+		],
+		"dataFilter": "modern trade activations",
+		"statusItem": [
+			{
+				"title": "Category",
+				"desc": "Modern Trade"
+			},
+			{
+				"title": "Client",
+				"desc": "Hollandia"
+			},
+			{
+				"title": "Agency",
+				"desc": "First Katalyst Marketing"
+			},
+			{
+				"title": "Images",
+				"desc": "TODO: Replace temporary /images/project/* with FKM profile PDF activity photos"
+			}
+		],
+		"descItems": [
+			{
+				"title": "Objectives",
+				"desc": "Project: Hollandia Easter Activation Location: East Date: April/May 2023 Channel: Modern Trade Duration: 1 Month"
+			},
+			{
+				"title": "Results",
+				"desc": "Closed-Out: 95% sales and 100% sampling"
+			}
+		],
+		"source": "profile-pdf"
 	}
 ]

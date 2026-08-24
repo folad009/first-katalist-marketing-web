@@ -18,9 +18,37 @@ const ServicesDetailsPrimary = ({ option }) => {
 		prevSlug,
 		nextSlug,
 	} = option || {};
-	const { title, titleLarge, slug, iconName, img, contentHtml } =
-		currentItem || {};
-	const sidebarItems = items?.slice(0, 6);
+	const {
+		title,
+		titleLarge,
+		slug,
+		iconName,
+		img,
+		contentHtml,
+		desc,
+		desc1,
+		desc2,
+		shortDesc,
+		subServices = [],
+		process = null,
+	} = currentItem || {};
+	const sidebarItems = items?.slice(0, 7);
+	const hasSubServices = Array.isArray(subServices) && subServices.length > 0;
+	const processStages =
+		Array.isArray(process?.stages) && process.stages.length > 0
+			? process.stages
+			: null;
+	const processItemsFallback =
+		!processStages &&
+		Array.isArray(process?.processItems) &&
+		process.processItems.length > 0
+			? process.processItems
+			: null;
+	const bodyLead =
+		desc1 ||
+		desc ||
+		shortDesc ||
+		"TODO: Add service description from FKM.";
 	return (
 		<section className="tj-service-area section-gap">
 			<div className="tj-container">
@@ -48,167 +76,166 @@ const ServicesDetailsPrimary = ({ option }) => {
 									/>
 								) : (
 									<>
-								<p className="wow fadeInUp" data-wow-delay=".3s">
-									Recognize that exceptional customer experiences are at the
-									heart of every successful business. Our Customer Experience
-									Solutions are crafted to help you transform every interaction
-									your customers have with your brand into a meaningful and
-									positive experience. We believe that understanding the
-									customer journey and providing personalized, seamless
-									experiences can significantly enhance customer loyalty,
-									satisfaction, and lifetime value.Our approach to customer
-									experience is comprehensive and data-driven.
-								</p>
-								<p className="wow fadeInUp" data-wow-delay=".3s">
-									Our approach to customer experience is comprehensive and
-									data-driven. We begin by assessing your current customer
-									touchpoints, identifying areas for improvement, and using
-									insights to develop strategies that meet your customers’
-									evolving needs. From optimizing digital platforms.
-								</p>
-								<ul className="wow fadeInUp" data-wow-delay=".3s">
-									<li>
-										<span>
-											<i className="tji-check"></i>
-										</span>
-										Personalization at Scale
-									</li>
-									<li>
-										<span>
-											<i className="tji-check"></i>
-										</span>
-										Improved Customer Retention
-									</li>
-									<li>
-										<span>
-											<i className="tji-check"></i>
-										</span>
-										Data-Driven Insights
-									</li>
-									<li>
-										<span>
-											<i className="tji-check"></i>
-										</span>
-										Omni-channel Integration
-									</li>
-									<li>
-										<span>
-											<i className="tji-check"></i>
-										</span>
-										Customer Retention
-									</li>
-									<li>
-										<span>
-											<i className="tji-check"></i>
-										</span>
-										Support Optimization
-									</li>
-									<li>
-										<span>
-											<i className="tji-check"></i>
-										</span>
-										Proactive Engagement
-									</li>
-								</ul>
-								<div className="images-wrap">
-									<div className="grid grid-cols-1 gap-x-6 sm:grid-cols-2">
-										<div>
-											<div
-												className="image-box wow fadeInUp"
-												data-wow-delay=".3s"
-											>
-												<Image
-													src="/images/service/service-3.webp"
-													alt="Image"
-													width={420}
-													height={420}
-													style={{ height: "auto" }}
-												/>
-											</div>
-										</div>
-										<div>
-											<div
-												className="image-box wow fadeInUp"
-												data-wow-delay=".5s"
-											>
-												<Image
-													src="/images/service/service-4.webp"
-													alt="Image"
-													width={420}
-													height={420}
-													style={{ height: "auto" }}
-												/>
-											</div>
-										</div>
-									</div>
-								</div>
-								<h3 className="wow fadeInUp" data-wow-delay=".3s">
-									Our Range of Customer Services
-								</h3>
-								<p className="wow fadeInUp" data-wow-delay=".3s">
-									At First Katalyst Marketing, we don't just focus on solving
-									customer problems—we focus on creating experiences that
-									delight and build lasting brand relationships. Through
-									activation, trade marketing, and experiential campaigns, our
-									team helps you engage consumers and grow demand across the
-									channel.
-								</p>
-								<div className="details-content-box">
-									<div
-										className="service-details-item wow fadeInUp"
-										data-wow-delay=".2s"
-									>
-										<span className="number">01.</span>
-										<h6 className="title">
-											Increased Customer <br />
-											Satisfaction
-										</h6>
-										<div className="desc">
-											<p>
-												By prov consistent, personalized experience, customers
-												are more likely to feel valued a satisfied, which
-												directly.
+										<p className="wow fadeInUp" data-wow-delay=".3s">
+											{bodyLead}
+										</p>
+										{desc2 ? (
+											<p className="wow fadeInUp" data-wow-delay=".3s">
+												{desc2}
 											</p>
-										</div>
-									</div>
-									<div
-										className="service-details-item wow fadeInUp"
-										data-wow-delay=".4s"
-									>
-										<div className="service-number">
-											<span className="number">02.</span>
-											<h6 className="title">
-												Improved Operational <br />
-												Efficiency
-											</h6>
-											<div className="desc">
-												<p>
-													With our tools and strategies, your customer support
-													teams can handle inquiries faster, while automated
-													systems.
+										) : null}
+										{hasSubServices ? (
+											<>
+												<h3 className="wow fadeInUp" data-wow-delay=".3s">
+													What&apos;s included under {title}
+												</h3>
+												<ul className="wow fadeInUp" data-wow-delay=".3s">
+													{subServices.map(item => (
+														<li key={item}>
+															<span>
+																<i className="tji-check"></i>
+															</span>
+															{item}
+														</li>
+													))}
+												</ul>
+											</>
+										) : (
+											<>
+												<h3 className="wow fadeInUp" data-wow-delay=".3s">
+													What&apos;s included under {title}
+												</h3>
+												<p className="wow fadeInUp" data-wow-delay=".3s">
+													TODO: Sub-services not listed on the PDF “What We Do”
+													slide — confirm checklist with FKM.
 												</p>
+											</>
+										)}
+										<div className="images-wrap">
+											<div className="grid grid-cols-1 gap-x-6 sm:grid-cols-2">
+												<div>
+													<div
+														className="image-box wow fadeInUp"
+														data-wow-delay=".3s"
+													>
+														<Image
+															src="/images/service/service-3.webp"
+															alt="Image"
+															width={420}
+															height={420}
+															style={{ height: "auto" }}
+														/>
+													</div>
+												</div>
+												<div>
+													<div
+														className="image-box wow fadeInUp"
+														data-wow-delay=".5s"
+													>
+														<Image
+															src="/images/service/service-4.webp"
+															alt="Image"
+															width={420}
+															height={420}
+															style={{ height: "auto" }}
+														/>
+													</div>
+												</div>
 											</div>
 										</div>
-									</div>
-									<div
-										className="service-details-item wow fadeInUp"
-										data-wow-delay=".6s"
-									>
-										<div className="service-number">
-											<span className="number">03.</span>
-											<h6 className="title">
-												Insights for Continuous Improvement
-											</h6>
-											<div className="desc">
-												<p>
-													Our data-driven approach provides team with valuable
-													insights into customer behavior, enabling to
-													continual.
+										{hasSubServices ? null : (
+											<>
+												<h3 className="wow fadeInUp" data-wow-delay=".3s">
+													Our Range of Services
+												</h3>
+												<p className="wow fadeInUp" data-wow-delay=".3s">
+													At First Katalyst Marketing, we deliver Experiential,
+													Activations, Sales and Distribution, Merchandising
+													Management, Field Force Management, Procurement and
+													Production, and Creative Development.
 												</p>
+											</>
+										)}
+									</>
+								)}
+								{hasSubServices && contentHtml ? (
+									<>
+										<h3 className="wow fadeInUp" data-wow-delay=".3s">
+											What&apos;s included under {title}
+										</h3>
+										<ul className="wow fadeInUp" data-wow-delay=".3s">
+											{subServices.map(item => (
+												<li key={item}>
+													<span>
+														<i className="tji-check"></i>
+													</span>
+													{item}
+												</li>
+											))}
+										</ul>
+									</>
+								) : null}
+								{processStages || processItemsFallback ? (
+									<>
+										<h3 className="wow fadeInUp" data-wow-delay=".3s">
+											{process?.title || "Process"}
+										</h3>
+										{process?.desc ? (
+											<p className="wow fadeInUp" data-wow-delay=".3s">
+												{process.desc}
+											</p>
+										) : null}
+										{processStages ? (
+											<div className="details-content-box">
+												{processStages.map((stage, stageIdx) => (
+													<div
+														key={stage.name}
+														className="service-details-item wow fadeInUp"
+														data-wow-delay={`${0.2 + stageIdx * 0.1}s`}
+													>
+														<span className="number">
+															{String(stageIdx + 1).padStart(2, "0")}.
+														</span>
+														<h6 className="title">{stage.name}</h6>
+														<div className="desc">
+															<ul>
+																{(stage.steps || []).map(step => (
+																	<li key={step.name}>
+																		<span>
+																			<i className="tji-check"></i>
+																		</span>
+																		<strong>{step.name}</strong>
+																		{step.by ? ` — ${step.by}` : ""}
+																		{step.timing ? (
+																			<em> ({step.timing})</em>
+																		) : null}
+																	</li>
+																))}
+															</ul>
+														</div>
+													</div>
+												))}
 											</div>
-										</div>
-									</div>
-								</div>
+										) : (
+											<ul className="wow fadeInUp" data-wow-delay=".3s">
+												{processItemsFallback.map(item => (
+													<li key={item}>
+														<span>
+															<i className="tji-check"></i>
+														</span>
+														{item}
+													</li>
+												))}
+											</ul>
+										)}
+										{process?.diagramTodo ? (
+											<p className="wow fadeInUp" data-wow-delay=".3s">
+												Visual flowchart: TODO — design asset pending (do not
+												hotlink).
+											</p>
+										) : null}
+									</>
+								) : null}
 								<h3 className="wow fadeInUp" data-wow-delay=".3s">
 									Frequently asked questions
 								</h3>
@@ -228,8 +255,6 @@ const ServicesDetailsPrimary = ({ option }) => {
 										/>
 									))}
 								</Accordion>
-									</>
-								)}
 							</div>
 							<div
 								className="tj-post__navigation mb-0 wow fadeInUp"

@@ -177,6 +177,7 @@ export function mapServices(nodes = []) {
 			desc2: acf.desc2 ?? "",
 			desc3: acf.desc3 ?? "",
 			totalProject: acf.totalProject ?? "",
+			subServices: acf.subServices ?? [],
 			process: acf.process ?? null,
 		};
 	});
@@ -223,6 +224,10 @@ export function mapPortfolio(nodes = []) {
 			dataFilter: acf.dataFilter ?? "",
 			statusItem: acf.statusItem ?? [],
 			descItems: acf.descItems ?? [],
+			objectives: acf.objectives ?? [],
+			activity: acf.activity ?? [],
+			results: acf.results ?? [],
+			client: acf.client ?? "",
 		};
 	});
 }

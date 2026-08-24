@@ -15,7 +15,7 @@ import getALlServices from "@/libs/getALlServices";
 export const metadata = pageMetadata({
 	title: "Services",
 	description:
-		"Marketing Communications 360 from First Katalyst Marketing: consumer activation, trade marketing, sales and distribution, HR outsourcing, advertising, digital marketing, production services and events.",
+		"First Katalyst Marketing services: Experiential, Activations, Merchandising Management, Field Force Management, Procurement and Production, and Creative Development.",
 });
 
 export default async function Services() {

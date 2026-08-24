@@ -11,7 +11,7 @@ export const SITE_NAME_SHORT = "First Katalyst Marketing";
 export const DEFAULT_TITLE = `${SITE_NAME} | Marketing Communications 360`;
 
 export const DEFAULT_DESCRIPTION =
-	"First Katalyst Marketing Limited — a first class ideas powerhouse. Marketing Communications 360: cost-effective, value-adding and result-oriented activation, trade marketing, sales and distribution, HR outsourcing, advertising, digital, production and events across Nigeria and West Africa.";
+	"First Katalyst Marketing Limited — a first class ideas powerhouse. Marketing Communications 360: Experiential, Activations, Sales and Distribution, Merchandising Management, Field Force Management, Procurement and Production, and Creative Development across Nigeria and West Africa.";
 
 const siteUrl =
 	process.env.NEXT_PUBLIC_SITE_URL || "https://firstkatalystmarketing.com";
@@ -37,11 +37,13 @@ export const rootMetadata = {
 		"First Katalyst Marketing",
 		"FKM",
 		"Marketing Communications 360",
-		"consumer activation",
-		"trade marketing",
-		"HR outsourcing",
-		"digital marketing",
-		"events",
+		"experiential",
+		"activations",
+		"sales and distribution",
+		"merchandising management",
+		"field force management",
+		"procurement and production",
+		"creative development",
 		"Nigeria",
 		"West Africa",
 		"Ikeja Lagos",

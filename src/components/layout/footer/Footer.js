@@ -13,14 +13,13 @@ const socialItems = [
 
 // Slugs aligned with public/fakedata/services.json
 const serviceLinks = [
-	["/services/consumer-activation", "Consumer Activation"],
-	["/services/trade-marketing-activation", "Trade Marketing Activation"],
+	["/services/experiential", "Experiential"],
+	["/services/activations", "Activations"],
 	["/services/sales-and-distribution", "Sales and Distribution"],
-	["/services/hr-outsourcing", "HR Outsourcing"],
-	["/services/advertising", "Advertising"],
-	["/services/digital-marketing", "Digital Marketing"],
-	["/services/production-services", "Production Services"],
-	["/services/events", "Events"],
+	["/services/merchandising-management", "Merchandising Management"],
+	["/services/field-force-management", "Field Force Management"],
+	["/services/procurement-and-production", "Procurement and Production"],
+	["/services/creative-development", "Creative Development"],
 ];
 
 const Footer = () => {
@@ -37,13 +36,13 @@ const Footer = () => {
 							>
 								<div className="max-w-37.5">
 									<Link href="/">
-										<img src="/images/logos/fk-logo.png" alt="First Katalyst Marketing" />
+										<img src="/images/logos/fkmarketing-logo.png" alt="First Katalyst Marketing" />
 									</Link>
 								</div>
 								<div className="w-full max-w-70 max-md:max-w-full">
 									{/* Homepage slider positioning: “a first class ideas powerhouse” */}
 									<p className="mb-8.5 mt-7 text-black max-lg:mb-5">
-										First Katalyst Marketing — a first class ideas powerhouse.
+										First Katalyst Marketing a first class ideas powerhouse.
 										Marketing Communications 360: cost-effective, value-adding
 										and result-oriented solutions that build lasting relationships
 										between brands and their consumers.

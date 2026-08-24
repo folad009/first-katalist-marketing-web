@@ -1,0 +1,176 @@
+{
+	"source": "FIRST KATALYST MARKETING profile PDF",
+	"sourceDates": "Deck dated July 2023; file profile Feb 2025. Dated claims below kept as PDF wording — confirm before updating year math.",
+	"strategyQuote": {
+		"text": "Some people see things and ask why, we see things and ask why not…",
+		"attribution": "Winston Churchill",
+		"label": "Over-arching strategy — Disruption"
+	},
+	"facts": {
+		"commenced": "Agency commenced business in June, 2012 (11 years Experience)",
+		"commencedNote": "PDF dated claim: “11 years Experience” as of July 2023 deck — confirm before recalculating.",
+		"team": "Presently with 45 skilled and competent employees and a database of over 2000 field/temporary team",
+		"expertise": "Highly experienced team in all areas of integrated marketing communications."
+	},
+	"vision": "our vision is to become a first class ideas powerhouse globally and to be one of the top ten agencies within Africa by 2025",
+	"visionNote": "PDF dated claim: “by 2025” — confirm before changing (site previously used 2030).",
+	"mission": "our mission is to provide cost effective, value adding, result oriented marketing solutions for our clients through the power of ideas, thereby building long-term relationship between them and their consumers for sustainable profitability for both agency and clients",
+	"coreValues": [
+		"Excellence",
+		"Innovation",
+		"Talent",
+		"Integrity",
+		"Passion"
+	],
+	"coreValuesNote": "PDF lists titles only — individual value body copy TODO.",
+	"ourEdge": [
+		"Through the Line Thinking",
+		"Coverage, Sales and Distribution",
+		"Brand Building",
+		"CSR",
+		"Customer Marketing",
+		"Best In Class Execution",
+		"Human Resources",
+		"Technology Driven"
+	],
+	"awards": [
+		{
+			"title": "Brand com Award for Most Outstanding BTL Agency of the Year",
+			"year": null,
+			"imageTodo": "TODO: Add award logo/image — do not hotlink"
+		},
+		{
+			"title": "Marketing Edge’s Outstanding Experiential Agency of the Year",
+			"year": "2021",
+			"imageTodo": "TODO: Add award logo/image — do not hotlink"
+		},
+		{
+			"title": "Marketing Edge’s Outstanding Marketing Personality of the Year (Soji Odedina, MD First Katalyst Marketing)",
+			"year": "2021",
+			"imageTodo": "TODO: Add award logo/image — do not hotlink"
+		},
+		{
+			"title": "West Africa Marketing Communications Agency of the Year",
+			"year": "2021",
+			"imageTodo": "TODO: Add award logo/image — do not hotlink"
+		}
+	],
+	"groupStructurePdf": {
+		"note": "PDF Group Structure differs from current site fk-group.json — confirm before changing nav/routes.",
+		"footnote": "Extending footprints to Cote De Voire",
+		"entities": [
+			"FK GROUP",
+			"FK Nigeria",
+			"FK Ghana",
+			"FK Benin",
+			"Image Target",
+			"SSB Africa",
+			"FK Digital"
+		],
+		"siteOnlyNotInPdfSlide": ["FK Properties"],
+		"pdfOnlyNotOnSiteChart": ["FK Nigeria", "FK Benin"]
+	},
+	"regionalCoverage": {
+		"sectionTitle": "Regional Coverage",
+		"capabilitiesTitle": "Overview Of Capabilities",
+		"intro": [
+			"Warehouses also situated in Lagos and these regions",
+			"Database of HORECA outlets (Hotels, Restaurants, &Cafes), Clubs and Bars Pan Nigeria",
+			"Database of vendors and suppliers to compliment the procurement processes"
+		],
+		"fieldOperativesNote": "A concrete database of over 2000 field operatives across Nigeria",
+		"regions": [
+			{
+				"name": "West",
+				"cities": [
+					"Abeokuta",
+					"Ibadan",
+					"Oyo",
+					"Akure",
+					"Ilorin",
+					"Osogbo",
+					"Ekiti"
+				]
+			},
+			{
+				"name": "Central",
+				"cities": ["Benin", "Warri", "Asaba", "Onitsha", "Awka"]
+			},
+			{
+				"name": "East",
+				"cities": ["Enugu", "Nsukka", "Umuhia", "Owerri", "Aba"]
+			},
+			{
+				"name": "South",
+				"cities": [
+					"Port Harcourt",
+					"Yenogoa",
+					"Calabar",
+					"Uyo",
+					"Ikom",
+					"Ikot-Ekpene"
+				]
+			},
+			{
+				"name": "North",
+				"cities": [
+					"Abuja",
+					"Suleja",
+					"Lokoja",
+					"Minna",
+					"Jos",
+					"Bauchi",
+					"Gombe",
+					"Kaduna",
+					"Kano",
+					"Yola",
+					"Sokoto",
+					"Zaria",
+					"Maiduguri"
+				]
+			}
+		]
+	},
+	"fieldStructure": {
+		"sectionTitle": "Regional Field Structure",
+		"summary": "A concrete database of over 2000 field operatives across Nigeria",
+		"diagramTodo": "TODO: Visual org chart asset from PDF Regional Field Structure slide — do not hotlink; use text hierarchy below until design asset is provided.",
+		"topRole": "Operations Director",
+		"supportRole": "Operations Manager",
+		"regions": [
+			{
+				"name": "North",
+				"levels": [
+					"Field coordinator (North)",
+					"Field Supervisors (North)",
+					"Field BAs (North)"
+				]
+			},
+			{
+				"name": "East",
+				"levels": [
+					"Field coordinator (East)",
+					"Field Supervisors (East)",
+					"Field BAs (East)"
+				]
+			},
+			{
+				"name": "Central",
+				"levels": [
+					"Field coordinator (Central)",
+					"Field Supervisors (Central)",
+					"Field BAs (Central)"
+				]
+			},
+			{
+				"name": "South/West",
+				"levels": [
+					"Field coordinator (South/West)",
+					"Field Supervisors (South/West)",
+					"Field BAs (South/West)"
+				]
+			}
+		]
+	},
+	"boardNote": "TODO: PDF “Our Board” slide has no extractable names — add board members when confirmed."
+}

@@ -35,8 +35,8 @@ const Faq2 = ({ type = 1 }) => {
 								</div>
 								<p className="desc wow fadeInUp" data-wow-delay=".6s">
 									Answers about First Katalyst Marketing —
-									activations, trade, HR outsourcing, digital,
-									events, and more.
+									Experiential, Activations, Merchandising, Field Force,
+									Procurement & Production, and Creative Development.
 								</p>
 								<div className="wow fadeInUp" data-wow-delay=".8s">
 									<ButtonPrimary text={"Send Us a Brief"} url={"/contact"} />

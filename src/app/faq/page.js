@@ -12,7 +12,7 @@ import { pageMetadata } from "@/lib/site-seo";
 export const metadata = pageMetadata({
 	title: "FAQ",
 	description:
-		"Common questions about First Katalyst Marketing services — activation, trade marketing, HR outsourcing, digital, events and how to send a brief.",
+		"Common questions about First Katalyst Marketing services — Experiential, Activations, Merchandising Management, Field Force Management, Procurement and Production, Creative Development.",
 });
 
 export default function Faq() {

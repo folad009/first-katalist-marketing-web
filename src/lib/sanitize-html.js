@@ -1,60 +1,20 @@
-import DOMPurify from "isomorphic-dompurify";
+/**
+ * Server-safe HTML sanitizer (no jsdom / isomorphic-dompurify).
+ * Used during SSR; browser path uses DOMPurify in WordPressContent.
+ */
 
-const ALLOWED_CONFIG = {
-	ALLOWED_TAGS: [
-		"h1",
-		"h2",
-		"h3",
-		"h4",
-		"h5",
-		"h6",
-		"p",
-		"br",
-		"hr",
-		"ul",
-		"ol",
-		"li",
-		"blockquote",
-		"pre",
-		"code",
-		"em",
-		"strong",
-		"sub",
-		"sup",
-		"a",
-		"img",
-		"figure",
-		"figcaption",
-		"table",
-		"thead",
-		"tbody",
-		"tr",
-		"th",
-		"td",
-		"div",
-		"span",
-		"iframe",
-	],
-	ALLOWED_ATTR: [
-		"href",
-		"target",
-		"rel",
-		"src",
-		"alt",
-		"title",
-		"width",
-		"height",
-		"class",
-		"id",
-		"loading",
-		"allow",
-		"allowfullscreen",
-		"frameborder",
-	],
-	ALLOW_DATA_ATTR: false,
-};
-
-export function sanitizeHtml(html) {
+export function sanitizeHtmlServer(html) {
 	if (!html || typeof html !== "string") return "";
-	return DOMPurify.sanitize(html, ALLOWED_CONFIG);
+	return html
+		.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, "")
+		.replace(/<style\b[^<]*(?:(?!<\/style>)<[^<]*)*<\/style>/gi, "")
+		.replace(/\s+on\w+\s*=\s*(["'])[\s\S]*?\1/gi, "")
+		.replace(/\s+on\w+\s*=\s*[^\s>]+/gi, "")
+		.replace(/(href|src)\s*=\s*(["'])\s*javascript:[\s\S]*?\2/gi, '$1="#"')
+		.replace(/(href|src)\s*=\s*javascript:[^\s>]*/gi, '$1="#"');
+}
+
+/** @deprecated Use sanitizeHtmlServer or WordPressContent (client DOMPurify). */
+export function sanitizeHtml(html) {
+	return sanitizeHtmlServer(html);
 }

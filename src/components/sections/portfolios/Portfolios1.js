@@ -20,8 +20,8 @@ const Portfolios1 = async () => {
 									</h2>
 								</div>
 								<p className="desc wow fadeInUp" data-wow-delay=".5s">
-									From trade and consumer activations to experiential events —
-									a look at the work we deliver for leading brands.
+									From experiential and activations to merchandising, field
+									force, procurement, production, and creative development.
 								</p>
 								<div className="btn-wrap wow fadeInUp" data-wow-delay=".6s">
 									<ButtonPrimary text={"View Gallery"} url="/portfolios" />

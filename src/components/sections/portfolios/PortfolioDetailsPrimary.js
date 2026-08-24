@@ -1,13 +1,46 @@
 "use client";
-import PopupVideo from "@/components/shared/popup-video/PopupVideo";
 import WordPressContent from "@/components/shared/content/WordPressContent";
 import Image from "next/image";
 import Link from "next/link";
 import CtaSidebar from "../cta/CtaSidebar";
+
 const PortfolioDetailsPrimary = ({ option }) => {
 	const { prevSlug, nextSlug, currentItem, isPrevItem, isNextItem } =
 		option || {};
-	const { title, titleLarge, imgLarge, contentHtml } = currentItem || {};
+	const {
+		title,
+		titleLarge,
+		imgLarge,
+		img,
+		contentHtml,
+		objectives = [],
+		activity = [],
+		results = [],
+		statusItem = [],
+		client,
+		category,
+	} = currentItem || {};
+
+	const hasStructured =
+		(Array.isArray(objectives) && objectives.length > 0) ||
+		(Array.isArray(results) && results.length > 0);
+
+	const sidebarInfo =
+		Array.isArray(statusItem) && statusItem.length > 0
+			? statusItem.filter(item => item.title !== "Images")
+			: [
+					{ title: "Category", desc: category || "TODO" },
+					{ title: "Client", desc: client || "TODO" },
+					{ title: "Agency", desc: "First Katalyst Marketing" },
+				];
+
+	const sidebarIcons = [
+		"tji-chart",
+		"tji-user",
+		"tji-budget",
+		"tji-location-2",
+		"tji-calendar",
+	];
 
 	return (
 		<section className="tj-blog-section section-gap">
@@ -16,8 +49,9 @@ const PortfolioDetailsPrimary = ({ option }) => {
 					<div className="lg:col-span-8">
 						<div className="post-details-wrapper">
 							<div className="blog-images wow fadeInUp" data-wow-delay=".1s">
+								{/* TODO: Replace with FKM case-study hero — do not hotlink */}
 								<Image
-									src={imgLarge || "/images/project/project-details.webp"}
+									src={imgLarge || img || "/images/project/project-details.webp"}
 									alt={title || "Portfolio image"}
 									width={868}
 									height={450}
@@ -34,167 +68,76 @@ const PortfolioDetailsPrimary = ({ option }) => {
 										className="wow fadeInUp"
 										data-wow-delay=".3s"
 									/>
-								) : (
+								) : hasStructured ? (
 									<>
-								<p className="wow fadeInUp" data-wow-delay=".3s">
-									Rebranding is more than just a logo change or a new color
-									palette; it’s about reshaping how your company is perceived in
-									the marketplace. At [Company Name], we specialize in crafting
-									comprehensive rebranding strategies that align your business
-									with its evolving goals, values, and target audience. Whether
-									you’re launching in new markets, updating your identity for
-									modern relevance, or simply reinvigorating a tired brand, we
-									take a holistic approach to ensure your brand resonates with
-									customers on a deeper level.
-								</p>
-								<p className="wow fadeInUp" data-wow-delay=".3s">
-									Our rebranding process is rooted in strategic thinking, market
-									research, and creativity. We work closely with you to
-									understand your business, vision, and customers, ensuring that
-									every element of the rebrand— from visual design to messaging—
-									is authentic and impactful. The end result is a refreshed
-									brand that speaks.
-								</p>
-								<h3 className="wow fadeInUp" data-wow-delay=".3s">
-									Project Overview
-								</h3>
-								<p className="wow fadeInUp" data-wow-delay=".3s">
-									In today’s dynamic market, a strong and consistent brand
-									identity is key to standing out and driving growth. [Client
-									Name], a growing business with First Katalyst Marketing, recognized the need to
-									evolve its brand to better resonate with an expanding audience
-									and adapt to shifting market trends.
-								</p>
-								<ul className="wow fadeInUp" data-wow-delay=".3s">
-									<li>
-										<span>
-											<i className="tji-check"></i>
-										</span>
-										Brand Audit & Research
-									</li>
-									<li>
-										<span>
-											<i className="tji-check"></i>
-										</span>
-										Holder & Internal Communication
-									</li>
-									<li>
-										<span>
-											<i className="tji-check"></i>
-										</span>
-										Customer Experience
-									</li>
-									<li>
-										<span>
-											<i className="tji-check"></i>
-										</span>
-										Strategy Development
-									</li>
-									<li>
-										<span>
-											<i className="tji-check"></i>
-										</span>
-										Launch & Marketing
-									</li>
-									<li>
-										<span>
-											<i className="tji-check"></i>
-										</span>
-										Creative Direction
-									</li>
-									<li>
-										<span>
-											<i className="tji-check"></i>
-										</span>
-										Touchpoints
-									</li>
-								</ul>
-								<h3 className="wow fadeInUp" data-wow-delay=".3s">
-									Project Galley
-								</h3>
-								<p className="wow fadeInUp" data-wow-delay=".3s">
-									Our Rebranding Strategy for [Client Name] transformed their
-									entire brand identity, from a fresh new logo to an updated
-									visual design that resonates with their growing audience.
-								</p>
-								<div className="images-wrap">
-									<div className="grid grid-cols-1 gap-x-6 sm:grid-cols-2">
-										<div className="sm:col-span-2">
-											<div
-												className="image-box wow fadeInUp"
-												data-wow-delay=".3s"
-											>
-												<PopupVideo>
-													<Link
-														className="gallery glightbox"
-														href="/images/project/project-gallery-1.webp"
-														prefetch={false}
-													>
-														<Image
-															src="/images/project/project-gallery-1.webp"
-															alt="Image"
-															width={870}
-															height={420}
-															style={{ height: "auto" }}
-														/>
-													</Link>
-												</PopupVideo>
-											</div>
-										</div>
-										<div>
-											<div
-												className="image-box wow fadeInUp"
-												data-wow-delay=".3s"
-											>
-												<PopupVideo>
-													<Link
-														className="gallery glightbox"
-														href="/images/project/project-gallery-2.webp"
-														prefetch={false}
-													>
-														<Image
-															src="/images/project/project-gallery-2.webp"
-															alt="Image"
-															width={420}
-															height={420}
-															style={{ height: "auto" }}
-														/>
-													</Link>
-												</PopupVideo>
-											</div>
-										</div>
-										<div>
-											<div
-												className="image-box wow fadeInUp"
-												data-wow-delay=".5s"
-											>
-												<PopupVideo>
-													<Link
-														className="gallery glightbox"
-														prefetch={false}
-														href="/images/project/project-gallery-3.webp"
-													>
-														<Image
-															src="/images/project/project-gallery-3.webp"
-															alt="Image"
-															width={420}
-															height={420}
-															style={{ height: "auto" }}
-														/>
-													</Link>
-												</PopupVideo>
-											</div>
-										</div>
-									</div>
-								</div>
+										{objectives.length > 0 ? (
+											<>
+												<h3 className="wow fadeInUp" data-wow-delay=".3s">
+													Objectives
+												</h3>
+												<ul className="wow fadeInUp" data-wow-delay=".3s">
+													{objectives.map(item => (
+														<li key={item}>
+															<span>
+																<i className="tji-check"></i>
+															</span>
+															{item}
+														</li>
+													))}
+												</ul>
+											</>
+										) : null}
+										{activity.length > 0 ? (
+											<>
+												<h3 className="wow fadeInUp" data-wow-delay=".3s">
+													Activity
+												</h3>
+												<ul className="wow fadeInUp" data-wow-delay=".3s">
+													{activity.map(item => (
+														<li key={item}>
+															<span>
+																<i className="tji-check"></i>
+															</span>
+															{item}
+														</li>
+													))}
+												</ul>
+											</>
+										) : null}
+										{results.length > 0 ? (
+											<>
+												<h3 className="wow fadeInUp" data-wow-delay=".3s">
+													Results
+												</h3>
+												<ul className="wow fadeInUp" data-wow-delay=".3s">
+													{results.map(item => (
+														<li key={item}>
+															<span>
+																<i className="tji-check"></i>
+															</span>
+															{item}
+														</li>
+													))}
+												</ul>
+											</>
+										) : null}
+										<p className="wow fadeInUp" data-wow-delay=".3s">
+											<em>
+												TODO: Replace temporary /images/project/* with FKM
+												activity photos from profile PDF — do not hotlink.
+											</em>
+										</p>
 									</>
+								) : (
+									<p className="wow fadeInUp" data-wow-delay=".3s">
+										TODO: Add case study objectives and results from FKM.
+									</p>
 								)}
 							</div>
 							<div
 								className="tj-post__navigation mb-0 wow fadeInUp"
 								data-wow-delay="0.3s"
 							>
-								{/* <!-- previous post --> */}
 								<div
 									className="tj-nav__post previous"
 									style={{ visibility: isPrevItem ? "visible" : "hidden" }}
@@ -211,7 +154,6 @@ const PortfolioDetailsPrimary = ({ option }) => {
 								<Link href={"/portfolios"} className="tj-nav-post__grid">
 									<i className="tji-window"></i>
 								</Link>
-								{/* <!-- next post --> */}
 								<div
 									className="tj-nav__post next"
 									style={{ visibility: isNextItem ? "visible" : "hidden" }}
@@ -230,59 +172,27 @@ const PortfolioDetailsPrimary = ({ option }) => {
 					</div>
 					<div className="lg:col-span-4">
 						<aside className="tj-main-sidebar">
-							{/* <!-- category --> */}
 							<div
 								className="tj-sidebar-widget widget-categories wow fadeInUp"
 								data-wow-delay=".1s"
 							>
 								<h4 className="widget-title">Project Info</h4>
-								<div className="infos-item">
-									<div className="project-icons">
-										<i className="tji-user"></i>
+								{sidebarInfo.map((item, idx) => (
+									<div className="infos-item" key={`${item.title}-${idx}`}>
+										<div className="project-icons">
+											<i
+												className={
+													sidebarIcons[idx % sidebarIcons.length]
+												}
+											></i>
+										</div>
+										<div className="project-text">
+											<span>{item.title}</span>
+											<h6 className="title">{item.desc}</h6>
+										</div>
 									</div>
-									<div className="project-text">
-										<span>Clients</span>
-										<h6 className="title">Innovate Interiors Group</h6>
-									</div>
-								</div>
-								<div className="infos-item">
-									<div className="project-icons">
-										<i className="tji-budget"></i>
-									</div>
-									<div className="project-text">
-										<span>Budget</span>
-										<h6 className="title">$100M USD</h6>
-									</div>
-								</div>
-								<div className="infos-item">
-									<div className="project-icons">
-										<i className="tji-location-2"></i>
-									</div>
-									<div className="project-text">
-										<span>Location</span>
-										<h6 className="title">Maplewood Heights, CA</h6>
-									</div>
-								</div>
-								<div className="infos-item">
-									<div className="project-icons">
-										<i className="tji-chart"></i>
-									</div>
-									<div className="project-text">
-										<span>Sector</span>
-										<h6 className="title">Corporate Business</h6>
-									</div>
-								</div>
-								<div className="infos-item">
-									<div className="project-icons">
-										<i className="tji-calendar"></i>
-									</div>
-									<div className="project-text">
-										<span>Complete date</span>
-										<h6 className="title">OCT 20, 2024</h6>
-									</div>
-								</div>
+								))}
 							</div>
-							{/* <!-- cta --> */}
 							<div
 								className="tj-sidebar-widget widget-feature-item wow fadeInUp"
 								data-wow-delay=".3s"

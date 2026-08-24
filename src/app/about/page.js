@@ -1,11 +1,14 @@
 import Footer from "@/components/layout/footer/Footer";
 import Header from "@/components/layout/header/Header";
 import About3 from "@/components/sections/about/About3";
+import CoverageCapabilities from "@/components/sections/about/CoverageCapabilities";
+import Awards1 from "@/components/sections/awards/Awards1";
 import Brands1 from "@/components/sections/brands/Brands1";
 import Cta from "@/components/sections/cta/Cta";
 import Faq2 from "@/components/sections/faq/Faq2";
 import Features from "@/components/sections/features/Features";
 import HeroInner from "@/components/sections/hero/HeroInner";
+import VisionMission from "@/components/sections/features/VisionMission";
 import Team1 from "@/components/sections/teams/Team1";
 import Testimonials2 from "@/components/sections/testimonials/Testimonials2";
 import BackToTop from "@/components/shared/others/BackToTop";
@@ -18,7 +21,7 @@ import getTestimonials from "@/libs/getTestimonials";
 export const metadata = pageMetadata({
 	title: "About FKM",
 	description:
-		"Who we are: First Katalyst Marketing Limited — a go-to agency for top-notch marketing solutions since 2012. A first class ideas powerhouse across Nigeria, West Africa, the UAE and the UK.",
+		"First Katalyst Marketing — commenced June 2012. A first class ideas powerhouse; cost effective, value adding, result oriented marketing solutions through the power of ideas.",
 });
 
 export default async function About() {
@@ -37,8 +40,11 @@ export default async function About() {
 					<main>
 						<HeaderSpace />
 						<HeroInner title={"About FKM"} text={"About"} />
-						<Features type={2} />
+						<VisionMission type={2} />
 						<About3 type={2} />
+						<Features type={2} />
+						<Awards1 />
+						<CoverageCapabilities />
 						<Brands1 type={2} />
 						<Testimonials2 type={2} testimonials={testimonials} />
 						<Team1 type={3} teamMembers={teamMembers} />

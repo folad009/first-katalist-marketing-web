@@ -9,12 +9,12 @@ const Brands1 = ({ type = 1 }) => {
 			data-wow-delay=".4s"
 		>
 			<div className="w-full overflow-hidden">
-				<div className="client-content">
+				{/*<div className="client-content">
 					<h5 className="sec-title">
 						Our Clientele — Brands That Trust
 						<span className="client-text"> First Katalyst Marketing</span>
 					</h5>
-				</div>
+				</div>*/}
 				<BrandSlider1 />
 			</div>
 		</section>

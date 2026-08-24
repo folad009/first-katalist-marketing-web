@@ -1,7 +1,7 @@
-import brands from "../../public/fakedata/brands";
+import clients from "../constants/clients";
 
 const getBrands = () => {
-  return brands;
+  return clients;
 };
 
 export default getBrands;
