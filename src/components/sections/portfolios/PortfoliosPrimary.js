@@ -24,7 +24,7 @@ const PortfoliosPrimary = ({ portfolio = [] }) => {
 	return (
 		<section className="tj-project-section section-gap">
 			<div className="tj-container">
-				<div className="grid grid-cols-1 gap-y-4 md:grid-cols-2 xl:grid-cols-3">
+				<div className="grid grid-cols-1 gap-y-4 gap-x-4 md:grid-cols-2 xl:grid-cols-3">
 					{currentItems?.length
 						? currentItems?.map((item, idx) => (
 								<div
