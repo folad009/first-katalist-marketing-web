@@ -15,12 +15,12 @@ const VisionMission = ({ type }) => {
 		},
 		{
 			title: "Vision",
-			desc: `‘…${vision}…’`,
+			desc: `${vision}`,
 			icon: "tji-award",
 		},
 		{
 			title: "Mission",
-			desc: `‘…${mission}…’`,
+			desc: `${mission}`,
 			icon: "tji-support",
 		},
 	];

@@ -35,7 +35,7 @@ const ContactMenu = ({ isContactOpen, setIsContactOpen }) => {
 								className="inline-block w-full max-w-34"
 								onClick={() => setIsContactOpen(false)}
 							>
-								<img src="/images/logos/logo-2.webp" alt="Logo" />
+								<img src="/images/logos/fk-logo.png" alt="Logo" />
 							</Link>
 							<SheetClose
 								aria-label="Close menu"
@@ -54,7 +54,7 @@ const ContactMenu = ({ isContactOpen, setIsContactOpen }) => {
 							</p>
 						</div>
 
-						<div className="mb-11.25">
+						{/*<div className="mb-11.25">
 							<HamburgerTitle>Search Now!</HamburgerTitle>
 							<div className="relative">
 								<form method="get" action="/">
@@ -74,7 +74,7 @@ const ContactMenu = ({ isContactOpen, setIsContactOpen }) => {
 									</button>
 								</form>
 							</div>
-						</div>
+						</div>*/}
 
 						<HamburgerContactInfo />
 					</div>

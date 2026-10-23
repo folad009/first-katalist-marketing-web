@@ -71,9 +71,7 @@ const About1 = () => {
 								<div className="rating-area">
 									<Ratings1 />
 								</div>
-								<p className="desc">
-									‘…{mission}…’
-								</p>
+
 								<p className="desc">
 									{facts.team}. {facts.expertise}
 								</p>

@@ -8,11 +8,11 @@ const ContactTop = () => {
 					<span className="sub-title wow fadeInUp" data-wow-delay=".1s">
 						<i className="tji-box"></i>Contact info
 					</span>
-					<h2 className="sec-title title-anim">
+					<h2 className="sec-title title-anim capitalize">
 						<span>Reach</span> Out to Us
 					</h2>
 				</div>
-				<div className="grid grid-cols-1 gap-y-4 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-x-4">
+				<div className="grid grid-cols-1 gap-y-4 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-x-4">
 					<div>
 						<div
 							className="contact-item style-2 wow fadeInUp"
@@ -80,9 +80,6 @@ const ContactTop = () => {
 									<Link href="mailto:outsourcing@firstkatalystmarketing.com">
 										outsourcing@firstkatalystmarketing.com
 									</Link>
-								</li>
-								<li className="active">
-									<Link href="/contact">Need help?</Link>
 								</li>
 							</ul>
 						</div>

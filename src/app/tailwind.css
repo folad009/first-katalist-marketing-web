@@ -150,7 +150,7 @@
 
 @theme {
 	/* Brand palette (from _colors.scss) → bg-brand, text-brand-dark, etc. */
-	--color-brand: #1e8a8a; /* theme/primary */
+	--color-brand: #32bcf1; /* theme/primary */
 	--color-brand-bg: #bcedff; /* theme/bg */
 	--color-brand-bg-2: #32BCF1; /* theme/bg-2 */
 	--color-brand-bg-3: #202e30; /* theme/bg-3 */
