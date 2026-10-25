@@ -4,10 +4,11 @@ import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import FaqItem from "@/components/shared/faq/FaqItem";
 import { Accordion } from "@/components/ui/accordion";
 import faqs from "../../../../public/fakedata/faqs.json";
+import { SITE_IMAGE_FALLBACKS } from "@/lib/site-images";
 import Image from "next/image";
 import Link from "next/link";
 
-const Faq2 = ({ type = 1 }) => {
+const Faq2 = ({ type = 1, faqImage = SITE_IMAGE_FALLBACKS.faqImage }) => {
 	const items = faqs;
 
 	const defaultOpen = items.findIndex(item => item.initActive);
@@ -52,7 +53,7 @@ const Faq2 = ({ type = 1 }) => {
 							>
 								<div className="faq-img overflow-hidden">
 									<Image
-										src="/images/faq/faq.webp"
+										src={faqImage}
 										alt="First Katalyst Marketing FAQ"
 										width={585}
 										height={629}

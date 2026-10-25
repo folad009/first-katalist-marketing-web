@@ -8,6 +8,7 @@
  */
 
 import { mapSeo } from "@/lib/wordpress-mappers-seo";
+import { SITE_IMAGE_FALLBACKS } from "@/lib/site-images";
 import slugify from "@/lib/slugify";
 
 function parseTemplateData(value) {
@@ -22,6 +23,19 @@ function parseTemplateData(value) {
 
 function featuredImageUrl(node) {
 	return node?.featuredImage?.node?.sourceUrl ?? null;
+}
+
+function resolveCmsImage(value, fallback) {
+	if (typeof value === "string" && value.trim()) {
+		return value.trim();
+	}
+
+	const mediaUrl = value?.node?.sourceUrl ?? value?.sourceUrl ?? null;
+	if (typeof mediaUrl === "string" && mediaUrl.trim()) {
+		return mediaUrl.trim();
+	}
+
+	return fallback;
 }
 
 function stripHtml(html) {
@@ -299,6 +313,18 @@ export function mapCareers(nodes = []) {
 			need: acf.need ?? "",
 		};
 	});
+}
+
+export function mapSiteImages(data) {
+	const node = data?.siteImages ?? {};
+	const fields = node.siteImageFields ?? node;
+
+	return Object.fromEntries(
+		Object.entries(SITE_IMAGE_FALLBACKS).map(([key, fallback]) => [
+			key,
+			resolveCmsImage(fields?.[key], fallback),
+		])
+	);
 }
 
 export function mapCategoryNames(nodes = []) {

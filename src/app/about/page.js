@@ -15,6 +15,7 @@ import BackToTop from "@/components/shared/others/BackToTop";
 import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
 import { pageMetadata } from "@/lib/site-seo";
+import getSiteImages from "@/libs/getSiteImages";
 import getTeamMembers from "@/libs/getTeamMembers";
 import getTestimonials from "@/libs/getTestimonials";
 
@@ -25,9 +26,10 @@ export const metadata = pageMetadata({
 });
 
 export default async function About() {
-	const [teamMembers, testimonials] = await Promise.all([
+	const [teamMembers, testimonials, siteImages] = await Promise.all([
 		getTeamMembers(),
 		getTestimonials(),
+		getSiteImages(),
 	]);
 
 	return (
@@ -46,9 +48,13 @@ export default async function About() {
 						<Awards1 />
 						{/*<CoverageCapabilities />*/}
 						<Brands1 type={2} />
-						<Testimonials2 type={2} testimonials={testimonials} />
+						<Testimonials2
+							type={2}
+							testimonials={testimonials}
+							sectionImage={siteImages.testimonialSectionImage}
+						/>
 						<Team1 type={3} teamMembers={teamMembers} />
-						<Faq2 type={3} />
+						<Faq2 type={3} faqImage={siteImages.faqImage} />
 						<Cta />
 					</main>
 					<Footer />

@@ -1,10 +1,12 @@
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
+import getSiteImages from "@/libs/getSiteImages";
 import Image from "next/image";
 import Link from "next/link";
 import companyProfile from "../../../../public/fakedata/company-profile.json";
 
-const About3 = ({ type }) => {
+const About3 = async ({ type }) => {
   const { coreValues, strategyQuote, vision, mission } = companyProfile;
+  const { aboutPageImage } = await getSiteImages();
 
   return (
     <section className="tj-about-section-2 section-gap section-gap-x">
@@ -19,7 +21,7 @@ const About3 = ({ type }) => {
                 {/* TODO: Replace with FKM about image from profile/assets — do not hotlink */}
                 <Image
                   data-speed=".8"
-                  src="/images/about/about-5.webp"
+                  src={aboutPageImage}
                   alt="First Katalyst Marketing"
                   width={591}
                   height={639}

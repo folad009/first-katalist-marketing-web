@@ -386,3 +386,41 @@ export const GET_CAREER_BY_ID = `
     }
   }
 `;
+
+/**
+ * ACF options page GraphQL field name: siteImages.
+ * Field group GraphQL field name: siteImageFields.
+ * Image fields may be URL strings or media items.
+ */
+const SITE_IMAGE_FIELD_NAMES = [
+	"heroImage",
+	"heroClient1",
+	"heroClient2",
+	"heroClient3",
+	"aboutImage",
+	"aboutVideoImage",
+	"aboutPageImage",
+	"ctaImage",
+	"faqImage",
+	"testimonialSectionImage",
+];
+
+export const GET_SITE_IMAGES = `
+  query GetSiteImages {
+    siteImages {
+      siteImageFields {
+        ${SITE_IMAGE_FIELD_NAMES.join("\n        ")}
+      }
+    }
+  }
+`;
+
+export const GET_SITE_IMAGES_MEDIA = `
+  query GetSiteImagesMedia {
+    siteImages {
+      siteImageFields {
+        ${SITE_IMAGE_FIELD_NAMES.map(name => `${name} { node { sourceUrl } }`).join("\n        ")}
+      }
+    }
+  }
+`;

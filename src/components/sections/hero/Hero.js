@@ -1,7 +1,11 @@
+import getSiteImages from "@/libs/getSiteImages";
 import Image from "next/image";
 import Link from "next/link";
 
-const Hero = () => {
+const Hero = async () => {
+	const { heroImage, heroClient1, heroClient2, heroClient3 } =
+		await getSiteImages();
+
 	return (
 		<section className="tj-banner-section section-gap-x">
 			<div className="banner-area">
@@ -34,7 +38,7 @@ const Hero = () => {
 					<div className="banner-img">
 						<Image
 							data-speed="0.8"
-							src="/images/hero/hero-img.webp"
+							src={heroImage}
 							alt="First Katalyst Marketing"
 							width={945}
 							height={793}
@@ -46,7 +50,7 @@ const Hero = () => {
 								<ul>
 									<li className="wow fadeInLeft" data-wow-delay=".5s">
 										<Image
-											src="/images/testimonial/client-1.webp"
+											src={heroClient1}
 											alt=""
 											width={89}
 											height={89}
@@ -54,7 +58,7 @@ const Hero = () => {
 									</li>
 									<li className="wow fadeInLeft" data-wow-delay=".6s">
 										<Image
-											src="/images/testimonial/client-2.webp"
+											src={heroClient2}
 											alt=""
 											width={89}
 											height={89}
@@ -62,7 +66,7 @@ const Hero = () => {
 									</li>
 									<li className="wow fadeInLeft" data-wow-delay=".7s">
 										<Image
-											src="/images/testimonial/client-3.webp"
+											src={heroClient3}
 											alt=""
 											width={89}
 											height={89}

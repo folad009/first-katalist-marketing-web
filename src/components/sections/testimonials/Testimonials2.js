@@ -1,10 +1,15 @@
 "use client";
 import TestimonialsCard2 from "@/components/shared/cards/TestimonialsCard2";
 import Ratings1 from "@/components/shared/ratings/Ratings1";
+import { SITE_IMAGE_FALLBACKS } from "@/lib/site-images";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-const Testimonials2 = ({ type, testimonials: testimonialsProp = [] }) => {
+const Testimonials2 = ({
+	type,
+	testimonials: testimonialsProp = [],
+	sectionImage = SITE_IMAGE_FALLBACKS.testimonialSectionImage,
+}) => {
 	const testimonials = testimonialsProp?.slice(0, 3);
 
 	return (
@@ -23,7 +28,7 @@ const Testimonials2 = ({ type, testimonials: testimonialsProp = [] }) => {
 							<div className="testimonial-img">
 								<img
 									data-speed=".8"
-									src="/images/testimonial/testimonial-img.webp"
+									src={sectionImage}
 									alt=""
 								/>
 								<div className="sec-heading style-2">

@@ -12,6 +12,7 @@ export const REVALIDATE_TAGS = {
 	team: "team",
 	testimonials: "testimonials",
 	careers: "careers",
+	siteImages: "site-images",
 };
 
 /** WordPress post type (or alias) → Next.js cache tag */
@@ -28,6 +29,9 @@ export const CONTENT_TYPE_TO_TAG = {
 	testimonials: REVALIDATE_TAGS.testimonials,
 	career: REVALIDATE_TAGS.careers,
 	careers: REVALIDATE_TAGS.careers,
+	site_images: REVALIDATE_TAGS.siteImages,
+	siteImages: REVALIDATE_TAGS.siteImages,
+	"site-images": REVALIDATE_TAGS.siteImages,
 };
 
 const ALLOWED_TAGS = new Set(Object.values(REVALIDATE_TAGS));

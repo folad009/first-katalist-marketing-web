@@ -1,12 +1,14 @@
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import PopupVideo from "@/components/shared/popup-video/PopupVideo";
 import Ratings1 from "@/components/shared/ratings/Ratings1";
+import getSiteImages from "@/libs/getSiteImages";
 import Image from "next/image";
 import Link from "next/link";
 import companyProfile from "../../../../public/fakedata/company-profile.json";
 
-const About1 = () => {
+const About1 = async () => {
 	const { facts, mission } = companyProfile;
+	const { aboutImage, aboutVideoImage } = await getSiteImages();
 
 	return (
 		<section className="tj-about-section section-gap">
@@ -21,7 +23,7 @@ const About1 = () => {
 								{/* TODO: Replace with FKM about image — do not hotlink */}
 								<Image
 									data-speed="0.8"
-									src="/images/about/about-1.webp"
+									src={aboutImage}
 									alt="First Katalyst Marketing"
 									width={653}
 									height={675}
@@ -88,7 +90,7 @@ const About1 = () => {
 							<div className="video-img  wow fadeInUp" data-wow-delay=".9s">
 								{/* TODO: Replace with FKM video still — do not hotlink */}
 								<Image
-									src="/images/about/about-2.webp"
+									src={aboutVideoImage}
 									alt="First Katalyst Marketing"
 									width={224}
 									height={234}
