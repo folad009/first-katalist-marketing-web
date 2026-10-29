@@ -41,10 +41,11 @@ const FkGroupOverview = ({ entities = [] }) => {
 								data-wow-delay=".2s"
 							>
 								<div className={`px-6 py-5 text-white ${tone}`}>
-									{/* TODO: logoTodo — placeholder mark until assets land */}
-									<span className="mb-2 block text-xs uppercase tracking-wide opacity-80">
-										{entity.logoTodo ? "Logo TODO" : "Brand"}
-									</span>
+									{entity.logoTodo ? (
+										<span className="mb-2 block text-xs uppercase tracking-wide opacity-80">
+											Logo TODO
+										</span>
+									) : null}
 									<h3 className="m-0 text-h5 font-semibold text-white">
 										<Link
 											href={`/fk-group/${entity.slug}`}

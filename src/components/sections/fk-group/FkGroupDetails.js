@@ -15,12 +15,19 @@ const FkGroupDetails = ({ entity }) => {
 	const {
 		name,
 		shortDesc,
+		paragraphs = [],
+		servicesTitle,
+		services = [],
+		closing,
+		contact,
 		color,
 		logoTodo,
 		parent,
 		children = [],
 		relatedLinks = [],
 	} = entity;
+	const phones = contact?.phones ?? [];
+	const emails = contact?.emails ?? [];
 
 	return (
 		<section className="section-gap">
@@ -34,12 +41,73 @@ const FkGroupDetails = ({ entity }) => {
 					</span>
 					<h2 className="sec-title title-anim mt-3">{name}</h2>
 
-					{/* TODO: Replace with logo asset when available */}
-					<p className="mt-2 text-sm text-brand-dark-3">{logoTodo}</p>
+					{logoTodo ? (
+						<p className="mt-2 text-sm text-brand-dark-3">{logoTodo}</p>
+					) : null}
 
 					<p className="desc mt-6 wow fadeInUp" data-wow-delay=".2s">
 						{shortDesc}
 					</p>
+
+					{paragraphs.map(paragraph => (
+						<p key={paragraph} className="desc wow fadeInUp" data-wow-delay=".2s">
+							{paragraph}
+						</p>
+					))}
+
+					{services.length ? (
+						<div className="mt-8 wow fadeInUp" data-wow-delay=".25s">
+							<h3 className="mb-4 text-h5 font-semibold">{servicesTitle}</h3>
+							<ul className="m-0 list-none">
+								{services.map(service => (
+									<li key={service.title} className="mb-3 flex gap-2">
+										<span>
+											<i className="tji-check"></i>
+										</span>
+										<span>
+											<strong>{service.title}:</strong> {service.desc}
+										</span>
+									</li>
+								))}
+							</ul>
+						</div>
+					) : null}
+
+					{closing ? (
+						<p className="desc mt-6 wow fadeInUp" data-wow-delay=".3s">
+							{closing}
+						</p>
+					) : null}
+
+					{contact ? (
+						<div className="mt-8 wow fadeInUp" data-wow-delay=".35s">
+							<h3 className="mb-4 text-h5 font-semibold">Contact Us</h3>
+							{contact.address ? <p className="m-0">{contact.address}</p> : null}
+							{contact.locations ? (
+								<p className="m-0">{contact.locations}</p>
+							) : null}
+							{phones.length ? (
+								<p className="m-0 mt-2">
+									{phones.map((phone, index) => (
+										<span key={phone}>
+											{index > 0 ? " | " : null}
+											<a href={`tel:${phone.replace(/\s/g, "")}`}>{phone}</a>
+										</span>
+									))}
+								</p>
+							) : null}
+							{emails.length ? (
+								<p className="m-0 mt-2">
+									{emails.map((email, index) => (
+										<span key={email}>
+											{index > 0 ? " | " : null}
+											<a href={`mailto:${email}`}>{email}</a>
+										</span>
+									))}
+								</p>
+							) : null}
+						</div>
+					) : null}
 
 					{parent ? (
 						<p className="mt-4 wow fadeInUp" data-wow-delay=".25s">

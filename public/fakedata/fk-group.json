@@ -20,18 +20,82 @@
 		"name": "FK Ghana",
 		"slug": "fk-ghana",
 		"parentSlug": "first-katalyst-marketing",
-		"shortDesc": "TODO: Description not on org chart — confirm copy and local contact details with FKM. Listed on profile PDF Group Structure.",
-		"color": "blue",
-		"logoTodo": "TODO: Add FK Ghana logo / skyline mark (no hotlink)"
+		"shortDesc": "Connecting brands with people. Turning engagement into growth.",
+		"paragraphs": [
+			"First Katalyst Marketing (FKM) Ghana helps businesses connect with their audiences through creative marketing, memorable experiences and effective execution. Based in Accra, we combine local market understanding with practical strategies to build brand visibility, strengthen customer relationships and support business growth."
+		],
+		"servicesTitle": "Our services include:",
+		"services": [
+			{
+				"title": "Experiential Marketing & Brand Activations",
+				"desc": "Engaging experiences that bring brands closer to consumers."
+			},
+			{
+				"title": "Corporate Events & Conferences",
+				"desc": "Planning and managing corporate events, sales and marketing conferences, product launches, dealer meetings and business gatherings."
+			},
+			{
+				"title": "Field Marketing & Trade Promotions",
+				"desc": "On-ground campaigns that support product awareness, distribution and sales."
+			},
+			{
+				"title": "Digital Marketing & Engagement",
+				"desc": "Campaigns that connect brands with audiences across digital channels."
+			},
+			{
+				"title": "Market Research & Consumer Insights",
+				"desc": "Research and reporting that inform marketing decisions and track performance."
+			}
+		],
+		"closing": "From concept development and planning to logistics, execution and reporting, we work as an extension of our clients' teams, bringing creativity, accountability and attention to detail to every project.",
+		"contact": {
+			"address": "49, George Bush Highway, Dzorwulu, Accra, Ghana",
+			"phones": ["0241478554", "0597014710"],
+			"emails": [
+				"abdul@firstkatalystmarketing.com",
+				"paul@firstkatalystmarketing.com"
+			]
+		},
+		"color": "blue"
 	},
 	{
 		"id": 3,
 		"name": "Image Target",
 		"slug": "image-target",
 		"parentSlug": null,
-		"shortDesc": "TODO: Description not on org chart — confirm positioning and services with FKM. Listed on profile PDF Group Structure.",
-		"color": "green",
-		"logoTodo": "TODO: Add Image Target logo (no hotlink)"
+		"shortDesc": "Putting brands in view. Making lasting impressions.",
+		"paragraphs": [
+			"Image Target is an outdoor advertising company that helps businesses build visibility and connect with audiences where they live, work and travel. Based in Lagos, we help brands communicate through strategically placed out-of-home advertising."
+		],
+		"servicesTitle": "Our services include:",
+		"services": [
+			{
+				"title": "Billboard Advertising",
+				"desc": "Outdoor displays that strengthen brand awareness and keep businesses in public view."
+			},
+			{
+				"title": "Outdoor Campaign Planning",
+				"desc": "Location and format selection to reach relevant audiences and support campaign objectives."
+			},
+			{
+				"title": "Branding & Signage",
+				"desc": "Branded signs and displays that give businesses a distinctive, visible presence."
+			},
+			{
+				"title": "Campaign Production & Installation",
+				"desc": "Coordinating production and installation to bring outdoor campaigns to life."
+			},
+			{
+				"title": "Campaign Monitoring & Maintenance",
+				"desc": "Supporting the visibility, presentation and upkeep of advertising displays throughout a campaign."
+			}
+		],
+		"closing": "From campaign planning to execution, we focus on clear messaging, strong visual impact and reliable delivery to help brands make lasting impressions.",
+		"contact": {
+			"address": "1A Community Lane, Near Galaxy TV, Off Allen Avenue, Ikeja, Lagos, Nigeria",
+			"phones": ["+234 803 727 8787", "+234 802 308 4657"]
+		},
+		"color": "green"
 	},
 	{
 		"id": 4,
@@ -47,9 +111,36 @@
 		"name": "FK Properties",
 		"slug": "fk-properties",
 		"parentSlug": null,
-		"shortDesc": "TODO: On current site chart but not on profile PDF Group Structure slide — confirm with FKM.",
-		"color": "purple",
-		"logoTodo": "TODO: Add FK Properties logo (no hotlink)"
+		"shortDesc": "Connecting you with the right property in Lagos.",
+		"paragraphs": [
+			"FK Properties helps individuals and businesses find properties that suit their needs, preferences and investment goals. With properties across Lagos, including Ikeja GRA, Adeniyi Jones and other locations, we offer options for residential and commercial use.",
+			"Whether you are looking for a home, business premises or a property investment, we provide guidance to help you explore available options and make informed decisions."
+		],
+		"servicesTitle": "Our property offerings include:",
+		"services": [
+			{
+				"title": "Residential Properties",
+				"desc": "Homes and apartments across Lagos for individuals and families."
+			},
+			{
+				"title": "Commercial Properties",
+				"desc": "Spaces suited to offices, retail outlets and other business needs."
+			},
+			{
+				"title": "Property Sales & Lettings",
+				"desc": "Support with finding properties to buy, rent or lease."
+			},
+			{
+				"title": "Property Investment Opportunities",
+				"desc": "Options for buyers seeking long-term value in the Lagos property market."
+			}
+		],
+		"closing": "We focus on understanding your requirements, communicating clearly and helping you find a property that fits your plans.",
+		"contact": {
+			"locations": "Ikeja GRA, Adeniyi Jones and other areas across Lagos, Nigeria",
+			"phones": ["+234 802 879 1751"]
+		},
+		"color": "purple"
 	},
 	{
 		"id": 6,

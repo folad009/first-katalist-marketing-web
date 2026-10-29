@@ -212,6 +212,9 @@ const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
 													"font-normal",
 													item?.isActive && "text-brand"
 												)}
+												{...(item?.path?.startsWith("http")
+													? { target: "_blank", rel: "noopener noreferrer" }
+													: {})}
 											>
 												{item?.name}
 											</Link>

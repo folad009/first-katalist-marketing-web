@@ -44,7 +44,7 @@
 			{
 				"id": 4,
 				"name": "SSB Africa",
-				"path": "/fk-group/ssb-africa"
+				"path": "https://www.ssbafrica.com"
 			},
 			{
 				"id": 5,
@@ -54,7 +54,7 @@
 			{
 				"id": 6,
 				"name": "FK Digital",
-				"path": "/fk-group/fk-digital"
+				"path": "https://fkdigital.com.ng"
 			}
 		]
 	},

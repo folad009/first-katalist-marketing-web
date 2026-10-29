@@ -160,6 +160,9 @@ const Navbar = () => {
                     <Link
                       href={item?.path ? item.path : "/fk-group"}
                       className={subLink(item?.isActive)}
+                      {...(item?.path?.startsWith("http")
+                        ? { target: "_blank", rel: "noopener noreferrer" }
+                        : {})}
                     >
                       {item?.name}
                     </Link>
