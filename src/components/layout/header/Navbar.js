@@ -82,7 +82,7 @@ const Navbar = () => {
         {/* Services — icon dropdown */}
         <li className="group/nav relative z-1">
           <Link
-            href={serviceNav?.path ? serviceNav?.path : "#"}
+            href="#"
             className={cn(topLink(serviceNav?.isActive), "pe-5")}
           >
             {serviceNav?.name}
@@ -147,7 +147,7 @@ const Navbar = () => {
         {/* FKM Group — simple dropdown */}
         <li className="group/nav relative z-1">
           <Link
-            href={groupNav?.path ? groupNav.path : "/fk-group"}
+            href="#"
             className={cn(topLink(groupNav?.isActive), "pe-5")}
           >
             {groupNav?.name ? groupNav.name : "FKM Group"}

@@ -105,7 +105,8 @@ const Contact3 = () => {
 					</div>
 					<div>
 						<div className="map-area wow fadeInUp" data-wow-delay=".3s">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d316440.5712687838!2d-74.01091796224334!3d40.67186885683901!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1745918398047!5m2!1sen!2sbd"></iframe>
+							{/* <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d316440.5712687838!2d-74.01091796224334!3d40.67186885683901!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1745918398047!5m2!1sen!2sbd"></iframe> */}
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.2709252573986!2d3.342806475914689!3d6.613222422112277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b93d3bcb6ce09%3A0x66e62fe408ccc18d!2s27%20Akinola%20Cole%20Cres%2C%20Oba%20Akran%2C%20Ikeja%20101233%2C%20Lagos!5e0!3m2!1sen!2sng!4v1793511812561!5m2!1sen!2sng"></iframe>
 						</div>
 					</div>
 				</div>

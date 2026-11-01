@@ -48,14 +48,14 @@ const Footer = () => {
 										between brands and their consumers.
 									</p>
 								</div>
-								<div className="flex flex-wrap gap-4.5">
+								{/*<div className="flex flex-wrap gap-4.5">
 									<div className="max-w-24">
 										<img src="/images/footer/award-logo-1.webp" alt="" />
 									</div>
 									<div className="max-w-24">
 										<img src="/images/footer/award-logo-2.webp" alt="" />
 									</div>
-								</div>
+								</div>*/}
 							</div>
 						</div>
 
@@ -115,11 +115,7 @@ const Footer = () => {
 											About FKM
 										</Link>
 									</li>
-									<li className="py-1.5">
-										<Link href="/fk-group" className={navLink}>
-											FKM Group
-										</Link>
-									</li>
+									
 								</ul>
 							</div>
 						</div>
