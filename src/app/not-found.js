@@ -7,31 +7,34 @@ import BackToTop from "@/components/shared/others/BackToTop";
 import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
 import { pageMetadata } from "@/lib/site-seo";
+import getSiteImages from "@/libs/getSiteImages";
 
 export const metadata = pageMetadata({
-	title: "Page Not Found",
-	description:
-		"This page could not be found. Return to First Katalyst Marketing Limited for Marketing Communications 360 services.",
+  title: "Page Not Found",
+  description:
+    "This page could not be found. Return to First Katalyst Marketing Limited for Marketing Communications 360 services.",
 });
 
-export default function NotFound() {
-	return (
-		<div>
-			<BackToTop />
-			<Header />
-			<Header isStickyHeader={true} />
-			<div id="smooth-wrapper">
-				<div id="smooth-content">
-					<main>
-						<HeaderSpace />
-						<HeroInner title={"Error 404"} text={"Error 404"} />
-						<ErrorPrimary />
-						<Cta />
-					</main>
-					<Footer />
-				</div>
-			</div>
-			<ClientWrapper />
-		</div>
-	);
+export default async function NotFound() {
+  const { errorImage } = await getSiteImages();
+
+  return (
+    <div>
+      <BackToTop />
+      <Header />
+      <Header isStickyHeader={true} />
+      <div id="smooth-wrapper">
+        <div id="smooth-content">
+          <main>
+            <HeaderSpace />
+            <HeroInner title={"Error 404"} text={"Error 404"} />
+            <ErrorPrimary image={errorImage} />
+            <Cta />
+          </main>
+          <Footer />
+        </div>
+      </div>
+      <ClientWrapper />
+    </div>
+  );
 }

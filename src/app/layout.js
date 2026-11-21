@@ -1,6 +1,7 @@
 import DraftModeBanner from "@/components/shared/preview/DraftModeBanner";
 import { Toaster } from "@/components/ui/sonner";
 import { rootMetadata } from "@/lib/site-seo";
+import getSiteImages from "@/libs/getSiteImages";
 import { Mona_Sans } from "next/font/google";
 import "react-range-slider-input/dist/style.css";
 import "swiper/css";
@@ -34,10 +35,16 @@ const headingFont = Mona_Sans({
 
 export const metadata = rootMetadata;
 
-export default function RootLayout({ children }) {
+export default async function RootLayout({ children }) {
+	// Page header banner from WordPress → Pages → Site Images (falls back to the local file).
+	const { contactBanner } = await getSiteImages();
+
 	return (
 		<html lang="en" data-scroll-behavior="smooth" dir="ltr">
-			<body className={`${bodyFont.variable} ${headingFont.variable}`}>
+			<body
+				className={`${bodyFont.variable} ${headingFont.variable}`}
+				style={{ "--fkm-page-header-bg": `url(${JSON.stringify(contactBanner)})` }}
+			>
 				<DraftModeBanner />
 				{children}
 				<Toaster />

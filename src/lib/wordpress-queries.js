@@ -3,8 +3,24 @@ export const TEMPLATE_DATA_FRAGMENT = `
   templateData
 `;
 
-/** Yoast SEO via WPGraphQL (requires wp-graphql-yoast-seo or Add WPGraphQL SEO plugin). */
-export const YOAST_SEO_FRAGMENT = `
+/**
+ * ACF image fields are "Image" fields in WordPress (media picker), so WPGraphQL
+ * returns a media connection. Select the URL and alt text for each one.
+ */
+const media = (...names) =>
+	names.map(name => `${name} { node { sourceUrl altText } }`).join("\n    ");
+
+/**
+ * Yoast SEO via WPGraphQL. Requires the "WPGraphQL Yoast SEO Addon" plugin in
+ * WordPress. It is not installed yet, and asking for `seo` without it makes
+ * every query fail, so it is only requested when WORDPRESS_YOAST_GRAPHQL=true.
+ */
+const YOAST_GRAPHQL_ENABLED =
+	process.env.WORDPRESS_YOAST_GRAPHQL?.trim().toLowerCase() === "true";
+
+export const YOAST_SEO_FRAGMENT = !YOAST_GRAPHQL_ENABLED
+	? ""
+	: `
   seo {
     title
     metaDesc
@@ -56,15 +72,7 @@ const POST_FIELDS = `
   ${YOAST_SEO_FRAGMENT}
   postFields {
     ${TEMPLATE_DATA_FRAGMENT}
-    img
-    img1
-    img2
-    img3
-    img4
-    img5
-    img6
-    detailsImg
-    smallImg
+    ${media("img", "img1", "img2", "img3", "img4", "img5", "img6", "detailsImg", "smallImg")}
     desc
     desc1
     desc2
@@ -153,13 +161,7 @@ const SERVICE_FIELDS = `
     titleLarge
     iconName
     svg
-    img
-    img2
-    img3
-    img4
-    img5
-    bgImg
-    bgImg2
+    ${media("img", "img2", "img3", "img4", "img5", "bgImg", "bgImg2")}
     desc
     shortDesc
     desc1
@@ -212,16 +214,7 @@ const PORTFOLIO_FIELDS = `
     ${TEMPLATE_DATA_FRAGMENT}
     title2
     titleLarge
-    img
-    img2
-    img3
-    img4
-    img5
-    img6
-    img7
-    img8
-    imgLarge
-    detailsImg
+    ${media("img", "img2", "img3", "img4", "img5", "img6", "img7", "img8", "imgLarge", "detailsImg", "featuredImg")}
     desc
     shortDesc
     desc1
@@ -229,7 +222,6 @@ const PORTFOLIO_FIELDS = `
     category
     featured
     featuredDesc
-    featuredImg
     dataFilter
     tags
   }
@@ -278,9 +270,7 @@ const TEAM_MEMBER_FIELDS = `
     ${TEMPLATE_DATA_FRAGMENT}
     name
     desig
-    img
-    img2
-    imgLarge
+    ${media("img", "img2", "imgLarge")}
   }
 `;
 
@@ -326,11 +316,7 @@ export const GET_TESTIMONIALS = `
           ${TEMPLATE_DATA_FRAGMENT}
           authorName
           authorDesig
-          img
-          img2
-          logoImg
-          logoImgLight
-          thumbImg
+          ${media("img", "img2", "logoImg", "logoImgLight", "thumbImg")}
           desc
           desc2
           desc3
@@ -388,11 +374,11 @@ export const GET_CAREER_BY_ID = `
 `;
 
 /**
- * ACF options page GraphQL field name: siteImages.
- * Field group GraphQL field name: siteImageFields.
- * Image fields may be URL strings or media items.
+ * Site-wide images live on the "Site Images" page in WordPress
+ * (Pages → Site Images, slug `site-images`). Its ACF field group is exposed
+ * to GraphQL as `siteImages`. ACF free has no options pages, hence the page.
  */
-const SITE_IMAGE_FIELD_NAMES = [
+export const SITE_IMAGE_FIELD_NAMES = [
 	"heroImage",
 	"heroClient1",
 	"heroClient2",
@@ -403,24 +389,19 @@ const SITE_IMAGE_FIELD_NAMES = [
 	"ctaImage",
 	"faqImage",
 	"testimonialSectionImage",
+	"contactBanner",
+	"errorImage",
 ];
 
 export const GET_SITE_IMAGES = `
   query GetSiteImages {
-    siteImages {
-      siteImageFields {
-        ${SITE_IMAGE_FIELD_NAMES.join("\n        ")}
+    page(id: "site-images", idType: URI) {
+      siteImages {
+        ${media(...SITE_IMAGE_FIELD_NAMES)}
       }
     }
   }
 `;
 
-export const GET_SITE_IMAGES_MEDIA = `
-  query GetSiteImagesMedia {
-    siteImages {
-      siteImageFields {
-        ${SITE_IMAGE_FIELD_NAMES.map(name => `${name} { node { sourceUrl } }`).join("\n        ")}
-      }
-    }
-  }
-`;
+/** Kept for backwards compatibility: site image fields are always media now. */
+export const GET_SITE_IMAGES_MEDIA = GET_SITE_IMAGES;

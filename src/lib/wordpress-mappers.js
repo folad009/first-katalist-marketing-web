@@ -1,7 +1,7 @@
 /**
  * Map WPGraphQL nodes to the shapes expected by template components.
  * ACF field groups: postFields, serviceFields, portfolioFields,
- * teamMemberFields, testimonialFields, careerFields.
+ * teamMemberFields, testimonialFields, careerFields, siteImages.
  *
  * Complex nested data (process, comments, statusItem, etc.) can be stored
  * in the ACF `templateData` JSON field and is merged into the result.
@@ -25,6 +25,16 @@ function featuredImageUrl(node) {
 	return node?.featuredImage?.node?.sourceUrl ?? null;
 }
 
+/** True for a WPGraphQL media connection/node, e.g. `{ node: { sourceUrl } }`. */
+function isMediaValue(value) {
+	return (
+		value !== null &&
+		typeof value === "object" &&
+		!Array.isArray(value) &&
+		("node" in value || "sourceUrl" in value)
+	);
+}
+
 function resolveCmsImage(value, fallback) {
 	if (typeof value === "string" && value.trim()) {
 		return value.trim();
@@ -36,6 +46,21 @@ function resolveCmsImage(value, fallback) {
 	}
 
 	return fallback;
+}
+
+/**
+ * ACF image fields come back as media objects (or null when empty).
+ * Flatten them to a URL string, or null so `??` falls back to the template image.
+ */
+function normalizeAcfMedia(acf) {
+	return Object.fromEntries(
+		Object.entries(acf).map(([key, value]) => [
+			key,
+			isMediaValue(value) || value === null
+				? resolveCmsImage(value, null)
+				: value,
+		])
+	);
 }
 
 function stripHtml(html) {
@@ -79,10 +104,14 @@ function repeatImage(img, keys) {
 }
 
 function mergeAcf(node, fieldKey) {
-	const acf = node?.[fieldKey] ?? {};
+	const acf = normalizeAcfMedia(node?.[fieldKey] ?? {});
 	const templateData = parseTemplateData(acf.templateData);
 	const { templateData: _ignored, ...restAcf } = acf;
-	return { ...templateData, ...restAcf };
+	// Empty ACF fields (null) must not override values supplied by templateData.
+	const filledAcf = Object.fromEntries(
+		Object.entries(restAcf).filter(([, value]) => value !== null)
+	);
+	return { ...templateData, ...filledAcf };
 }
 
 function resolveSlug(node, fallbackLabel, fallbackId) {
@@ -315,9 +344,17 @@ export function mapCareers(nodes = []) {
 	});
 }
 
+/**
+ * Site images come from the "Site Images" page in WordPress:
+ * `page(id: "site-images") { siteImages { ... } }`.
+ * Each empty slot falls back to the local file in SITE_IMAGE_FALLBACKS.
+ */
 export function mapSiteImages(data) {
-	const node = data?.siteImages ?? {};
-	const fields = node.siteImageFields ?? node;
+	const fields =
+		data?.page?.siteImages ??
+		data?.siteImages?.siteImageFields ??
+		data?.siteImages ??
+		{};
 
 	return Object.fromEntries(
 		Object.entries(SITE_IMAGE_FALLBACKS).map(([key, fallback]) => [
@@ -335,4 +372,4 @@ export function mapTagNames(nodes = []) {
 	return nodes.map(node => node.name).filter(Boolean);
 }
 
-export { repeatImage, featuredImageUrl, stripHtml };
+export { repeatImage, featuredImageUrl, stripHtml, resolveCmsImage };

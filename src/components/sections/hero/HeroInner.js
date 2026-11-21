@@ -1,11 +1,18 @@
 import sliceText from "@/libs/sliceText";
 import Link from "next/link";
 import React from "react";
+
+// The banner can be changed in WordPress → Pages → Site Images ("Contact / page
+// header banner"). The root layout exposes it as --fkm-page-header-bg; the
+// local file is used when that slot is empty.
+const PAGE_HEADER_BG =
+	"var(--fkm-page-header-bg, url('/images/bg/FMK-contact-banner.webp'))";
+
 const HeroInner = ({ title, text, breadcrums = [] }) => {
 	return (
 		<section
 			className="tj-page-header section-gap-x"
-			style={{ backgroundImage: `url('/images/bg/FMK-contact-banner.webp')` }}
+			style={{ backgroundImage: PAGE_HEADER_BG }}
 		>
 			<div className="tj-container">
 				<div className="tj-page-header-content text-center">

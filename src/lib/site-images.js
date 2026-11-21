@@ -1,4 +1,7 @@
-/** Local files used until WordPress returns a URL for that slot. */
+/**
+ * Local files used until WordPress returns an image for that slot.
+ * Upload replacements in WordPress → Pages → Site Images.
+ */
 export const SITE_IMAGE_FALLBACKS = {
 	heroImage: "/images/hero/hero-img.webp",
 	heroClient1: "/images/testimonial/client-1.webp",
@@ -10,4 +13,6 @@ export const SITE_IMAGE_FALLBACKS = {
 	ctaImage: "/images/cta/FMK-call-to-action-banner.webp",
 	faqImage: "/images/faq/faq.webp",
 	testimonialSectionImage: "/images/testimonial/testimonial-img.webp",
+	contactBanner: "/images/bg/FMK-contact-banner.webp",
+	errorImage: "/images/404/error.webp",
 };

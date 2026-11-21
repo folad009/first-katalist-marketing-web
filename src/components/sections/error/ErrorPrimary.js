@@ -1,7 +1,8 @@
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
+import { SITE_IMAGE_FALLBACKS } from "@/lib/site-images";
 import Image from "next/image";
 
-const ErrorPrimary = () => {
+const ErrorPrimary = ({ image = SITE_IMAGE_FALLBACKS.errorImage }) => {
 	return (
 		<section className="tj-error-section">
 			<div className="tj-container">
@@ -9,7 +10,7 @@ const ErrorPrimary = () => {
 					<div className="tj-error-content">
 						<div className="error-img">
 							<Image
-								src="/images/404/error.webp"
+								src={image}
 								alt=""
 								width={800}
 								height={303}
