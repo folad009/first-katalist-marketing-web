@@ -113,6 +113,7 @@ export async function fetchGraphQL(
 			: {
 					next: {
 						tags,
+						revalidate: 300,
 					},
 				}),
 	});
