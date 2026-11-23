@@ -1,6 +1,7 @@
-import companyProfile from "../../../../public/fakedata/company-profile.json";
+import getCompanyProfile from "@/libs/getCompanyProfile";
 
-const Awards1 = () => {
+const Awards1 = async () => {
+	const companyProfile = await getCompanyProfile();
 	const { awards } = companyProfile;
 
 	return (

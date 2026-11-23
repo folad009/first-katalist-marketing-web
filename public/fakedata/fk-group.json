@@ -104,6 +104,7 @@
 		"parentSlug": null,
 		"shortDesc": "TODO: Description not on org chart — confirm positioning and services with FKM. Listed on profile PDF Group Structure.",
 		"color": "orange",
+		"externalUrl": "https://www.ssbafrica.com",
 		"logoTodo": "TODO: Add SSB Africa logo (no hotlink)"
 	},
 	{
@@ -149,6 +150,7 @@
 		"parentSlug": null,
 		"shortDesc": "TODO: Description not on org chart — confirm positioning and services with FKM. Listed on profile PDF Group Structure.",
 		"color": "teal",
+		"externalUrl": "https://fkdigital.com.ng",
 		"logoTodo": "TODO: Add FK Digital logo (no hotlink)"
 	}
 ]

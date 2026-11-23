@@ -1,6 +1,8 @@
 import DraftModeBanner from "@/components/shared/preview/DraftModeBanner";
 import { Toaster } from "@/components/ui/sonner";
 import { rootMetadata } from "@/lib/site-seo";
+import NavItemsProvider from "@/components/layout/header/NavItemsProvider";
+import buildNavItems from "@/libs/buildNavItems";
 import getSiteImages from "@/libs/getSiteImages";
 import { Mona_Sans } from "next/font/google";
 import "react-range-slider-input/dist/style.css";
@@ -37,7 +39,8 @@ export const metadata = rootMetadata;
 
 export default async function RootLayout({ children }) {
 	// Page header banner from WordPress → Pages → Site Images (falls back to the local file).
-	const { contactBanner } = await getSiteImages();
+	// Header menu: Services / FKM Group dropdowns come from WordPress.
+	const [{ contactBanner }, navItems] = await Promise.all([getSiteImages(), buildNavItems()]);
 
 	return (
 		<html lang="en" data-scroll-behavior="smooth" dir="ltr">
@@ -46,7 +49,7 @@ export default async function RootLayout({ children }) {
 				style={{ "--fkm-page-header-bg": `url(${JSON.stringify(contactBanner)})` }}
 			>
 				<DraftModeBanner />
-				{children}
+				<NavItemsProvider items={navItems}>{children}</NavItemsProvider>
 				<Toaster />
 			</body>
 		</html>

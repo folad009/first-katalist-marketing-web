@@ -1,4 +1,6 @@
 /** Shared ACF fragment — field group names must match WPGraphQL for ACF registration. */
+// Custom post types here (service, portfolio, team_member, career) do not support
+// excerpts, so their field lists must not request `excerpt` — it fails the whole query.
 export const TEMPLATE_DATA_FRAGMENT = `
   templateData
 `;
@@ -147,7 +149,6 @@ const SERVICE_FIELDS = `
   databaseId
   title
   slug
-  excerpt
   content
   featuredImage {
     node {
@@ -202,7 +203,6 @@ const PORTFOLIO_FIELDS = `
   databaseId
   title
   slug
-  excerpt
   content
   featuredImage {
     node {
@@ -259,7 +259,6 @@ const TEAM_MEMBER_FIELDS = `
   title
   slug
   content
-  excerpt
   featuredImage {
     node {
       sourceUrl
@@ -276,7 +275,9 @@ const TEAM_MEMBER_FIELDS = `
 
 export const GET_TEAM_MEMBERS = `
   query GetTeamMembers($first: Int = 100) {
-    teamMembers(first: $first, where: { status: PUBLISH, orderby: { field: MENU_ORDER, order: ASC } }) {
+    # Ties on menu order (all 0 unless "Page Attributes → Order" is set) fall back to
+    # newest publish date first; without this WPGraphQL falls back to post ID.
+    teamMembers(first: $first, where: { status: PUBLISH, orderby: [{ field: MENU_ORDER, order: ASC }, { field: DATE, order: DESC }] }) {
       nodes {
         ${TEAM_MEMBER_FIELDS}
       }
@@ -333,7 +334,6 @@ const CAREER_FIELDS = `
   title
   slug
   content
-  excerpt
   ${YOAST_SEO_FRAGMENT}
   careerFields {
     ${TEMPLATE_DATA_FRAGMENT}
@@ -398,6 +398,85 @@ export const GET_SITE_IMAGES = `
     page(id: "site-images", idType: URI) {
       siteImages {
         ${media(...SITE_IMAGE_FIELD_NAMES)}
+      }
+    }
+  }
+`;
+
+/** FAQs post type: question = title, answer = ACF textarea. */
+export const GET_FAQS = `
+  query GetFaqs($first: Int = 100) {
+    faqs(first: $first, where: { status: PUBLISH, orderby: [{ field: MENU_ORDER, order: ASC }, { field: DATE, order: ASC }] }) {
+      nodes {
+        databaseId
+        title
+        faqFields {
+          answer
+        }
+      }
+    }
+  }
+`;
+
+/** FK Group post type (hierarchical: subsidiaries use Page Attributes → Parent). */
+export const GET_FK_COMPANIES = `
+  query GetFkCompanies($first: Int = 100) {
+    fkCompanies(first: $first, where: { status: PUBLISH, orderby: [{ field: MENU_ORDER, order: ASC }, { field: DATE, order: ASC }] }) {
+      nodes {
+        databaseId
+        title
+        slug
+        content
+        parent {
+          node {
+            slug
+          }
+        }
+        fkCompanyFields {
+          shortDesc
+          color
+          ${media("logo")}
+          externalUrl
+          servicesTitle
+          services
+          closing
+          address
+          locations
+          phones
+          emails
+          relatedLinks
+        }
+      }
+    }
+  }
+`;
+
+/** About-page content from WordPress → Pages → Company Profile. */
+export const GET_COMPANY_PROFILE = `
+  query GetCompanyProfile {
+    page(id: "company-profile", idType: URI) {
+      companyProfile {
+        strategyQuoteLabel
+        strategyQuoteText
+        strategyQuoteAttribution
+        factCommenced
+        factTeam
+        factExpertise
+        vision
+        mission
+        coreValues
+        ourEdge
+        awards
+        coverageSectionTitle
+        capabilitiesTitle
+        coverageIntro
+        fieldOperativesNote
+        coverageRegions
+        fieldStructureTitle
+        fieldStructureSummary
+        fieldTopRole
+        fieldSupportRole
+        fieldRegions
       }
     }
   }

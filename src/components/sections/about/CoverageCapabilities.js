@@ -1,6 +1,7 @@
-import companyProfile from "../../../../public/fakedata/company-profile.json";
+import getCompanyProfile from "@/libs/getCompanyProfile";
 
-const CoverageCapabilities = () => {
+const CoverageCapabilities = async () => {
+	const companyProfile = await getCompanyProfile();
 	const { regionalCoverage, fieldStructure } = companyProfile;
 
 	return (

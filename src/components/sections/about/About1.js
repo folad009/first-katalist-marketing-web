@@ -4,9 +4,10 @@ import Ratings1 from "@/components/shared/ratings/Ratings1";
 import getSiteImages from "@/libs/getSiteImages";
 import Image from "next/image";
 import Link from "next/link";
-import companyProfile from "../../../../public/fakedata/company-profile.json";
+import getCompanyProfile from "@/libs/getCompanyProfile";
 
 const About1 = async () => {
+	const companyProfile = await getCompanyProfile();
 	const { facts, mission } = companyProfile;
 	const { aboutImage, aboutVideoImage } = await getSiteImages();
 

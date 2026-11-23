@@ -13,6 +13,9 @@ export const REVALIDATE_TAGS = {
 	testimonials: "testimonials",
 	careers: "careers",
 	siteImages: "site-images",
+	faqs: "faqs",
+	fkGroup: "fk-group",
+	companyProfile: "company-profile",
 };
 
 /** WordPress post type (or alias) → Next.js cache tag */
@@ -32,6 +35,12 @@ export const CONTENT_TYPE_TO_TAG = {
 	site_images: REVALIDATE_TAGS.siteImages,
 	siteImages: REVALIDATE_TAGS.siteImages,
 	"site-images": REVALIDATE_TAGS.siteImages,
+	faq: REVALIDATE_TAGS.faqs,
+	faqs: REVALIDATE_TAGS.faqs,
+	fk_company: REVALIDATE_TAGS.fkGroup,
+	"fk-group": REVALIDATE_TAGS.fkGroup,
+	company_profile: REVALIDATE_TAGS.companyProfile,
+	"company-profile": REVALIDATE_TAGS.companyProfile,
 };
 
 const ALLOWED_TAGS = new Set(Object.values(REVALIDATE_TAGS));

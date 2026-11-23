@@ -1,6 +1,6 @@
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import FeatureCard from "@/components/shared/cards/FeatureCard";
-import companyProfile from "../../../../public/fakedata/company-profile.json";
+import getCompanyProfile from "@/libs/getCompanyProfile";
 
 const edgeIcons = [
 	"tji-innovative",
@@ -14,7 +14,8 @@ const edgeIcons = [
 ];
 
 /** Our Edge from profile PDF — titles only; body copy TODO. */
-const Features = ({ type }) => {
+const Features = async ({ type }) => {
+	const companyProfile = await getCompanyProfile();
 	const features = companyProfile.ourEdge.map((title, idx) => ({
 		title,
 		// TODO: PDF Our Edge titles only — add body copy when confirmed.

@@ -8,9 +8,11 @@ import { SITE_IMAGE_FALLBACKS } from "@/lib/site-images";
 import Image from "next/image";
 import Link from "next/link";
 
-const Faq2 = ({ type = 1, faqImage = SITE_IMAGE_FALLBACKS.faqImage }) => {
-	const items = faqs;
-
+const Faq2 = ({
+	type = 1,
+	faqImage = SITE_IMAGE_FALLBACKS.faqImage,
+	items = faqs,
+}) => {
 	const defaultOpen = items.findIndex(item => item.initActive);
 	const defaultValue =
 		defaultOpen >= 0 ? `faq-${defaultOpen + 1}` : undefined;

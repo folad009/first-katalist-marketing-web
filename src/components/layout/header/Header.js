@@ -80,12 +80,18 @@ const Header = ({
 				{isHeaderTop && <HeaderTop type={topbarType} />}
 				<div className="w-full px-3">
 					{/* header wrapper — static so mega menus span the header width */}
-					<div className="static flex flex-wrap items-center justify-between px-4.5 xl:max-2xl:px-2 lg:max-xl:px-1 max-lg:px-0 max-lg:py-3.75">
+					<div
+						className={cn(
+							"static flex flex-wrap items-center justify-between px-4.5 xl:max-2xl:px-2 lg:max-xl:px-1 max-lg:px-0",
+							// The sticky copy is slimmer (~60px desktop, ~64px mobile).
+							isStickyHeader ? "max-lg:py-2.5" : "max-lg:py-3.75"
+						)}
+					>
 						{/* site logo */}
-						<Logo />
+						<Logo compact={isStickyHeader} />
 
 						{/* navigation */}
-						<Navbar />
+						<Navbar compact={isStickyHeader} />
 
 						{/* header right info (desktop) */}
 						<div className="inline-flex items-center gap-5 max-lg:hidden lg:max-xl:gap-3 [&_.btn-icon]:size-9.5 lg:max-xl:[&_.btn-icon]:size-8.75">
@@ -151,7 +157,10 @@ const Header = ({
 						<button
 							type="button"
 							aria-label="Open mobile menu"
-							className="group inline-flex size-12.5 cursor-pointer flex-col items-center justify-center gap-1.5 rounded-[7px] bg-brand p-3 lg:hidden"
+							className={cn(
+								"group inline-flex cursor-pointer flex-col items-center justify-center gap-1.5 rounded-[7px] bg-brand p-3 lg:hidden",
+								isStickyHeader ? "size-11" : "size-12.5"
+							)}
 							onClick={() => setIsMobileMenuOpen(true)}
 						>
 							<MenuBars barClassName="bg-white" />

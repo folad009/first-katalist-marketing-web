@@ -13,7 +13,7 @@ import {
 	SheetTitle,
 } from "@/components/ui/sheet";
 import useActiveLink from "@/hooks/useActiveLink";
-import getNavItems from "@/libs/getNavItems";
+import { useNavItems } from "./NavItemsProvider";
 import { cn } from "@/libs/utils";
 import Link from "next/link";
 
@@ -107,7 +107,7 @@ export const HamburgerSocials = () => (
 
 const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
 	const makeActiveLink = useActiveLink();
-	const navItems = getNavItems();
+	const navItems = useNavItems();
 	const findNav = path =>
 		makeActiveLink(navItems.find(item => item.path === path));
 	const homeNav = findNav("/");
@@ -146,7 +146,7 @@ const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
 								className="inline-block w-full max-w-34"
 								onClick={() => setIsMobileMenuOpen(false)}
 							>
-								<img src="/images/logos/logo-2.webp" alt="Logo" />
+								<img src="/images/logos/fk-logo.png" alt="First Katalyst Marketing" />
 							</Link>
 							<SheetClose
 								aria-label="Close menu"

@@ -2,12 +2,11 @@
 import FaqItem from "@/components/shared/faq/FaqItem";
 import WordPressContent from "@/components/shared/content/WordPressContent";
 import { Accordion } from "@/components/ui/accordion";
-import faqs from "../../../../public/fakedata/faqs.json";
+import fallbackFaqs from "../../../../public/fakedata/faqs.json";
 import Image from "next/image";
 import Link from "next/link";
 import CtaSidebar from "../cta/CtaSidebar";
 
-const serviceFaqItems = faqs;
 
 const ServicesDetailsPrimary = ({ option }) => {
 	const {
@@ -17,6 +16,7 @@ const ServicesDetailsPrimary = ({ option }) => {
 		isNextItem,
 		prevSlug,
 		nextSlug,
+		faqs: serviceFaqItems = fallbackFaqs,
 	} = option || {};
 	const {
 		title,
