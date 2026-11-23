@@ -16,6 +16,7 @@ import BackToTop from "@/components/shared/others/BackToTop";
 import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
 import { DEFAULT_DESCRIPTION, DEFAULT_TITLE } from "@/lib/site-seo";
+import getFaqs from "@/libs/getFaqs";
 import getSiteImages from "@/libs/getSiteImages";
 import getTestimonials from "@/libs/getTestimonials";
 
@@ -25,9 +26,10 @@ export const metadata = {
 };
 
 export default async function Home() {
-	const [testimonials, siteImages] = await Promise.all([
+	const [testimonials, siteImages, faqs] = await Promise.all([
 		getTestimonials(),
 		getSiteImages(),
+		getFaqs(),
 	]);
 
 	return (
@@ -47,7 +49,7 @@ export default async function Home() {
 						<Portfolios1 />
 						<Funfact1 />
 						<Testimonials1 testimonials={testimonials} />
-						<Faq2 type={1} faqImage={siteImages.faqImage} />
+						<Faq2 type={1} faqImage={siteImages.faqImage} items={faqs} />
 						<Contact2 />
 						<Blogs1 />
 						<Cta />

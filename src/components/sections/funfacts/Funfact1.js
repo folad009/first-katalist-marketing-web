@@ -1,8 +1,9 @@
 import FunfactSingle from "@/components/shared/funfact/FunfactSingle";
-import companyProfile from "../../../../public/fakedata/company-profile.json";
+import getCompanyProfile from "@/libs/getCompanyProfile";
 
 /** Homepage stats — PDF Facts + Regional Coverage only (no invented ROI). */
-const Funfact1 = () => {
+const Funfact1 = async () => {
+	const companyProfile = await getCompanyProfile();
 	const regionCount = companyProfile.regionalCoverage?.regions?.length || 5;
 
 	const stats = [

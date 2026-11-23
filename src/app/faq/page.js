@@ -8,6 +8,7 @@ import BackToTop from "@/components/shared/others/BackToTop";
 import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
 import { pageMetadata } from "@/lib/site-seo";
+import getFaqs from "@/libs/getFaqs";
 import getSiteImages from "@/libs/getSiteImages";
 
 export const metadata = pageMetadata({
@@ -17,7 +18,7 @@ export const metadata = pageMetadata({
 });
 
 export default async function Faq() {
-	const { faqImage } = await getSiteImages();
+	const [{ faqImage }, faqs] = await Promise.all([getSiteImages(), getFaqs()]);
 
 	return (
 		<div>
@@ -29,8 +30,8 @@ export default async function Faq() {
 					<main>
 						<HeaderSpace />
 						<HeroInner title={"Faq"} text={"Faq"} />
-						<Faq2 type={4} faqImage={faqImage} />
-						<Faq3 />
+						<Faq2 type={4} faqImage={faqImage} items={faqs} />
+						<Faq3 items={faqs} />
 						<Cta />
 					</main>
 					<Footer />

@@ -21,6 +21,7 @@ const FkGroupDetails = ({ entity }) => {
 		closing,
 		contact,
 		color,
+		logo,
 		logoTodo,
 		parent,
 		children = [],
@@ -41,7 +42,10 @@ const FkGroupDetails = ({ entity }) => {
 					</span>
 					<h2 className="sec-title title-anim mt-3">{name}</h2>
 
-					{logoTodo ? (
+					{logo ? (
+						// eslint-disable-next-line @next/next/no-img-element
+						<img src={logo} alt={`${name} logo`} className="mt-4 max-h-20 w-auto" />
+					) : logoTodo ? (
 						<p className="mt-2 text-sm text-brand-dark-3">{logoTodo}</p>
 					) : null}
 

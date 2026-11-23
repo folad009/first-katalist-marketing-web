@@ -2,9 +2,10 @@ import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import getSiteImages from "@/libs/getSiteImages";
 import Image from "next/image";
 import Link from "next/link";
-import companyProfile from "../../../../public/fakedata/company-profile.json";
+import getCompanyProfile from "@/libs/getCompanyProfile";
 
 const About3 = async ({ type }) => {
+	const companyProfile = await getCompanyProfile();
   const { coreValues, strategyQuote, vision, mission } = companyProfile;
   const { aboutPageImage } = await getSiteImages();
 

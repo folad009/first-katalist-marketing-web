@@ -1,8 +1,9 @@
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import FeatureCard from "@/components/shared/cards/FeatureCard";
-import companyProfile from "../../../../public/fakedata/company-profile.json";
+import getCompanyProfile from "@/libs/getCompanyProfile";
 
-const VisionMission = ({ type }) => {
+const VisionMission = async ({ type }) => {
+	const companyProfile = await getCompanyProfile();
 	const { facts, vision, mission } = companyProfile;
 
 	// Verbatim from profile PDF Vision / Mission / Facts slides (July 2023 deck).

@@ -4,9 +4,7 @@ import FaqItem2 from "@/components/shared/faq/FaqItem2";
 import { Accordion } from "@/components/ui/accordion";
 import faqs from "../../../../public/fakedata/faqs.json";
 
-const Faq3 = () => {
-	const items = faqs;
-
+const Faq3 = ({ items = faqs }) => {
 	const defaultOpen = items.findIndex(item => item.initActive);
 	const defaultValue =
 		defaultOpen >= 0 ? `faq-1-${defaultOpen + 1}` : undefined;

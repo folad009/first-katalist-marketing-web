@@ -372,4 +372,159 @@ export function mapTagNames(nodes = []) {
 	return nodes.map(node => node.name).filter(Boolean);
 }
 
+/* ---------- Line-based ACF text formats (ACF free has no repeaters) ---------- */
+
+const ENTITIES = { amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " " };
+
+function decodeEntities(text = "") {
+	return text.replace(/&(#x?[0-9a-f]+|[a-z]+);/gi, (match, code) => {
+		if (code[0] === "#") {
+			const num = code[1].toLowerCase() === "x" ? parseInt(code.slice(2), 16) : parseInt(code.slice(1), 10);
+			return Number.isNaN(num) ? match : String.fromCodePoint(num);
+		}
+		return ENTITIES[code.toLowerCase()] ?? match;
+	});
+}
+
+/** "a\nb\n\nc" → ["a", "b", "c"] */
+export function splitLines(value) {
+	if (Array.isArray(value)) return value;
+	if (typeof value !== "string") return [];
+	return value
+		.split(/\r?\n/)
+		.map(line => line.trim())
+		.filter(Boolean);
+}
+
+/** "Key<sep> rest" per line → [{ key, value }] (split on the first separator). */
+function splitPairs(value, separator) {
+	return splitLines(value).map(line => {
+		const at = line.indexOf(separator);
+		return at === -1
+			? { key: line, value: "" }
+			: { key: line.slice(0, at).trim(), value: line.slice(at + separator.length).trim() };
+	});
+}
+
+const commaList = text =>
+	text
+		.split(",")
+		.map(item => item.trim())
+		.filter(Boolean);
+
+/** Post content HTML → plain paragraph strings. */
+function htmlParagraphs(html) {
+	if (!html) return [];
+	const blocks = html.match(/<p[^>]*>[\s\S]*?<\/p>/gi) ?? [html];
+	return blocks
+		.map(block => decodeEntities(block.replace(/<[^>]*>/g, "")).trim())
+		.filter(Boolean);
+}
+
+/** CMS value if filled in, otherwise the fallback (so an empty field never blanks a section). */
+const orFallback = (value, fallback) =>
+	value === null || value === undefined || value === "" || (Array.isArray(value) && value.length === 0)
+		? fallback
+		: value;
+
+export function mapFaqs(nodes = []) {
+	return nodes.map((node, index) => ({
+		id: node.databaseId,
+		title: decodeEntities(node.title ?? ""),
+		desc: node.faqFields?.answer ?? "",
+		// The first FAQ (lowest Order) opens by default.
+		initActive: index === 0,
+	}));
+}
+
+export function mapFkCompanies(nodes = []) {
+	return nodes.map(node => {
+		const acf = normalizeAcfMedia(node.fkCompanyFields ?? {});
+		const phones = splitLines(acf.phones);
+		const emails = splitLines(acf.emails);
+		const hasContact = Boolean(acf.address || acf.locations || phones.length || emails.length);
+
+		return {
+			id: node.databaseId,
+			name: decodeEntities(node.title ?? ""),
+			slug: node.slug,
+			parentSlug: node.parent?.node?.slug ?? null,
+			shortDesc: acf.shortDesc ?? "",
+			paragraphs: htmlParagraphs(node.content),
+			color: acf.color || "blue",
+			logo: acf.logo ?? null,
+			externalUrl: acf.externalUrl || null,
+			servicesTitle: acf.servicesTitle ?? "",
+			services: splitPairs(acf.services, ":").map(({ key, value }) => ({ title: key, desc: value })),
+			closing: acf.closing ?? "",
+			contact: hasContact
+				? {
+						...(acf.address ? { address: acf.address } : {}),
+						...(acf.locations ? { locations: acf.locations } : {}),
+						phones,
+						emails,
+					}
+				: null,
+			relatedLinks: splitPairs(acf.relatedLinks, "|").map(({ key, value }) => ({ label: key, path: value })),
+		};
+	});
+}
+
+/**
+ * Company Profile page fields → the company-profile.json shape.
+ * Each empty field keeps the value from `fallback` (the local JSON).
+ */
+export function mapCompanyProfile(data, fallback) {
+	const f = data?.page?.companyProfile;
+	if (!f) return fallback;
+
+	const awards = splitPairs(f.awards, "|").map(({ key, value }) =>
+		value ? { year: key, title: value } : { year: null, title: key }
+	);
+	const coverageRegions = splitPairs(f.coverageRegions, ":").map(({ key, value }) => ({
+		name: key,
+		cities: commaList(value),
+	}));
+	const fieldRegions = splitPairs(f.fieldRegions, ":").map(({ key, value }) => ({
+		name: key,
+		levels: commaList(value),
+	}));
+
+	return {
+		...fallback,
+		strategyQuote: {
+			label: orFallback(f.strategyQuoteLabel, fallback.strategyQuote?.label),
+			text: orFallback(f.strategyQuoteText, fallback.strategyQuote?.text),
+			attribution: orFallback(f.strategyQuoteAttribution, fallback.strategyQuote?.attribution),
+		},
+		facts: {
+			...fallback.facts,
+			commenced: orFallback(f.factCommenced, fallback.facts?.commenced),
+			team: orFallback(f.factTeam, fallback.facts?.team),
+			expertise: orFallback(f.factExpertise, fallback.facts?.expertise),
+		},
+		vision: orFallback(f.vision, fallback.vision),
+		mission: orFallback(f.mission, fallback.mission),
+		coreValues: orFallback(splitLines(f.coreValues), fallback.coreValues),
+		ourEdge: orFallback(splitLines(f.ourEdge), fallback.ourEdge),
+		awards: orFallback(awards, fallback.awards),
+		regionalCoverage: {
+			...fallback.regionalCoverage,
+			sectionTitle: orFallback(f.coverageSectionTitle, fallback.regionalCoverage?.sectionTitle),
+			capabilitiesTitle: orFallback(f.capabilitiesTitle, fallback.regionalCoverage?.capabilitiesTitle),
+			intro: orFallback(splitLines(f.coverageIntro), fallback.regionalCoverage?.intro),
+			fieldOperativesNote: orFallback(f.fieldOperativesNote, fallback.regionalCoverage?.fieldOperativesNote),
+			regions: orFallback(coverageRegions, fallback.regionalCoverage?.regions),
+		},
+		fieldStructure: {
+			...fallback.fieldStructure,
+			sectionTitle: orFallback(f.fieldStructureTitle, fallback.fieldStructure?.sectionTitle),
+			summary: orFallback(f.fieldStructureSummary, fallback.fieldStructure?.summary),
+			topRole: orFallback(f.fieldTopRole, fallback.fieldStructure?.topRole),
+			supportRole: orFallback(f.fieldSupportRole, fallback.fieldStructure?.supportRole),
+			regions: orFallback(fieldRegions, fallback.fieldStructure?.regions),
+		},
+	};
+}
+
 export { repeatImage, featuredImageUrl, stripHtml, resolveCmsImage };

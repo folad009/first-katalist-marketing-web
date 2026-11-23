@@ -1,20 +1,25 @@
 import useActiveLink from "@/hooks/useActiveLink";
-import getNavItems from "@/libs/getNavItems";
+import { useNavItems } from "./NavItemsProvider";
 import { cn } from "@/libs/utils";
 import Link from "next/link";
 
-/* Top-level menu link (SCSS: .mainmenu ul > li > a) */
-const topLink = (isActive) =>
+/* Top-level menu link (SCSS: .mainmenu ul > li > a).
+   Compact = slimmer sticky header (~60px instead of ~90px). */
+const topLinkBase = (isActive, compact) =>
   cn(
-    "relative block py-[37px] text-[16px] font-medium leading-none transition-all duration-300 group-hover/nav:text-brand",
+    "relative block text-[16px] font-medium leading-none transition-all duration-300 group-hover/nav:text-brand",
+    compact ? "py-[22px]" : "py-[37px]",
     isActive ? "text-brand" : "text-brand-dark",
   );
 
-/* Caret for items with a dropdown (SCSS ::after with \e929) */
-const Caret = () => (
+/* Caret for items with a dropdown (SCSS ::after with \e929); sits 3px below the link padding. */
+const Caret = ({ compact }) => (
   <i
     aria-hidden="true"
-    className="tji-arrow-down absolute inset-e-0 top-10 text-[12px] transition-transform duration-300 group-hover/nav:-rotate-180"
+    className={cn(
+      "tji-arrow-down absolute inset-e-0 text-[12px] transition-transform duration-300 group-hover/nav:-rotate-180",
+      compact ? "top-[25px]" : "top-10",
+    )}
   ></i>
 );
 
@@ -28,9 +33,10 @@ const subLink = (isActive) =>
     isActive ? "text-brand" : "text-brand-dark-3",
   );
 
-const Navbar = () => {
+const Navbar = ({ compact = false }) => {
+  const topLink = (isActive) => topLinkBase(isActive, compact);
   const makeActiveLink = useActiveLink();
-  const navItems = getNavItems();
+  const navItems = useNavItems();
   const findNav = (path) =>
     makeActiveLink(navItems.find((item) => item.path === path));
 
@@ -61,7 +67,7 @@ const Navbar = () => {
             className={cn(topLink(aboutNav?.isActive), "pe-5")}
           >
             {aboutNav?.name}
-            <Caret />
+            <Caret compact={compact} />
           </Link>
           <ul className={cn(dropdownPanel, "w-55 py-2.5")}>
             {aboutNav?.submenu?.length
@@ -86,7 +92,7 @@ const Navbar = () => {
             className={cn(topLink(serviceNav?.isActive), "pe-5")}
           >
             {serviceNav?.name}
-            <Caret />
+            <Caret compact={compact} />
           </Link>
           <ul className={cn(dropdownPanel, "-ms-6.25 w-86.5 py-3.75")}>
             {serviceNav?.submenu?.length
@@ -151,7 +157,7 @@ const Navbar = () => {
             className={cn(topLink(groupNav?.isActive), "pe-5")}
           >
             {groupNav?.name ? groupNav.name : "FKM Group"}
-            <Caret />
+            <Caret compact={compact} />
           </Link>
           <ul className={cn(dropdownPanel, "w-67.5 py-2.5")}>
             {groupNav?.submenu?.length
