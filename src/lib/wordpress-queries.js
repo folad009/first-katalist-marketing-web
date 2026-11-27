@@ -421,6 +421,21 @@ export const GET_PAGE_BANNERS = `
   }
 `;
 
+/** Clients post type (logo slider): name = title, order = Page Attributes → Order. */
+export const GET_CLIENTS = `
+  query GetClients($first: Int = 100) {
+    clients(first: $first, where: { status: PUBLISH, orderby: [{ field: MENU_ORDER, order: ASC }, { field: DATE, order: ASC }] }) {
+      nodes {
+        databaseId
+        title
+        clientFields {
+          ${media("logo")}
+        }
+      }
+    }
+  }
+`;
+
 /** FAQs post type: question = title, answer = ACF textarea. */
 export const GET_FAQS = `
   query GetFaqs($first: Int = 100) {

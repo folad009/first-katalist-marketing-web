@@ -16,6 +16,7 @@ export const REVALIDATE_TAGS = {
 	faqs: "faqs",
 	fkGroup: "fk-group",
 	companyProfile: "company-profile",
+	clients: "clients",
 };
 
 /** WordPress post type (or alias) → Next.js cache tag */
@@ -41,6 +42,8 @@ export const CONTENT_TYPE_TO_TAG = {
 	"fk-group": REVALIDATE_TAGS.fkGroup,
 	company_profile: REVALIDATE_TAGS.companyProfile,
 	"company-profile": REVALIDATE_TAGS.companyProfile,
+	client: REVALIDATE_TAGS.clients,
+	clients: REVALIDATE_TAGS.clients,
 };
 
 const ALLOWED_TAGS = new Set(Object.values(REVALIDATE_TAGS));

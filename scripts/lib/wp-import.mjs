@@ -59,8 +59,11 @@ async function wp(url, options = {}) {
  * @param {(item, index) => object} opts.toPayload  build {title, slug, content, acf, ...}
  * @param {string} opts.acfCheckField ACF key that must round-trip, to detect
  *                                    a field group without "Show in REST API"
+ * @param {(payload, item) => Promise<void>} [opts.beforeCreate] runs only for
+ *        items about to be created with --apply (e.g. upload a logo and set its
+ *        media ID on payload.acf), never on a dry run or for skipped items
  */
-export async function importPosts({ restBase, items, toPayload, acfCheckField }) {
+export async function importPosts({ restBase, items, toPayload, acfCheckField, beforeCreate }) {
 	const endpoint = `${BASE}/wp-json/wp/v2/${restBase}`;
 
 	if (APPLY && !authHeaders.Authorization) {
@@ -103,9 +106,12 @@ export async function importPosts({ restBase, items, toPayload, acfCheckField })
 			continue;
 		}
 
+		if (beforeCreate) await beforeCreate(payload, item);
+
 		const post = await wp(endpoint, { method: "POST", body: JSON.stringify(payload) });
 
-		if (post.acf?.[acfCheckField] !== payload.acf[acfCheckField]) {
+		// ACF may return numbers (e.g. image IDs) as numbers or strings.
+		if (String(post.acf?.[acfCheckField] ?? "") !== String(payload.acf[acfCheckField] ?? "")) {
 			console.error(
 				`\nCreated "${payload.title}" (id ${post.id}) but ACF fields were not saved.\n` +
 					`Enable "Show in REST API" on this post type's ACF field group, ` +
@@ -120,6 +126,33 @@ export async function importPosts({ restBase, items, toPayload, acfCheckField })
 	}
 
 	console.log(`\nDone: ${APPLY ? `${created} created` : "nothing written"}, ${skipped} skipped.`);
+}
+
+const MIME_TYPES = { jpg: "image/jpeg", jpeg: "image/jpeg", png: "image/png", webp: "image/webp", svg: "image/svg+xml" };
+
+/**
+ * Upload a file from public/ (e.g. "/images/clients/logo.jpg") to the Media
+ * Library and return its attachment ID.
+ */
+export async function uploadMedia(publicPath, { alt = "" } = {}) {
+	const filename = publicPath.split("/").pop();
+	const type = MIME_TYPES[filename.split(".").pop().toLowerCase()];
+	if (!type) throw new Error(`Unsupported file type: ${filename}`);
+
+	const file = await readFile(new URL(`../../public${publicPath}`, import.meta.url));
+	const media = await wp(`${BASE}/wp-json/wp/v2/media`, {
+		method: "POST",
+		headers: { "Content-Type": type, "Content-Disposition": `attachment; filename="${filename}"` },
+		body: file,
+	});
+
+	if (alt) {
+		await wp(`${BASE}/wp-json/wp/v2/media/${media.id}`, {
+			method: "POST",
+			body: JSON.stringify({ alt_text: alt }),
+		});
+	}
+	return media.id;
 }
 
 /**

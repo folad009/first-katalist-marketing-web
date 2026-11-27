@@ -1,6 +1,10 @@
 import BrandSlider1 from "@/components/shared/brands/BrandSlider1";
+import getClients from "@/libs/getClients";
 
-const Brands1 = ({ type = 1 }) => {
+const Brands1 = async ({ type = 1 }) => {
+	// Client logos from WordPress → Clients (local list as fallback).
+	const clients = await getClients();
+
 	return (
 		<section
 			className={`tj-client-section ${
@@ -15,7 +19,7 @@ const Brands1 = ({ type = 1 }) => {
 						<span className="client-text"> First Katalyst Marketing</span>
 					</h5>
 				</div>*/}
-				<BrandSlider1 />
+				<BrandSlider1 brands={clients} />
 			</div>
 		</section>
 	);

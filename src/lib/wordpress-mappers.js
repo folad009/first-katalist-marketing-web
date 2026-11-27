@@ -427,6 +427,17 @@ const orFallback = (value, fallback) =>
 		? fallback
 		: value;
 
+/** Clients → { name, img } for the logo slider; clients without a logo are skipped. */
+export function mapClients(nodes = []) {
+	return nodes
+		.map(node => ({
+			id: node.databaseId,
+			name: decodeEntities(node.title ?? ""),
+			img: resolveCmsImage(node.clientFields?.logo, null),
+		}))
+		.filter(client => client.img);
+}
+
 export function mapFaqs(nodes = []) {
 	return nodes.map((node, index) => ({
 		id: node.databaseId,

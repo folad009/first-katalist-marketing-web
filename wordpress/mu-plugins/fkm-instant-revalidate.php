@@ -34,6 +34,7 @@ function fkm_revalidate_post_types() {
 		'career'      => 'career',
 		'faq'         => 'faq',
 		'fk_company'  => 'fk_company',
+		'client'      => 'client',
 	);
 }
 

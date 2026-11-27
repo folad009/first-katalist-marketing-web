@@ -4,8 +4,9 @@ import getBrands from "@/libs/getBrands";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-const BrandSlider1 = ({ className }) => {
-	const brands = getBrands();
+// `brands` comes from WordPress → Clients (see Brands1); the local list is
+// used when it isn't passed.
+const BrandSlider1 = ({ className, brands = getBrands() }) => {
 	return (
 		<Swiper
 			slidesPerView="auto"
@@ -26,7 +27,6 @@ const BrandSlider1 = ({ className }) => {
 				? brands?.map(({ img, name }, idx) => (
 						<SwiperSlide key={name ? `${name}-${idx}` : idx} className="client-item">
 							<div className="client-logo">
-								{/* TODO: imageTodo in brands.json — temporary local brand-* assets until FKM logos are licensed/added */}
 								<img
 									src={img ? img : "/images/brands/brand-1.webp"}
 									alt={name ? name : "Client brand"}
