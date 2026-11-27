@@ -43,7 +43,7 @@ export default async function About() {
 				<div id="smooth-content">
 					<main>
 						<HeaderSpace />
-						<HeroInner title={"About FKM"} text={"About"} />
+						<HeroInner banner="about" title={"About FKM"} text={"About"} />
 						<VisionMission type={2} />
 						<About3 type={2} />
 						<Features type={2} />

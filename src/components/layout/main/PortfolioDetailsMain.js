@@ -9,7 +9,7 @@ const PortfolioDetailsMain = async ({ currentSlug }) => {
 	const { title } = option?.currentItem || {};
 	return (
 		<div>
-			<HeroInner
+			<HeroInner banner="portfolio"
 				title={title ? title : "Portfolio details"}
 				text={title ? title : "Portfolio details"}
 				breadcrums={[{ name: "Portfolio", path: "/portfolios" }]}

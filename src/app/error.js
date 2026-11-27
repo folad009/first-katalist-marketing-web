@@ -17,7 +17,7 @@ export default function Error() {
 				<div id="smooth-content">
 					<main>
 						<HeaderSpace />
-						<HeroInner title={"Error 404"} text={"Error 404"} />
+						<HeroInner banner="error" title={"Error 404"} text={"Error 404"} />
 						<ErrorPrimary />
 						<CtaBanner />
 					</main>

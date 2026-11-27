@@ -4,6 +4,8 @@ import { rootMetadata } from "@/lib/site-seo";
 import NavItemsProvider from "@/components/layout/header/NavItemsProvider";
 import buildNavItems from "@/libs/buildNavItems";
 import getSiteImages from "@/libs/getSiteImages";
+import getPageBanners from "@/libs/getPageBanners";
+import { pageBannerCssVars } from "@/lib/page-banners";
 import { Mona_Sans } from "next/font/google";
 import "react-range-slider-input/dist/style.css";
 import "swiper/css";
@@ -40,13 +42,21 @@ export const metadata = rootMetadata;
 export default async function RootLayout({ children }) {
 	// Page header banner from WordPress → Pages → Site Images (falls back to the local file).
 	// Header menu: Services / FKM Group dropdowns come from WordPress.
-	const [{ contactBanner }, navItems] = await Promise.all([getSiteImages(), buildNavItems()]);
+	// Per-page banners (Site Images → Page Banners) override it page by page.
+	const [{ contactBanner }, pageBanners, navItems] = await Promise.all([
+		getSiteImages(),
+		getPageBanners(),
+		buildNavItems(),
+	]);
 
 	return (
 		<html lang="en" data-scroll-behavior="smooth" dir="ltr">
 			<body
 				className={`${bodyFont.variable} ${headingFont.variable}`}
-				style={{ "--fkm-page-header-bg": `url(${JSON.stringify(contactBanner)})` }}
+				style={{
+					"--fkm-page-header-bg": `url(${JSON.stringify(contactBanner)})`,
+					...pageBannerCssVars(pageBanners),
+				}}
 			>
 				<DraftModeBanner />
 				<NavItemsProvider items={navItems}>{children}</NavItemsProvider>

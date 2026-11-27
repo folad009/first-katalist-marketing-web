@@ -30,7 +30,7 @@ export default async function Services() {
 				<div id="smooth-content">
 					<main>
 						<HeaderSpace />
-						<HeroInner title={"Services"} text={"Services"} />
+						<HeroInner banner="services" title={"Services"} text={"Services"} />
 						<ServicesPrimary services={services} />
 						<Contact2 />
 						{/* <PricingPlan type={3} /> */}

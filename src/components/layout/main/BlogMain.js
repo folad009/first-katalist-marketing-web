@@ -37,7 +37,7 @@ const BlogMain = ({ blogs = [], categories = [], tags = [] }) => {
 
 	return (
 		<div>
-			<HeroInner
+			<HeroInner banner="blog"
 				title={
 					category
 						? `Category: ${makeText(category, true)}`

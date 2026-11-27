@@ -27,7 +27,7 @@ export default async function Portfolios() {
 				<div id="smooth-content">
 					<main>
 						<HeaderSpace />
-						<HeroInner title={"Portfolio"} text={"Portfolio"} />
+						<HeroInner banner="portfolio" title={"Portfolio"} text={"Portfolio"} />
 						<PortfoliosPrimary portfolio={portfolio} />
 						<Cta />
 					</main>

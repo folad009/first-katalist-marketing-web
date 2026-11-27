@@ -41,7 +41,7 @@ export default async function TeamDetails({ params }) {
 				<div id="smooth-content">
 					<main>
 						<HeaderSpace />
-						<HeroInner
+						<HeroInner banner="team"
 							title={"Team details"}
 							text={member.name ?? "Team details"}
 						/>

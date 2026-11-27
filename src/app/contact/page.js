@@ -25,7 +25,7 @@ export default function Contact() {
 				<div id="smooth-content">
 					<main>
 						<HeaderSpace />
-						<HeroInner title={"Contact Us"} text={"Contact Us"} />
+						<HeroInner banner="contact" title={"Contact Us"} text={"Contact Us"} />
 						<ContactTop />
 						<Contact3 />
 						<Cta />

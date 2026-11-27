@@ -10,7 +10,7 @@ const ServiceDetailsMain = async ({ currentSlug }) => {
 	const { title } = option?.currentItem || {};
 	return (
 		<div>
-			<HeroInner
+			<HeroInner banner="services"
 				title={title ? title : "Service Details"}
 				text={title ? title : "Service Details"}
 				breadcrums={[{ name: "Services", path: "/services" }]}
