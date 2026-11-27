@@ -69,7 +69,10 @@ export async function POST(request) {
 		);
 	}
 
-	revalidateTag(tag, "max");
+	// Called by WordPress on save (wordpress/mu-plugins/fkm-instant-revalidate.php).
+	// expire: 0 drops the cached data outright, so the next visitor gets the
+	// edit instead of one more stale copy ("max" would serve stale first).
+	revalidateTag(tag, { expire: 0 });
 
 	return NextResponse.json({
 		revalidated: true,
