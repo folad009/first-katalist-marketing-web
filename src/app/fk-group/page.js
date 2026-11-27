@@ -27,7 +27,7 @@ export default async function FkGroupPage() {
 				<div id="smooth-content">
 					<main>
 						<HeaderSpace />
-						<HeroInner title="FKM Group" text="FKM Group" />
+						<HeroInner banner="fk-group" title="FKM Group" text="FKM Group" />
 						<FkGroupOverview entities={entities} />
 						<Cta />
 					</main>

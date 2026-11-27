@@ -29,7 +29,7 @@ export default async function Faq() {
 				<div id="smooth-content">
 					<main>
 						<HeaderSpace />
-						<HeroInner title={"Faq"} text={"Faq"} />
+						<HeroInner banner="faq" title={"Faq"} text={"Faq"} />
 						<Faq2 type={4} faqImage={faqImage} items={faqs} />
 						<Faq3 items={faqs} />
 						<Cta />

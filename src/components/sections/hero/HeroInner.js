@@ -2,17 +2,20 @@ import sliceText from "@/libs/sliceText";
 import Link from "next/link";
 import React from "react";
 
-// The banner can be changed in WordPress → Pages → Site Images ("Contact / page
-// header banner"). The root layout exposes it as --fkm-page-header-bg; the
-// local file is used when that slot is empty.
-const PAGE_HEADER_BG =
-	"var(--fkm-page-header-bg, url('/images/bg/FMK-contact-banner.webp'))";
+// Banners are set in WordPress → Pages → Site Images. `banner` picks this
+// page's slot from "Page Banners" (keys in src/lib/page-banners.js), exposed by
+// the root layout as --fkm-banner-<key>. Empty slots fall back to the shared
+// "Contact / page header banner" (--fkm-page-header-bg), then the local file.
+const pageHeaderBg = banner => {
+	const shared = "var(--fkm-page-header-bg, url('/images/bg/FMK-contact-banner.webp'))";
+	return banner ? `var(--fkm-banner-${banner}, ${shared})` : shared;
+};
 
-const HeroInner = ({ title, text, breadcrums = [] }) => {
+const HeroInner = ({ title, text, breadcrums = [], banner }) => {
 	return (
 		<section
 			className="tj-page-header section-gap-x"
-			style={{ backgroundImage: PAGE_HEADER_BG }}
+			style={{ backgroundImage: pageHeaderBg(banner) }}
 		>
 			<div className="tj-container">
 				<div className="tj-page-header-content text-center">

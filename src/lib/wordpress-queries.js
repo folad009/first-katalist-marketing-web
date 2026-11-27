@@ -1,3 +1,5 @@
+import { PAGE_BANNERS } from "@/lib/page-banners";
+
 /** Shared ACF fragment — field group names must match WPGraphQL for ACF registration. */
 // Custom post types here (service, portfolio, team_member, career) do not support
 // excerpts, so their field lists must not request `excerpt` — it fails the whole query.
@@ -398,6 +400,22 @@ export const GET_SITE_IMAGES = `
     page(id: "site-images", idType: URI) {
       siteImages {
         ${media(...SITE_IMAGE_FIELD_NAMES)}
+      }
+    }
+  }
+`;
+
+/**
+ * Per-page header banners: separate "Page Banners" field group on the same
+ * Site Images page (wordpress/acf-page-banners.json). Kept out of
+ * GET_SITE_IMAGES so that, until the group is imported, only this query fails
+ * and the other site images still load.
+ */
+export const GET_PAGE_BANNERS = `
+  query GetPageBanners {
+    page(id: "site-images", idType: URI) {
+      pageBanners {
+        ${media(...PAGE_BANNERS.map(banner => banner.field))}
       }
     }
   }

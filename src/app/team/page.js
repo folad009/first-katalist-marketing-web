@@ -27,7 +27,7 @@ export default async function Team() {
 				<div id="smooth-content">
 					<main>
 						<HeaderSpace />
-						<HeroInner title={"Team"} text={"Team"} />
+						<HeroInner banner="team" title={"Team"} text={"Team"} />
 						<Team1 type={2} teamMembers={teamMembers} />
 						<Cta />
 					</main>

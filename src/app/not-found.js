@@ -27,7 +27,7 @@ export default async function NotFound() {
         <div id="smooth-content">
           <main>
             <HeaderSpace />
-            <HeroInner title={"Error 404"} text={"Error 404"} />
+            <HeroInner banner="error" title={"Error 404"} text={"Error 404"} />
             <ErrorPrimary image={errorImage} />
             <Cta />
           </main>

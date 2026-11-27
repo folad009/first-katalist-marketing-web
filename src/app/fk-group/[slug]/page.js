@@ -40,7 +40,7 @@ export default async function FkGroupEntityPage({ params }) {
 				<div id="smooth-content">
 					<main>
 						<HeaderSpace />
-						<HeroInner
+						<HeroInner banner="fk-group"
 							title={entity.name}
 							text={entity.name}
 							breadcrums={[
